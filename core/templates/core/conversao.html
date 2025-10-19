@@ -1,0 +1,31 @@
+{% extends "core/base.html" %}
+{% block content %}
+<h2>Conversão Numérica</h2>
+<form method="post">
+    {% csrf_token %}
+    <div class="mb-2">
+        <label>Valor</label>
+        <input class="form-control" type="text" name="value" required>
+    </div>
+    <div class="mb-2">
+        <label>Base</label>
+        <select class="form-control" name="base">
+            <option value="dec">Decimal</option>
+            <option value="bin">Binário</option>
+            <option value="hex">Hexadecimal</option>
+            <option value="oct">Octal</option>
+        </select>
+    </div>
+    <button class="btn btn-primary" type="submit">Converter</button>
+</form>
+
+{% if result %}
+<h4 class="mt-3">Resultados</h4>
+<ul>
+    <li>Decimal: {{ result.decimal }}</li>
+    <li>Binário: {{ result.binary }}</li>
+    <li>Hexadecimal: {{ result.hex }}</li>
+    <li>Octal: {{ result.oct }}</li>
+</ul>
+{% endif %}
+{% endblock %}
