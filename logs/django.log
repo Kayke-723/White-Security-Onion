@@ -680,3 +680,58 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 2: 'block'.
 2025-10-19 16:15:07,299 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
 2025-10-19 16:15:07,304 [INFO] django.server: "GET / HTTP/1.1" 200 889
 2025-10-19 16:15:10,122 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1316
+2025-10-19 17:19:16,062 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 17:20:53,423 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 17:24:31,568 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 17:24:41,121 [INFO] django.server: "GET / HTTP/1.1" 200 889
+2025-10-19 17:24:41,396 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-19 17:24:41,397 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3988
+2025-10-19 17:24:43,920 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1316
+2025-10-19 17:24:54,367 [INFO] core: Login realizado: Administrador
+2025-10-19 17:24:54,403 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-19 17:24:54,412 [INFO] django.server: "GET / HTTP/1.1" 200 875
+2025-10-19 17:25:01,335 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 8448
+2025-10-19 17:25:01,367 [INFO] django.server: "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2025-10-19 17:25:01,368 [INFO] django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2025-10-19 17:25:01,370 [INFO] django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2025-10-19 17:25:01,371 [INFO] django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2025-10-19 17:25:01,371 [INFO] django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2025-10-19 17:25:01,372 [INFO] django.server: "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2025-10-19 17:25:01,376 [INFO] django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2025-10-19 17:25:01,383 [INFO] django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2025-10-19 17:25:01,383 [INFO] django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2025-10-19 17:25:03,993 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 15151
+2025-10-19 17:25:04,019 [INFO] django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2025-10-19 17:25:04,022 [INFO] django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2025-10-19 17:25:04,022 [INFO] django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2025-10-19 17:25:04,022 [INFO] django.server: "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2025-10-19 17:25:04,025 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2025-10-19 17:25:04,025 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2025-10-19 17:25:04,027 [INFO] django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2025-10-19 17:25:04,028 [INFO] django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2025-10-19 17:25:04,028 [INFO] django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2025-10-19 17:25:04,030 [INFO] django.server: "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+2025-10-19 17:25:04,030 [INFO] django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2025-10-19 17:25:04,033 [INFO] django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2025-10-19 17:25:04,036 [INFO] django.server: "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2025-10-19 17:25:04,073 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-19 17:25:04,096 [INFO] django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2025-10-19 17:25:04,096 [INFO] django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2025-10-19 17:25:04,097 [INFO] django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+2025-10-19 17:25:10,401 [INFO] django.server: "GET / HTTP/1.1" 200 875
+2025-10-19 17:25:12,765 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 15151
+2025-10-19 17:25:16,820 [INFO] django.server: "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 15703
+2025-10-19 17:25:16,841 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-19 17:25:16,927 [INFO] django.server: "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 200 784
+2025-10-19 17:25:20,698 [INFO] django.server: "GET /admin/auth/user/?_facets=True&is_staff__exact=1 HTTP/1.1" 200 15330
+2025-10-19 17:25:20,723 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-19 17:25:22,147 [INFO] django.server: "GET /admin/auth/user/?_facets=True&is_staff__exact=0 HTTP/1.1" 200 14833
+2025-10-19 17:25:22,171 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-19 17:25:27,595 [INFO] django.server: "GET /admin/auth/user/?_facets=True HTTP/1.1" 200 15703
+2025-10-19 17:25:27,620 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-19 17:45:08,199 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 17:45:37,689 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 17:46:54,743 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 17:55:04,903 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-19 18:01:20,442 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 19:29:47,784 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
