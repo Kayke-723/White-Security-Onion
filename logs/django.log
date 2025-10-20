@@ -735,3 +735,5 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 2: 'block'.
 2025-10-19 17:55:04,903 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2025-10-19 18:01:20,442 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2025-10-20 19:29:47,784 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-20 19:44:34,829 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\simulador\settings.py changed, reloading.
+2025-10-20 19:44:35,793 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

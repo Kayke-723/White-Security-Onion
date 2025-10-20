@@ -6,7 +6,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-SECRET_KEY = "troque_esta_chave_para_uma_senha_segura_para_producao"
+SECRET_KEY = "DJK"
 
 
 DEBUG = True
