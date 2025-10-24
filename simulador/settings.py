@@ -23,13 +23,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',                              
     'widget_tweaks',  
-    'crispy_bootstrap5',  
-    'tailwind',
-    
-                
+    'crispy_bootstrap5',   
 ]
 
-TAILWIND_APP_NAME = 'theme'
+
 
 
 MIDDLEWARE = [

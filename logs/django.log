@@ -824,3 +824,14 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 2: 'block'.
 2025-10-23 20:30:37,960 [INFO] django.server: "GET / HTTP/1.1" 200 782
 2025-10-23 20:30:39,453 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1410
 2025-10-23 20:30:40,992 [INFO] django.server: "GET / HTTP/1.1" 200 782
+2025-10-23 22:38:49,389 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-23 22:41:03,785 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\simulador\settings.py changed, reloading.
+2025-10-23 22:41:07,057 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-23 22:41:40,032 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-23 22:41:44,111 [INFO] django.server: "GET / HTTP/1.1" 200 788
+2025-10-23 22:41:44,466 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-23 22:41:44,467 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-23 22:41:46,833 [INFO] core: Logout: Kayke
+2025-10-23 22:41:46,852 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-23 22:41:46,859 [INFO] django.server: "GET / HTTP/1.1" 200 759
+2025-10-23 22:41:49,671 [INFO] django.server: "GET / HTTP/1.1" 200 759
