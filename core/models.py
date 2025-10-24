@@ -27,11 +27,5 @@ class Process(models.Model):
         return f"{self.name} (burst={self.burst_time}, prio={self.priority})"
 
 
-# Modelo para simular blocos de memória alocados
-class MemoryBlock(models.Model):
-    process = models.ForeignKey(Process, on_delete=models.CASCADE, related_name='memory_blocks')
-    size = models.IntegerField()                     # tamanho em "unidades"
-    allocated_at = models.DateTimeField(auto_now_add=True)
 
-    def __str__(self):
-        return f"{self.process.name}: {self.size} units"
+

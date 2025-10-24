@@ -2,7 +2,7 @@ from django.contrib import admin
 
 
 from django.contrib import admin
-from .models import Log, Process, MemoryBlock
+from .models import Log, Process
 
 @admin.register(Log)
 class LogAdmin(admin.ModelAdmin):
@@ -13,6 +13,4 @@ class LogAdmin(admin.ModelAdmin):
 class ProcessAdmin(admin.ModelAdmin):
     list_display = ('name', 'burst_time', 'priority', 'created_at')
 
-@admin.register(MemoryBlock)
-class MemoryBlockAdmin(admin.ModelAdmin):
-    list_display = ('id', 'process', 'size', 'allocated_at')
+

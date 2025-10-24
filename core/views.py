@@ -5,7 +5,7 @@ from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .forms import SignUpForm
-from .models import Log, Process, MemoryBlock
+from .models import Log, Process
 from django.contrib.auth.models import User
 from datetime import datetime
 import logging
@@ -128,63 +128,4 @@ def conversao_view(request):
 
 
 
-@login_required
-def cpu_view(request):
-    """
-    Simula escalonamento FCFS (First-Come, First-Served).
-    Recebe lista de processos via formulário (nome e burst).
-    """
-    timeline = []
-    processes = Process.objects.all().order_by('created_at')  
-    if request.method == 'POST':
-        name = request.POST.get('name')
-        burst = int(request.POST.get('burst', '1'))
-        prio = int(request.POST.get('priority', '1'))
-        # cria novo processo
-        p = Process.objects.create(name=name, burst_time=burst, priority=prio)
-        registrar_log(f"Processo criado: {p}", user=request.user)
-        return redirect('cpu')
-    for p in processes:
-        for t in range(p.burst_time):
-            timeline.append({'process': p.name, 'time': t + 1})
-    return render(request, 'core/cpu.html', {'processes': processes, 'timeline': timeline})
 
-
-
-@login_required
-def memoria_view(request):
-    """
-    Simula alocação e liberação de memória em unidades simples.
-    Mantém estado no banco via MemoryBlock (relacionado a Process).
-    """
-   
-    blocks = MemoryBlock.objects.select_related('process').all()
-    total_memory = 1000  
-    used = sum(b.size for b in blocks)
-    free = total_memory - used
-
-    if request.method == 'POST':
-        action = request.POST.get('action')
-        if action == 'allocate':
-            pname = request.POST.get('pname')
-            psize = int(request.POST.get('psize', '0'))
-            if psize <= 0:
-                messages.error(request, "Tamanho inválido.")
-            elif psize > free:
-                messages.error(request, "Memória insuficiente.")
-                registrar_log(f"Tentativa de alocação falhou para {pname}: {psize} > free {free}", user=request.user, level='WARNING')
-            else:
-                proc, _ = Process.objects.get_or_create(name=pname, defaults={'burst_time':1, 'priority':1})
-                MemoryBlock.objects.create(process=proc, size=psize)
-                registrar_log(f"Alocada {psize} unidades para processo {pname}", user=request.user)
-                return redirect('memoria')
-        elif action == 'free':
-            block_id = int(request.POST.get('block_id'))
-            try:
-                block = MemoryBlock.objects.get(id=block_id)
-                registrar_log(f"Liberação bloco {block_id} ({block.size}) do processo {block.process.name}", user=request.user)
-                block.delete()
-                return redirect('memoria')
-            except MemoryBlock.DoesNotExist:
-                messages.error(request, "Bloco não encontrado.")
-    return render(request, 'core/memoria.html', {'blocks': blocks, 'total': total_memory, 'used': used, 'free': free})

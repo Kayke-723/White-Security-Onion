@@ -3,15 +3,15 @@ from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 
-# Formulário de registro estendido
+
 class SignUpForm(UserCreationForm):
-    email = forms.EmailField(required=True)  # obrigar email
+    email = forms.EmailField(required=True) 
 
     class Meta:
-        model = User                # cria instância do modelo User
-        fields = ('username', 'email', 'password1', 'password2')  # campos exibidos
+        model = User               
+        fields = ('username', 'email', 'password1', 'password2')  
 
-    # validação extra: garantir que o email seja único
+  
     def clean_email(self):
         email = self.cleaned_data.get('email')
         if User.objects.filter(email=email).exists():
