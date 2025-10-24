@@ -835,3 +835,10 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 2: 'block'.
 2025-10-23 22:41:46,852 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
 2025-10-23 22:41:46,859 [INFO] django.server: "GET / HTTP/1.1" 200 759
 2025-10-23 22:41:49,671 [INFO] django.server: "GET / HTTP/1.1" 200 759
+2025-10-23 22:58:22,344 [INFO] django.server: "GET / HTTP/1.1" 200 759
+2025-10-23 23:04:49,079 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-23 23:04:52,984 [INFO] django.server: "GET / HTTP/1.1" 200 823
+2025-10-23 23:04:53,131 [WARNING] django.server: "GET /static/%20src/output.css HTTP/1.1" 404 1861
+2025-10-23 23:06:55,316 [INFO] django.server: "GET / HTTP/1.1" 200 818
+2025-10-23 23:06:55,427 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 22
+2025-10-23 23:06:55,468 [WARNING] django.server: "GET /static/css/tailwindcss HTTP/1.1" 404 1859
