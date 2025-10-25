@@ -993,3 +993,1473 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 12: 's
 2025-10-24 11:31:19,058 [INFO] django.server: "GET / HTTP/1.1" 200 850
 2025-10-24 11:31:19,233 [INFO] django.server: "GET / HTTP/1.1" 200 850
 2025-10-24 11:37:29,913 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 11:37:32,441 [INFO] django.server: "GET / HTTP/1.1" 200 850
+2025-10-24 11:37:32,584 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7472
+2025-10-24 11:37:45,816 [INFO] django.server: "GET / HTTP/1.1" 200 849
+2025-10-24 11:37:45,839 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 11:37:54,360 [INFO] django.server: "GET / HTTP/1.1" 200 851
+2025-10-24 11:37:54,388 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7591
+2025-10-24 11:45:50,199 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 11:45:52,611 [INFO] django.server: "GET / HTTP/1.1" 200 827
+2025-10-24 11:45:52,711 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7675
+2025-10-24 11:45:52,905 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 11:45:52,906 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 11:46:46,315 [INFO] django.server: "GET / HTTP/1.1" 200 842
+2025-10-24 11:46:46,345 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 11:46:48,190 [INFO] django.server: "GET / HTTP/1.1" 200 842
+2025-10-24 11:47:56,573 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 11:47:59,656 [INFO] django.server: "GET / HTTP/1.1" 200 842
+2025-10-24 11:47:59,746 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 6594
+2025-10-24 11:48:14,086 [INFO] django.server: "GET / HTTP/1.1" 200 844
+2025-10-24 11:48:14,110 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7348
+2025-10-24 11:49:31,736 [INFO] django.server: "GET / HTTP/1.1" 200 857
+2025-10-24 11:49:31,763 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7573
+2025-10-24 11:50:02,066 [INFO] django.server: "GET / HTTP/1.1" 200 858
+2025-10-24 11:50:02,100 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 11:50:03,736 [INFO] django.server: "GET / HTTP/1.1" 200 858
+2025-10-24 11:50:03,766 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7573
+2025-10-24 11:50:03,856 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 11:50:03,857 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 11:51:08,139 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 11:51:10,709 [INFO] django.server: "GET / HTTP/1.1" 200 858
+2025-10-24 11:51:10,803 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 6804
+2025-10-24 11:51:12,278 [INFO] django.server: "GET / HTTP/1.1" 200 858
+2025-10-24 17:56:55,881 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 17:57:03,212 [INFO] django.server: "GET / HTTP/1.1" 200 867
+2025-10-24 17:57:03,520 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 17:57:03,663 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 17:57:03,664 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 17:58:51,212 [INFO] django.server: "GET / HTTP/1.1" 200 847
+2025-10-24 18:06:13,287 [INFO] django.server: "GET / HTTP/1.1" 200 1277
+2025-10-24 18:06:50,596 [INFO] django.server: "GET / HTTP/1.1" 200 1277
+2025-10-24 18:06:53,220 [INFO] django.server: "GET / HTTP/1.1" 200 1277
+2025-10-24 18:07:23,412 [INFO] django.server: "GET / HTTP/1.1" 200 1295
+2025-10-24 18:07:56,421 [INFO] django.server: "GET / HTTP/1.1" 200 961
+2025-10-24 18:08:42,428 [INFO] django.server: "GET / HTTP/1.1" 200 863
+2025-10-24 18:09:39,332 [INFO] django.server: "GET / HTTP/1.1" 200 953
+2025-10-24 18:11:17,859 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 18:11:20,895 [INFO] django.server: "GET / HTTP/1.1" 200 953
+2025-10-24 18:11:22,810 [INFO] django.server: "GET / HTTP/1.1" 200 953
+2025-10-24 18:11:57,639 [INFO] django.server: "GET / HTTP/1.1" 200 953
+2025-10-24 18:12:18,443 [INFO] django.server: "GET / HTTP/1.1" 200 953
+2025-10-24 18:12:18,548 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7616
+2025-10-24 18:12:18,659 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:12:18,660 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:12:53,642 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1380
+2025-10-24 18:12:53,673 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:12:59,660 [INFO] django.server: "GET / HTTP/1.1" 200 953
+2025-10-24 18:12:59,674 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:13:01,113 [WARNING] django.request: Not Found: /index.html
+2025-10-24 18:13:01,113 [WARNING] django.server: "GET /index.html HTTP/1.1" 404 3479
+2025-10-24 18:13:03,537 [INFO] django.server: "GET / HTTP/1.1" 200 953
+2025-10-24 18:22:17,091 [INFO] django.server: "GET / HTTP/1.1" 200 855
+2025-10-24 18:22:17,106 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7667
+2025-10-24 18:22:19,354 [INFO] django.server: "GET / HTTP/1.1" 200 855
+2025-10-24 18:22:19,381 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:22:31,429 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1294
+2025-10-24 18:22:31,461 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:22:53,341 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1294
+2025-10-24 18:22:53,370 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7718
+2025-10-24 18:22:53,576 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:22:53,577 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:23:23,123 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1298
+2025-10-24 18:23:23,152 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7769
+2025-10-24 18:23:23,303 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:23:23,303 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:23:25,148 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1298
+2025-10-24 18:23:25,175 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7769
+2025-10-24 18:23:25,250 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:23:25,251 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:23:36,778 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1294
+2025-10-24 18:23:36,809 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7821
+2025-10-24 18:23:42,417 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:23:42,418 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:23:45,569 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1294
+2025-10-24 18:23:45,592 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:23:57,695 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1305
+2025-10-24 18:23:57,714 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7930
+2025-10-24 18:23:57,794 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:23:57,795 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:24:00,020 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1305
+2025-10-24 18:24:00,045 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7930
+2025-10-24 18:24:00,141 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:24:00,142 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:24:29,257 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 567, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'static', expected 'endblock'. Did you forget to register or load this tag?
+2025-10-24 18:24:29,266 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 171660
+2025-10-24 18:25:08,523 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 567, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static', expected 'endblock'. Did you forget to register or load this tag?
+2025-10-24 18:25:08,529 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 171944
+2025-10-24 18:25:10,320 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 567, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static', expected 'endblock'. Did you forget to register or load this tag?
+2025-10-24 18:25:10,326 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 172072
+2025-10-24 18:25:10,511 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:25:10,512 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:25:42,509 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 567, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static', expected 'endblock'. Did you forget to register or load this tag?
+2025-10-24 18:25:42,514 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 171944
+2025-10-24 18:26:16,686 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1295
+2025-10-24 18:26:16,708 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 7981
+2025-10-24 18:26:34,380 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1296
+2025-10-24 18:26:34,414 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8035
+2025-10-24 18:26:34,590 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:26:34,590 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:27:28,951 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1296
+2025-10-24 18:27:28,966 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8088
+2025-10-24 18:27:49,142 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:27:49,161 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8149
+2025-10-24 18:27:51,151 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:27:51,169 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8149
+2025-10-24 18:27:51,242 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:27:51,243 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:27:51,887 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:27:51,904 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8149
+2025-10-24 18:27:51,978 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:27:51,979 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:27:52,500 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:27:52,517 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8149
+2025-10-24 18:27:52,586 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:27:52,587 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:28:09,893 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1296
+2025-10-24 18:28:09,913 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:28:19,443 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:28:19,459 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8211
+2025-10-24 18:28:20,628 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:28:20,643 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:28:20,900 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:28:20,914 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:28:21,149 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:28:21,162 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:28:21,374 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:28:21,389 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:28:21,596 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:28:21,611 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:28:21,733 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:28:21,748 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:29:04,491 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 567, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'static', expected 'endblock'. Did you forget to register or load this tag?
+2025-10-24 18:29:04,496 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 171624
+2025-10-24 18:29:35,595 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 567, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'static', expected 'endblock'. Did you forget to register or load this tag?
+2025-10-24 18:29:35,599 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 172789
+2025-10-24 18:29:37,569 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 567, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'static', expected 'endblock'. Did you forget to register or load this tag?
+2025-10-24 18:29:37,574 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 172917
+2025-10-24 18:29:37,724 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:29:37,724 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:30:12,434 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:30:12,454 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:32:34,417 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1297
+2025-10-24 18:32:34,436 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:32:43,495 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1296
+2025-10-24 18:32:45,864 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1296
+2025-10-24 18:32:45,902 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8211
+2025-10-24 18:32:45,964 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:32:45,964 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:33:31,685 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1304
+2025-10-24 18:33:31,700 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8328
+2025-10-24 18:34:24,024 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1303
+2025-10-24 18:34:24,040 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:35:20,277 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1309
+2025-10-24 18:35:20,295 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8387
+2025-10-24 18:35:29,564 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1309
+2025-10-24 18:35:29,584 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8387
+2025-10-24 18:35:29,661 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 18:35:29,661 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 18:35:44,454 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1310
+2025-10-24 18:35:44,470 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8448
+2025-10-24 18:35:45,372 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1310
+2025-10-24 18:35:45,387 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:36:47,560 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1309
+2025-10-24 18:36:47,576 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:37:25,450 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1308
+2025-10-24 18:37:25,467 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:37:32,747 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1309
+2025-10-24 18:37:49,747 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1309
+2025-10-24 18:37:49,766 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8507
+2025-10-24 18:38:08,403 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1321
+2025-10-24 18:38:08,419 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:38:23,087 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1333
+2025-10-24 18:38:23,102 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:38:42,236 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1333
+2025-10-24 18:38:42,252 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8566
+2025-10-24 18:38:49,425 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1333
+2025-10-24 18:38:49,443 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:39:41,515 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1339
+2025-10-24 18:39:41,535 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8661
+2025-10-24 18:39:56,617 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1339
+2025-10-24 18:39:56,635 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8706
+2025-10-24 18:40:15,143 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1339
+2025-10-24 18:40:15,158 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:40:18,048 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1339
+2025-10-24 18:40:18,066 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:40:56,156 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1351
+2025-10-24 18:40:56,171 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:41:06,253 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1351
+2025-10-24 18:41:06,267 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:42:56,226 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1472
+2025-10-24 18:42:56,241 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8792
+2025-10-24 18:43:03,991 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1399
+2025-10-24 18:43:04,005 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:43:13,589 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1392
+2025-10-24 18:43:13,603 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:43:22,912 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1397
+2025-10-24 18:43:22,930 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 8851
+2025-10-24 18:43:25,771 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1397
+2025-10-24 18:43:25,785 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:43:26,445 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1397
+2025-10-24 18:43:26,463 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:44:16,668 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1400
+2025-10-24 18:44:16,688 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:44:52,152 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1397
+2025-10-24 18:44:52,168 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:45:08,082 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1412
+2025-10-24 18:45:08,101 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:45:09,213 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1412
+2025-10-24 18:45:36,832 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1420
+2025-10-24 18:45:36,849 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:45:48,370 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1405
+2025-10-24 18:45:56,258 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1401
+2025-10-24 18:45:56,272 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:46:05,122 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1396
+2025-10-24 18:46:17,585 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1393
+2025-10-24 18:46:17,601 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:46:25,471 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1397
+2025-10-24 18:49:51,657 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1489
+2025-10-24 18:49:51,675 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 9320
+2025-10-24 18:50:46,024 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1519
+2025-10-24 18:50:46,039 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 9624
+2025-10-24 18:52:27,008 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1640
+2025-10-24 18:52:27,023 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:52:49,165 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1638
+2025-10-24 18:52:49,185 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 9674
+2025-10-24 18:55:34,214 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1813
+2025-10-24 18:55:34,232 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 10417
+2025-10-24 18:56:18,819 [WARNING] core: Tentativa de login falha: None
+2025-10-24 18:56:18,844 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 18:56:18,866 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:56:29,852 [WARNING] core: Tentativa de login falha: None
+2025-10-24 18:56:29,878 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 18:56:29,898 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:56:41,960 [WARNING] core: Tentativa de login falha: None
+2025-10-24 18:56:41,984 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 18:56:42,001 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:56:56,436 [WARNING] core: Tentativa de login falha: None
+2025-10-24 18:56:56,462 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 18:56:56,485 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:57:06,836 [WARNING] core: Tentativa de login falha: None
+2025-10-24 18:57:06,858 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 18:57:06,877 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:57:20,894 [INFO] django.server: "GET /signup/ HTTP/1.1" 200 1848
+2025-10-24 18:57:20,911 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:57:51,079 [INFO] django.server: "POST /signup/ HTTP/1.1" 200 2182
+2025-10-24 18:57:51,093 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:58:15,083 [INFO] core: Novo usuário cadastrado: administradorCss
+2025-10-24 18:58:15,148 [INFO] django.server: "POST /signup/ HTTP/1.1" 302 0
+2025-10-24 18:58:15,160 [INFO] django.server: "GET / HTTP/1.1" 200 985
+2025-10-24 18:58:15,176 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:58:17,404 [INFO] core: Logout: administradorCss
+2025-10-24 18:58:17,423 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 18:58:17,428 [INFO] django.server: "GET / HTTP/1.1" 200 855
+2025-10-24 18:58:18,110 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1813
+2025-10-24 18:58:31,890 [WARNING] core: Tentativa de login falha: None
+2025-10-24 18:58:32,276 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 18:58:32,289 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 18:58:43,390 [WARNING] core: Tentativa de login falha: None
+2025-10-24 18:58:43,414 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 18:58:51,239 [WARNING] django.request: Not Found: /login/admin
+2025-10-24 18:58:51,239 [WARNING] django.server: "GET /login/admin HTTP/1.1" 404 3482
+2025-10-24 18:58:56,531 [WARNING] django.request: Not Found: /login/admin/
+2025-10-24 18:58:56,532 [WARNING] django.server: "GET /login/admin/ HTTP/1.1" 404 3485
+2025-10-24 18:59:02,527 [INFO] django.server: "GET /admin/ HTTP/1.1" 302 0
+2025-10-24 18:59:02,639 [INFO] django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4209
+2025-10-24 18:59:02,665 [INFO] django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+2025-10-24 18:59:02,666 [INFO] django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2025-10-24 18:59:02,674 [INFO] django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+2025-10-24 18:59:02,675 [INFO] django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 951
+2025-10-24 18:59:02,678 [INFO] django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+2025-10-24 18:59:02,695 [INFO] django.server: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2025-10-24 18:59:02,706 [INFO] django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2025-10-24 18:59:16,093 [INFO] django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-10-24 18:59:16,145 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7813
+2025-10-24 18:59:16,179 [INFO] django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2025-10-24 18:59:16,191 [INFO] django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2025-10-24 18:59:16,191 [INFO] django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2025-10-24 18:59:18,722 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 16090
+2025-10-24 18:59:18,749 [INFO] django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+2025-10-24 18:59:18,866 [INFO] django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2025-10-24 18:59:18,975 [INFO] django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2025-10-24 18:59:19,055 [INFO] django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2025-10-24 18:59:19,062 [INFO] django.server: "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2025-10-24 18:59:19,126 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+2025-10-24 18:59:19,141 [INFO] django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2025-10-24 18:59:19,220 [INFO] django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2025-10-24 18:59:19,234 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+2025-10-24 18:59:19,496 [INFO] django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2025-10-24 18:59:20,637 [INFO] django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2025-10-24 18:59:20,657 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-24 18:59:20,670 [INFO] django.server: "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2025-10-24 18:59:20,673 [INFO] django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2025-10-24 18:59:20,707 [INFO] django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2025-10-24 18:59:20,708 [INFO] django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2025-10-24 18:59:20,709 [INFO] django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2025-10-24 18:59:30,846 [INFO] django.server: "GET /admin/auth/user/8/change/ HTTP/1.1" 200 23847
+2025-10-24 18:59:30,870 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-24 18:59:30,882 [INFO] django.server: "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+2025-10-24 18:59:31,029 [INFO] django.server: "GET /static/admin/css/widgets.css HTTP/1.1" 200 11973
+2025-10-24 18:59:31,033 [INFO] django.server: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2025-10-24 18:59:31,039 [INFO] django.server: "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2025-10-24 18:59:31,041 [INFO] django.server: "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+2025-10-24 18:59:31,043 [INFO] django.server: "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+2025-10-24 18:59:31,174 [INFO] django.server: "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2025-10-24 18:59:31,263 [INFO] django.server: "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2025-10-24 18:59:31,394 [INFO] django.server: "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2025-10-24 18:59:31,395 [INFO] django.server: "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2025-10-24 18:59:31,395 [INFO] django.server: "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2025-10-24 18:59:43,877 [INFO] django.server: "GET /admin/auth/user/8/password/ HTTP/1.1" 200 10362
+2025-10-24 18:59:43,899 [INFO] django.server: "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+2025-10-24 18:59:43,935 [INFO] django.server: "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+2025-10-24 18:59:56,912 [INFO] django.server: "POST /admin/auth/user/8/password/ HTTP/1.1" 302 0
+2025-10-24 18:59:56,951 [INFO] django.server: "GET /admin/auth/user/8/change/ HTTP/1.1" 200 23982
+2025-10-24 18:59:56,983 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-24 19:00:03,018 [INFO] django.server: "GET / HTTP/1.1" 200 884
+2025-10-24 19:00:03,039 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:00:06,347 [INFO] core: Logout: Kayke
+2025-10-24 19:00:06,365 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 19:00:06,370 [INFO] django.server: "GET / HTTP/1.1" 200 855
+2025-10-24 19:00:07,408 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1813
+2025-10-24 19:00:14,421 [WARNING] core: Tentativa de login falha: None
+2025-10-24 19:00:14,445 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 19:01:06,225 [WARNING] core: Tentativa de login falha: None
+2025-10-24 19:01:06,252 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1491
+2025-10-24 19:01:06,269 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:01:19,311 [INFO] core: Login realizado: administradorCss
+2025-10-24 19:01:19,344 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 19:01:19,355 [INFO] django.server: "GET / HTTP/1.1" 200 895
+2025-10-24 19:02:28,129 [INFO] django.server: "GET / HTTP/1.1" 200 895
+2025-10-24 19:02:28,147 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:02:31,047 [INFO] core: Logout: administradorCss
+2025-10-24 19:02:31,065 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 19:02:31,070 [INFO] django.server: "GET / HTTP/1.1" 200 855
+2025-10-24 19:02:32,144 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1822
+2025-10-24 19:02:40,365 [WARNING] core: Tentativa de login falha: None
+2025-10-24 19:02:40,389 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1908
+2025-10-24 19:03:21,622 [WARNING] core: Tentativa de login falha: None
+2025-10-24 19:03:21,651 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 19:03:21,671 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:03:27,018 [WARNING] core: Tentativa de login falha: None
+2025-10-24 19:03:27,041 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1899
+2025-10-24 19:23:04,949 [WARNING] core: Tentativa de login falha: None
+2025-10-24 19:23:06,100 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1901
+2025-10-24 19:23:06,117 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:23:22,298 [WARNING] core: Tentativa de login falha: Kayke
+2025-10-24 19:23:22,323 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1901
+2025-10-24 19:23:33,755 [WARNING] core: Tentativa de login falha: Kayke
+2025-10-24 19:23:33,785 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1901
+2025-10-24 19:23:43,785 [WARNING] core: Tentativa de login falha: administradorCss
+2025-10-24 19:23:43,814 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1901
+2025-10-24 19:24:19,447 [WARNING] core: Tentativa de login falha: administradorCss
+2025-10-24 19:24:19,492 [INFO] django.server: "POST /login/ HTTP/1.1" 200 1903
+2025-10-24 19:24:28,790 [INFO] core: Login realizado: administradorCss
+2025-10-24 19:24:28,826 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 19:24:28,835 [INFO] django.server: "GET / HTTP/1.1" 200 895
+2025-10-24 19:24:30,804 [INFO] core: Logout: administradorCss
+2025-10-24 19:24:30,823 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 19:24:30,828 [INFO] django.server: "GET / HTTP/1.1" 200 855
+2025-10-24 19:24:34,122 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1817
+2025-10-24 19:24:58,044 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1811
+2025-10-24 19:26:05,000 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1817
+2025-10-24 19:26:05,017 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 10478
+2025-10-24 19:28:44,696 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1818
+2025-10-24 19:28:44,712 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 10561
+2025-10-24 19:29:09,801 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1820
+2025-10-24 19:29:09,819 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:29:11,338 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1820
+2025-10-24 19:29:12,338 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1820
+2025-10-24 19:29:12,360 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 10561
+2025-10-24 19:29:12,439 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 19:29:12,440 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 19:31:40,154 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1920
+2025-10-24 19:31:40,174 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 10790
+2025-10-24 19:31:57,280 [INFO] django.server: "GET /login/ HTTP/1.1" 200 1920
+2025-10-24 19:31:57,295 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:33:38,860 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2109
+2025-10-24 19:33:38,880 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 13703
+2025-10-24 19:34:02,272 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2110
+2025-10-24 19:34:02,290 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 13764
+2025-10-24 19:34:03,503 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2110
+2025-10-24 19:34:03,522 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:34:03,826 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2110
+2025-10-24 19:34:03,841 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:34:25,007 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2115
+2025-10-24 19:34:25,023 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 13823
+2025-10-24 19:34:25,766 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2115
+2025-10-24 19:34:25,785 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:34:33,650 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2115
+2025-10-24 19:34:33,668 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:34:46,812 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:34:46,827 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:35:28,415 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:35:28,434 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:35:39,149 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:35:39,166 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 13993
+2025-10-24 19:35:53,121 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:35:53,135 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14165
+2025-10-24 19:35:59,872 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:35:59,894 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14165
+2025-10-24 19:35:59,973 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 19:35:59,973 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 19:36:31,030 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:36:31,046 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14281
+2025-10-24 19:36:32,059 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:36:32,075 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:36:32,447 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:36:32,463 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:36:42,340 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:36:42,360 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:37:44,595 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-24 19:37:46,596 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 19:37:46,986 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+2025-10-24 19:37:46,993 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 139256
+2025-10-24 19:38:14,653 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-24 19:38:15,499 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 19:38:15,824 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index' not found. 'index' is not a valid view function or pattern name.
+2025-10-24 19:38:15,831 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 139256
+2025-10-24 19:38:27,212 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-24 19:38:28,073 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 19:38:28,288 [WARNING] django.request: Not Found: /login/
+2025-10-24 19:38:28,289 [WARNING] django.server: "GET /login/ HTTP/1.1" 404 3214
+2025-10-24 19:39:08,305 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-24 19:39:09,174 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 19:39:09,824 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2114
+2025-10-24 19:39:09,843 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:39:13,750 [INFO] django.server: "GET / HTTP/1.1" 200 855
+2025-10-24 19:39:49,948 [INFO] django.server: "GET / HTTP/1.1" 200 2114
+2025-10-24 19:39:49,967 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:39:52,199 [INFO] django.server: "GET / HTTP/1.1" 200 2114
+2025-10-24 19:40:22,821 [INFO] django.server: "GET / HTTP/1.1" 200 2080
+2025-10-24 19:40:22,835 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:40:28,096 [INFO] django.server: "GET / HTTP/1.1" 200 2079
+2025-10-24 19:40:42,763 [INFO] django.server: "GET / HTTP/1.1" 200 2079
+2025-10-24 19:41:44,968 [INFO] django.server: "GET / HTTP/1.1" 200 2121
+2025-10-24 19:41:44,983 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:41:47,193 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2121
+2025-10-24 19:41:48,178 [INFO] django.server: "GET /signup/ HTTP/1.1" 200 1855
+2025-10-24 19:41:49,131 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2121
+2025-10-24 19:42:14,894 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2090
+2025-10-24 19:43:06,501 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2104
+2025-10-24 19:43:06,571 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14342
+2025-10-24 19:43:16,115 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2097
+2025-10-24 19:43:16,134 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:44:20,717 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2109
+2025-10-24 19:44:20,732 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14385
+2025-10-24 19:44:47,447 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2115
+2025-10-24 19:44:47,463 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14443
+2025-10-24 19:45:12,824 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2110
+2025-10-24 19:45:12,839 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:45:59,461 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2107
+2025-10-24 19:45:59,481 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14497
+2025-10-24 19:46:00,487 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2107
+2025-10-24 19:46:00,503 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:46:08,322 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2108
+2025-10-24 19:46:08,338 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14553
+2025-10-24 19:48:03,336 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2181
+2025-10-24 19:48:03,354 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14791
+2025-10-24 19:48:08,181 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2181
+2025-10-24 19:48:08,203 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:48:37,632 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:48:37,647 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:49:44,810 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2004
+2025-10-24 19:49:44,824 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:50:28,650 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2004
+2025-10-24 19:50:28,668 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:50:58,090 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2004
+2025-10-24 19:50:58,106 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:51:07,327 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2004
+2025-10-24 19:51:10,179 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2004
+2025-10-24 19:52:08,732 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:52:08,747 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:52:49,885 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2120
+2025-10-24 19:52:49,903 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:53:27,945 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2126
+2025-10-24 19:53:27,965 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 14851
+2025-10-24 19:54:40,341 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:54:40,361 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 15390
+2025-10-24 19:54:43,512 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:54:43,529 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:54:44,073 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:54:44,092 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:54:45,721 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:54:45,744 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 15390
+2025-10-24 19:54:45,831 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 19:54:45,832 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 19:55:01,616 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:55:01,631 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:55:02,050 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:55:02,244 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:55:02,408 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:55:02,724 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:55:25,128 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2099
+2025-10-24 19:55:25,143 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:55:39,870 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2363
+2025-10-24 19:55:39,890 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:56:02,313 [ERROR] django.request: Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 81, in login_view
+    return render(request, 'core/login.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/login.html
+2025-10-24 19:56:02,316 [ERROR] django.server: "GET /login/ HTTP/1.1" 500 86848
+2025-10-24 19:56:13,464 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-24 19:56:14,340 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 19:56:14,750 [WARNING] django.request: Not Found: /login/
+2025-10-24 19:56:14,751 [WARNING] django.server: "GET /login/ HTTP/1.1" 404 3214
+2025-10-24 19:56:50,418 [WARNING] django.request: Not Found: /login/
+2025-10-24 19:56:50,419 [WARNING] django.server: "GET /login/ HTTP/1.1" 404 3214
+2025-10-24 19:56:53,530 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-24 19:56:54,415 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 19:56:54,558 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2363
+2025-10-24 19:56:54,576 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:57:20,823 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2363
+2025-10-24 19:57:20,843 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:57:26,472 [INFO] django.server: "GET /signup/ HTTP/1.1" 200 1833
+2025-10-24 19:57:33,558 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2363
+2025-10-24 19:57:51,451 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 19:57:51,470 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:58:37,968 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 19:58:38,037 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 15664
+2025-10-24 19:58:39,198 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 19:58:39,218 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 19:59:08,200 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 19:59:08,219 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:01:42,260 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 20:01:42,280 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:01:43,169 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 20:01:43,469 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 20:01:43,727 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 20:02:02,335 [INFO] django.server: "GET / HTTP/1.1" 200 911
+2025-10-24 20:02:02,367 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:02:02,600 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:02:02,601 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:04:03,678 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:04:03,679 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:04:10,744 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:04:10,745 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:04:20,883 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:04:20,883 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:04:47,997 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:04:47,998 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:04:48,985 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:04:48,985 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:04:49,534 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:04:49,534 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:05:58,101 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:05:58,101 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:05:59,313 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:05:59,314 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:06:19,220 [INFO] django.server: "GET / HTTP/1.1" 200 906
+2025-10-24 20:06:19,270 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:06:19,488 [INFO] django.server: "GET /login HTTP/1.1" 301 0
+2025-10-24 20:06:19,494 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 20:06:24,672 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 20:06:25,261 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 20:06:25,723 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2268
+2025-10-24 20:06:45,458 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2269
+2025-10-24 20:06:46,362 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2269
+2025-10-24 20:06:48,087 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2269
+2025-10-24 20:06:48,105 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 15941
+2025-10-24 20:06:48,187 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 20:06:48,187 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 20:07:38,397 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:07:38,413 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 16001
+2025-10-24 20:08:03,584 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2279
+2025-10-24 20:08:03,603 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 16061
+2025-10-24 20:08:17,603 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2279
+2025-10-24 20:08:17,623 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:08:20,708 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:08:20,723 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:08:57,002 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:08:57,021 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 16176
+2025-10-24 20:09:36,929 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:09:36,947 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 16292
+2025-10-24 20:09:37,970 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:09:37,984 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:09:39,419 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:09:39,436 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 16292
+2025-10-24 20:09:39,522 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 20:09:39,523 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 20:10:12,966 [INFO] django.server: "GET /signup/ HTTP/1.1" 200 1738
+2025-10-24 20:10:12,991 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:11:41,645 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2354
+2025-10-24 20:11:41,662 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:12:13,034 [INFO] core: Login realizado: administradorCss
+2025-10-24 20:12:13,068 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 20:12:13,079 [INFO] django.server: "GET / HTTP/1.1" 200 1021
+2025-10-24 20:12:13,106 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:12:13,187 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2389
+2025-10-24 20:12:15,858 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1488
+2025-10-24 20:12:18,123 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1488
+2025-10-24 20:13:28,340 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2389
+2025-10-24 20:13:28,358 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:13:30,043 [INFO] core: Logout: administradorCss
+2025-10-24 20:13:30,062 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 20:13:30,069 [INFO] django.server: "GET / HTTP/1.1" 200 745
+2025-10-24 20:14:02,740 [INFO] django.server: "GET / HTTP/1.1" 200 771
+2025-10-24 20:14:02,754 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:14:14,337 [INFO] django.server: "GET / HTTP/1.1" 200 776
+2025-10-24 20:14:15,740 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:14:15,741 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:14:22,559 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:14:22,560 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:14:24,664 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:14:24,665 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:14:48,137 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:14:48,138 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:14:49,912 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:14:49,912 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:15:18,530 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:15:18,530 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:15:21,333 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:15:21,334 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:16:03,664 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:16:03,664 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:16:06,988 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:16:06,989 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:16:51,670 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:16:51,670 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:16:52,219 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:16:52,220 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:17:01,461 [INFO] django.server: "GET / HTTP/1.1" 200 910
+2025-10-24 20:17:01,497 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:17:01,712 [WARNING] django.request: Not Found: /login.html
+2025-10-24 20:17:01,712 [WARNING] django.server: "GET /login.html HTTP/1.1" 404 3479
+2025-10-24 20:17:13,960 [INFO] django.server: "GET / HTTP/1.1" 200 905
+2025-10-24 20:17:14,223 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:19:26,140 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-24 20:19:27,006 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 20:24:42,312 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-24 20:24:43,159 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 20:24:51,478 [INFO] django.server: "GET / HTTP/1.1" 200 950
+2025-10-24 20:24:51,510 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:24:51,732 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2319
+2025-10-24 20:28:05,104 [INFO] core: Login realizado: Kayke
+2025-10-24 20:28:05,140 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 20:28:05,149 [INFO] django.server: "GET / HTTP/1.1" 200 1031
+2025-10-24 20:28:05,171 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:28:05,264 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2400
+2025-10-24 20:28:51,687 [INFO] core: Logout: Kayke
+2025-10-24 20:28:51,706 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 20:28:51,739 [INFO] django.server: "GET / HTTP/1.1" 200 905
+2025-10-24 20:28:51,842 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:28:59,575 [WARNING] core: Tentativa de login falha: administradorCss
+2025-10-24 20:28:59,595 [INFO] django.server: "POST /login/ HTTP/1.1" 200 2360
+2025-10-24 20:29:08,596 [INFO] core: Login realizado: administradorCss
+2025-10-24 20:29:08,639 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 20:29:08,649 [INFO] django.server: "GET / HTTP/1.1" 200 1018
+2025-10-24 20:29:08,732 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2387
+2025-10-24 20:29:48,124 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2389
+2025-10-24 20:30:51,426 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2389
+2025-10-24 20:30:51,445 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:31:37,524 [INFO] core: Logout: administradorCss
+2025-10-24 20:31:37,542 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 20:31:37,570 [INFO] django.server: "GET / HTTP/1.1" 200 827
+2025-10-24 20:31:37,674 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:31:47,594 [INFO] core: Login realizado: Kayke
+2025-10-24 20:31:47,646 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 20:31:47,656 [INFO] django.server: "GET / HTTP/1.1" 200 931
+2025-10-24 20:31:47,749 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2378
+2025-10-24 20:32:31,255 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2378
+2025-10-24 20:32:33,154 [INFO] core: Logout: Kayke
+2025-10-24 20:32:33,176 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 20:32:33,183 [INFO] django.server: "GET / HTTP/1.1" 200 745
+2025-10-24 20:33:40,301 [INFO] django.server: "GET / HTTP/1.1" 200 784
+2025-10-24 20:33:40,315 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:37:27,057 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-24 20:37:27,911 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 20:37:30,989 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-24 20:37:31,002 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2313
+2025-10-24 20:37:31,022 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:37:47,849 [INFO] core: Login realizado: Kayke
+2025-10-24 20:37:47,884 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 20:37:47,942 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 46, in index
+    return render(request, 'index.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2025-10-24 20:37:47,946 [ERROR] django.server: "GET / HTTP/1.1" 500 86745
+2025-10-24 20:39:10,811 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-24 20:39:11,697 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 20:39:14,582 [INFO] django.server: "GET / HTTP/1.1" 200 849
+2025-10-24 20:39:16,911 [INFO] core: Logout: Kayke
+2025-10-24 20:39:16,931 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 20:39:16,936 [INFO] django.server: "GET / HTTP/1.1" 200 784
+2025-10-24 20:40:28,493 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 199, in render
+    template = context.template.engine.select_template(template_name)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 214, in select_template
+    raise TemplateDoesNotExist(", ".join(not_found))
+django.template.exceptions.TemplateDoesNotExist: index.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 42, in index
+    return render(request, "core/index.html", {"user": request.user if request.user.is_authenticated else redirect('login')})
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: index.html
+2025-10-24 20:40:28,501 [ERROR] django.server: "GET / HTTP/1.1" 500 155398
+2025-10-24 20:41:46,904 [INFO] django.server: "GET / HTTP/1.1" 200 745
+2025-10-24 20:41:46,922 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:43:37,964 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'Url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 42, in index
+    return render(request, "core/index.html", {"user": request.user if request.user.is_authenticated else redirect('login')})
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 567, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'Url', expected 'endblock'. Did you forget to register or load this tag?
+2025-10-24 20:43:37,970 [ERROR] django.server: "GET / HTTP/1.1" 500 168084
+2025-10-24 20:44:37,163 [INFO] django.server: "GET / HTTP/1.1" 200 773
+2025-10-24 20:44:39,231 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2274
+2025-10-24 20:45:17,817 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2286
+2025-10-24 20:45:17,834 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:46:06,579 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2273
+2025-10-24 20:46:37,463 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2265
+2025-10-24 20:46:39,221 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2265
+2025-10-24 20:46:39,936 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2265
+2025-10-24 20:46:40,004 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 16292
+2025-10-24 20:46:40,048 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 20:46:40,049 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 20:48:54,925 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2238
+2025-10-24 20:49:17,084 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2243
+2025-10-24 20:49:31,472 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2243
+2025-10-24 20:49:43,121 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2243
+2025-10-24 20:50:24,607 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2243
+2025-10-24 20:50:24,622 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 16480
+2025-10-24 20:50:57,857 [INFO] core: Login realizado: Kayke
+2025-10-24 20:50:57,891 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 20:50:57,901 [INFO] django.server: "GET / HTTP/1.1" 200 846
+2025-10-24 20:50:57,923 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:51:00,788 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1446
+2025-10-24 20:51:00,816 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:51:03,189 [INFO] core: Conversão efetuada por Kayke: 10 em dec -> {'decimal': '10', 'binary': '1010', 'hex': 'A', 'oct': '12'}
+2025-10-24 20:51:03,210 [INFO] django.server: "POST /conversao/ HTTP/1.1" 200 1595
+2025-10-24 20:51:06,546 [INFO] core: Logout: Kayke
+2025-10-24 20:51:06,564 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 20:51:06,569 [INFO] django.server: "GET / HTTP/1.1" 200 742
+2025-10-24 20:51:06,584 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:51:07,837 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2243
+2025-10-24 20:51:27,385 [INFO] django.server: "GET / HTTP/1.1" 200 742
+2025-10-24 20:51:27,736 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:51:27,952 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 20:51:27,952 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 20:51:30,036 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2243
+2025-10-24 20:54:39,176 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 20:54:42,621 [INFO] django.server: "GET / HTTP/1.1" 200 742
+2025-10-24 20:54:42,962 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 20:54:43,167 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 20:54:43,168 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 20:54:45,705 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2243
+2025-10-24 20:54:56,104 [INFO] core: Login realizado: Kayke
+2025-10-24 20:54:56,139 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 20:54:56,149 [INFO] django.server: "GET / HTTP/1.1" 200 846
+2025-10-24 20:55:06,560 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1446
+2025-10-24 20:55:11,195 [INFO] core: Logout: Kayke
+2025-10-24 20:55:11,214 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 20:55:11,219 [INFO] django.server: "GET / HTTP/1.1" 200 742
+2025-10-24 20:55:11,241 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 21:01:08,466 [INFO] django.server: "GET / HTTP/1.1" 200 742
+2025-10-24 21:01:08,511 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 21:01:08,741 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-24 21:01:08,742 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3482
+2025-10-24 21:36:46,734 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 21:36:49,234 [INFO] django.server: "GET / HTTP/1.1" 200 742
+2025-10-24 21:36:49,271 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 21:36:53,084 [INFO] django.server: "GET /login/ HTTP/1.1" 200 2243
+2025-10-24 21:37:03,176 [INFO] core: Login realizado: Kayke
+2025-10-24 21:37:03,210 [INFO] django.server: "POST /login/ HTTP/1.1" 302 0
+2025-10-24 21:37:03,220 [INFO] django.server: "GET / HTTP/1.1" 200 846
+2025-10-24 21:37:06,616 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1446
+2025-10-24 21:37:09,864 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1446
+2025-10-24 21:37:10,387 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1446
+2025-10-24 21:37:10,628 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1446
+2025-10-24 21:37:10,758 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 1446
+2025-10-24 21:37:17,243 [INFO] core: Logout: Kayke
+2025-10-24 21:37:17,262 [INFO] django.server: "GET /logout/ HTTP/1.1" 302 0
+2025-10-24 21:37:17,267 [INFO] django.server: "GET / HTTP/1.1" 200 742
+2025-10-24 22:09:11,451 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 22:09:14,272 [INFO] django.server: "GET / HTTP/1.1" 200 742
+2025-10-24 22:09:14,311 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 22:11:34,234 [INFO] django.server: "GET / HTTP/1.1" 200 797
+2025-10-24 22:12:14,921 [INFO] django.server: "GET / HTTP/1.1" 200 793
+2025-10-24 22:12:17,068 [INFO] django.server: "GET / HTTP/1.1" 200 793
+2025-10-24 22:12:36,042 [INFO] django.server: "GET / HTTP/1.1" 200 790
+2025-10-24 22:13:12,969 [INFO] django.server: "GET / HTTP/1.1" 200 791
+2025-10-24 22:13:25,626 [INFO] django.server: "GET / HTTP/1.1" 200 790
+2025-10-24 22:15:55,686 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-24 22:15:57,766 [INFO] django.server: "GET / HTTP/1.1" 200 790
+2025-10-24 22:16:46,981 [INFO] django.server: "GET / HTTP/1.1" 200 790
+2025-10-24 22:17:41,000 [INFO] django.server: "GET / HTTP/1.1" 200 845
+2025-10-24 22:17:41,067 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12323
+2025-10-24 22:18:06,285 [INFO] django.server: "GET / HTTP/1.1" 200 851
+2025-10-24 22:18:06,300 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12774
+2025-10-24 22:18:21,588 [INFO] django.server: "GET / HTTP/1.1" 200 845
+2025-10-24 22:18:21,606 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 22:18:48,221 [INFO] django.server: "GET / HTTP/1.1" 200 857
+2025-10-24 22:18:48,238 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 22:19:04,530 [INFO] django.server: "GET / HTTP/1.1" 200 868
+2025-10-24 22:19:04,543 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-24 22:19:18,649 [INFO] django.server: "GET / HTTP/1.1" 200 871
+2025-10-24 22:19:18,666 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-25 08:58:40,004 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

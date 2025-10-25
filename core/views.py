@@ -14,11 +14,7 @@ logger = logging.getLogger('core')
 
 
 def registrar_log(message, user=None, level='INFO'):
-    """
-    Registra evento:
-    - grava no arquivo via logging (handler definido no settings)
-    - grava no banco na tabela core_log
-    """
+  
    
     if level == 'INFO':
         logger.info(message)
@@ -34,18 +30,13 @@ def registrar_log(message, user=None, level='INFO'):
     log.save()
 
 def index(request):
-    """
-    Rota '/' - página inicial / dashboard.
-    Mostra links para os módulos e, se autenticado, o usuário.
-    """
-    return render(request, "core/index.html", {"user": request.user if request.user.is_authenticated else None})
+ 
+    
+    return render(request, "core/index.html", {"user": request.user if request.user.is_authenticated else redirect('login')})
 
 
 def signup_view(request):
-    """
-    Exibe o formulário de cadastro e cria usuário.
-    Usa SignUpForm que lida com hashing de senha via UserCreationForm.
-    """
+    
     if request.method == 'POST':
         form = SignUpForm(request.POST)
         if form.is_valid():
@@ -63,9 +54,7 @@ def signup_view(request):
 
 # Login
 def login_view(request):
-    """
-    Trata login: autentica e inicia sessão.
-    """
+    
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -81,11 +70,9 @@ def login_view(request):
     return render(request, 'core/login.html')
 
 
-# Logout
+
 def logout_view(request):
-    """
-    Encerra sessão do usuário.
-    """
+    
     username = request.user.username if request.user.is_authenticated else 'anon'
     logout(request)
     registrar_log(f"Logout: {username}")
@@ -94,9 +81,7 @@ def logout_view(request):
 
 @login_required
 def conversao_view(request):
-    """
-    Recebe um valor e a base desejada e realiza conversões entre decimal/bin/hex/oct.
-    """
+    
     result = None
     if request.method == 'POST':
         value = request.POST.get('value', '').strip()

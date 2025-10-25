@@ -1,17 +1,40 @@
 {% extends "core/base.html" %}
+{% load static %}
 {% block content %}
-<h2>Login</h2>
 
-<form method="post">
-    {% csrf_token %}
-    <div class="mb-2">
-        <label>Usuário</label>
-        <input class="form-control" type="text" name="username" required>
-    </div>
-    <div class="mb-2">
-        <label>Senha</label>
-        <input class="form-control" type="password" name="password" required>
-    </div>
-    <button class="btn btn-primary" type="submit">Entrar</button>
-</form>
+<div class="flex flex-col items-center justify-center min-h-[80vh] mt-[-50px]">
+    <h2 class="text-4xl font-semibold mb-8">Login</h2>
+
+    <form method="post" class="flex flex-col items-center space-y-6 w-full max-w-sm">
+        {% csrf_token %}
+
+        <div class="flex flex-col items-center w-full">
+            <label for="usuario" class="mb-2 text-lg font-semibold text-center">Usuário</label>
+            <input id="usuario" name="username" type="text"
+                class="border border-gray-400 rounded-2xl p-2 w-64 text-center focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required>
+        </div>
+
+        <div class="flex flex-col items-center w-full">
+            <label for="senha" class="mb-2 text-lg font-semibold text-center">Senha</label>
+            <input id="senha" name="password" type="password"
+                class="border border-gray-400 rounded-2xl p-2 w-64 text-center focus:outline-none focus:ring-2 focus:ring-blue-500"
+                required>
+        </div>
+
+        <!-- Botão + Link lado a lado -->
+        <div class="flex items-center justify-center space-x-10 mt-4">
+            <button
+                class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-2xl transition-colors"
+                type="submit">
+                Entrar
+            </button>
+
+            <a href="{% url 'signup' %}" class="px-1 text-blue-600 hover:underline font-medium">
+                Cadastrar
+            </a>
+        </div>
+    </form>
+</div>
+
 {% endblock %}

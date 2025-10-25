@@ -1,0 +1,19 @@
+.meu-botao {
+    background-color: #007bff;
+    /* Cor de fundo azul */
+    color: white;
+    /* Cor do texto branca */
+    padding: 10px 20px;
+    /* Espaçamento interno (vertical e horizontal) */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 5px;
+    /* Cantos arredondados */
+    cursor: pointer;
+    /* Muda o cursor para ponteiro ao passar o mouse */
+}
+
+.meu-botao:hover {
+    background-color: #0056b3;
+    /* Cor de fundo mais escura ao passar o mouse */
+}

@@ -1,5 +1,7 @@
 {% extends "core/base.html" %}
+{% load static %}
 {% block content %}
 <h2>Painel</h2>
 <p>Bem-vindo ao protótipo. Use o menu para navegar entre os módulos.</p>
+<a href="{% url 'login' %}">Login</a>
 {% endblock %}
