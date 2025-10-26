@@ -1,20 +1,32 @@
 {% extends "core/base.html" %}
 {% load widget_tweaks %}
+
 {% block content %}
-<h2>Cadastro</h2>
+<div class="flex flex-col items-center min-h-[80vh] mt-[-50px] py-10">
+    <div class="bg-amber-200 rounded-xl p-5 ">
+        <div class="text-center">
+            <h2>Cadastro</h2>
+        </div>
+        <hr>
 
-
-<form method="post">
-    {% csrf_token %}
-    {% for field in form %}
-    <div class="mb-2">
-        <label>{{ field.label }}</label>
-        {{ field }}
-        {% if field.errors %}
-        <div class="text-danger">{{ field.errors }}</div>
-        {% endif %}
-    </div>
-    {% endfor %}
-    <button class="btn btn-primary" type="submit">Cadastrar</button>
-</form>
+        <form method="post">
+            {% csrf_token %}
+            {% for field in form %}
+            <div class="mb-2">
+                <label>{{ field.label }}</label>
+                {{ field }}
+                {% if field.errors %}
+                <div class="text-danger">{{ field.errors }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+            <div class="flex flex-col">
+                <button class="btn btn-primary" type="submit">Cadastrar</button>
+                <div class="text-center my-3">
+                    <a href="{% url 'login' %}" class="px-1 text-blue-600 hover:underline font-medium" style="text-decoration: none;">Já tem uma conta?</a>
+                </div>
+            </div>
+        </form>
+    <div>
+</div>
 {% endblock %}

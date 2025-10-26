@@ -1,7 +1,18 @@
 {% extends "core/base.html" %}
 {% load static %}
+
 {% block content %}
-<h2>Painel</h2>
-<p>Bem-vindo ao protótipo. Use o menu para navegar entre os módulos.</p>
-<a href="{% url 'login' %}">Login</a>
+    <div class="text-center">
+        <h2>Painel</h2>
+        <p class="text-xl">Bem-vindo ao protótipo. Navegue pelos módulos através dos botões abaixo.</p>
+    </div>
+
+    <div class="m-5 d-flex gap-3 justify-center">
+        <div>
+            <a href="{% url 'conversao' %}" class="text-xl bg-amber-200 p-3 rounded-xl text-black font-bold" style="text-decoration: none;">Conversão</a>
+        </div>
+        <div>
+            <a href="#" class="text-xl bg-amber-200 p-3 rounded-xl text-black font-bold" style="text-decoration: none;">Sobre nós</a>
+        </div>
+    </div>
 {% endblock %}
