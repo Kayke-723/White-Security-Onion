@@ -1,18 +1,100 @@
 {% extends "core/base.html" %}
 {% load static %}
-
 {% block content %}
-    <div class="text-center">
-        <h2>Painel</h2>
-        <p class="text-xl">Bem-vindo ao protótipo. Navegue pelos módulos através dos botões abaixo.</p>
-    </div>
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    <div class="m-5 d-flex gap-3 justify-center">
-        <div>
-            <a href="{% url 'conversao' %}" class="text-xl bg-amber-200 p-3 rounded-xl text-black font-bold" style="text-decoration: none;">Conversão</a>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Ícones Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Framer Motion (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/framer-motion@10.16.2/dist/framer-motion.umd.js"></script>
+
+    <!-- Seu CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body class="overflow-hidden flex flex-col items-center relative">
+
+    <!-- Planetas decorativos -->
+    <div class="planet planet1"></div>
+    <div class="planet planet2"></div>
+
+    <!-- TÍTULO CENTRAL -->
+    <header class="w-full text-center py-16 relative z-20">
+        <h1
+            class="text-7xl font-bold text-white flex items-center justify-center gap-2 drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+            White Security
+            <span class="flex items-center gap-1 relative">
+                <span class="text-transparent select-none">O</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    class="w-14 h-14 absolute left-1 top-1/2 -translate-y-1/2 animate-spin-slow">
+                    <defs>
+                        <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#ffffff" />
+                            <stop offset="50%" stop-color="#c084fc" />
+                            <stop offset="100%" stop-color="#ffffff" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="40" stroke="url(#ringGradient)" stroke-width="3" />
+                    <path d="M50 15 Q75 35 50 55 Q25 75 50 95" stroke="url(#ringGradient)" stroke-width="2"
+                        opacity="0.8" />
+                    <path d="M50 25 Q70 40 50 55 Q30 70 50 85" stroke="url(#ringGradient)" stroke-width="1.5"
+                        opacity="0.6" />
+                </svg>
+                nion
+            </span>
+        </h1>
+    </header>
+
+    <!-- CONTAINER DAS CEBOLAS -->
+    <main id="onionContainer" class="flex gap-20 items-center justify-center flex-grow relative mb-12 z-20 select-none">
+
+        <!-- SOBRE -->
+        <a href="{% url 'about' %}" class="onion inactive onion-link" data-target="{% url 'about' %}">
+            <div class="content pointer-events-none">
+                <h2 class="text-3xl font-bold">Sobre</h2>
+            </div>
+        </a>
+
+        <!-- LOGIN -->
+        <div id="login" class="onion active cursor-pointer">
+            <div class="content pointer-events-auto">
+                <h2 class="text-2xl font-bold mb-6">Login</h2>
+                <form class="space-y-4" method="post" action="{% url 'login' %}">
+                    {% csrf_token %}
+                    <input name="username" type="text" placeholder="Usuário"
+                        class="p-2 rounded-md text-gray-800 w-full" />
+                    <input name="password" type="password" placeholder="Senha"
+                        class="p-2 rounded-md text-gray-800 w-full" />
+                    <button type="submit"
+                        class="bg-white text-purple-900 font-semibold py-2 rounded-md w-full hover:bg-purple-100 transition">
+                        Entrar
+                    </button>
+                </form>
+            </div>
         </div>
-        <div>
-            <a href="#" class="text-xl bg-amber-200 p-3 rounded-xl text-black font-bold" style="text-decoration: none;">Sobre nós</a>
-        </div>
-    </div>
+
+        <!-- CADASTRO -->
+        <a href="{% url 'signup' %}" class="onion inactive onion-link" data-target="{% url 'signup' %}">
+            <div class="content pointer-events-none">
+                <h2 class="text-3xl font-bold">Cadastro</h2>
+            </div>
+        </a>
+
+    </main>
+
+    <!-- Script principal -->
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>
 {% endblock %}

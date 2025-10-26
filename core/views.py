@@ -12,6 +12,12 @@ import logging
 
 logger = logging.getLogger('core')
 
+def about_view(request):
+    if(2 > 1):
+        print('Ola')
+    else:
+        print('tchau')
+
 
 def registrar_log(message, user=None, level='INFO'):
   
