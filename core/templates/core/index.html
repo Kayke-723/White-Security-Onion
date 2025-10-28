@@ -66,22 +66,11 @@
         </a>
 
         <!-- LOGIN -->
-        <div id="login" class="onion active cursor-pointer">
-            <div class="content pointer-events-auto">
-                <h2 class="text-2xl font-bold mb-6">Login</h2>
-                <form class="space-y-4" method="post" action="{% url 'login' %}">
-                    {% csrf_token %}
-                    <input name="username" type="text" placeholder="Usuário"
-                        class="p-2 rounded-md text-gray-800 w-full" />
-                    <input name="password" type="password" placeholder="Senha"
-                        class="p-2 rounded-md text-gray-800 w-full" />
-                    <button type="submit"
-                        class="bg-white text-purple-900 font-semibold py-2 rounded-md w-full hover:bg-purple-100 transition">
-                        Entrar
-                    </button>
-                </form>
+        <a href="{% url 'login' %}" class="onion inactive onion-link" data-target="{% url 'login' %}">
+            <div class="content pointer-events-none">
+                <h2 class="text-3xl font-bold">Entrar</h2>
             </div>
-        </div>
+        </a>
 
         <!-- CADASTRO -->
         <a href="{% url 'signup' %}" class="onion inactive onion-link" data-target="{% url 'signup' %}">

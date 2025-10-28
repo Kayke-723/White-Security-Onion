@@ -13,10 +13,10 @@ import logging
 logger = logging.getLogger('core')
 
 def about_view(request):
-    if(2 > 1):
-        print('Ola')
-    else:
-        print('tchau')
+    return render(request, 'core/about.html')
+
+def home_view(request):
+    return render(request, 'core/home.html')
 
 
 def registrar_log(message, user=None, level='INFO'):
@@ -36,10 +36,7 @@ def registrar_log(message, user=None, level='INFO'):
     log.save()
 
 def index(request):
- 
-    
-    return render(request, "core/index.html", {"user": request.user if request.user.is_authenticated else redirect('login')})
-
+    return render(request,"core/index.html", {"user": request.user if request.user.is_authenticated else redirect('login')})
 
 def signup_view(request):
     

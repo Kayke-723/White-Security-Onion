@@ -3773,3 +3773,1009 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'sobre' not found. 'sobre' is
 2025-10-26 00:27:06,276 [WARNING] django.server: "GET /static/js/script.js HTTP/1.1" 404 1850
 2025-10-26 00:28:38,433 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\simulador\settings.py changed, reloading.
 2025-10-26 00:28:39,475 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-26 00:28:40,879 [INFO] django.server: "GET / HTTP/1.1" 200 4560
+2025-10-26 00:28:40,994 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 7950
+2025-10-26 00:28:41,030 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 981
+2025-10-26 00:28:43,013 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2275
+2025-10-26 00:30:10,960 [INFO] django.server: "GET / HTTP/1.1" 200 4560
+2025-10-26 00:30:11,025 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-26 00:30:11,025 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-26 00:30:11,582 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-26 00:30:11,583 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3762
+2025-10-26 00:30:42,509 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2275
+2025-10-26 00:30:49,210 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The view core.views.about_view didn't return an HttpResponse object. It returned None instead.
+2025-10-26 00:30:49,212 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 71807
+2025-10-26 18:17:52,848 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-26 18:17:57,178 [INFO] django.server: "GET / HTTP/1.1" 200 4560
+2025-10-26 18:17:57,224 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-26 18:17:57,229 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-26 18:17:57,229 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-26 18:17:57,897 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-26 18:17:57,897 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3762
+2025-10-26 18:17:59,441 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The view core.views.about_view didn't return an HttpResponse object. It returned None instead.
+2025-10-26 18:17:59,444 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 71807
+2025-10-26 18:18:03,324 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2275
+2025-10-26 18:18:23,019 [INFO] django.server: "GET /admin HTTP/1.1" 301 0
+2025-10-26 18:18:23,030 [INFO] django.server: "GET /admin/ HTTP/1.1" 302 0
+2025-10-26 18:18:23,155 [INFO] django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4209
+2025-10-26 18:18:23,402 [INFO] django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+2025-10-26 18:18:23,404 [INFO] django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+2025-10-26 18:18:23,405 [INFO] django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2025-10-26 18:18:23,407 [INFO] django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 951
+2025-10-26 18:18:23,408 [INFO] django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+2025-10-26 18:18:23,413 [INFO] django.server: "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+2025-10-26 18:18:23,437 [INFO] django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2025-10-26 18:18:33,796 [INFO] django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-10-26 18:18:33,856 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 8200
+2025-10-26 18:18:33,883 [INFO] django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2025-10-26 18:18:33,903 [INFO] django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2025-10-26 18:18:33,908 [INFO] django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2025-10-26 18:18:35,689 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 16090
+2025-10-26 18:18:35,714 [INFO] django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+2025-10-26 18:18:35,745 [INFO] django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2025-10-26 18:18:35,759 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+2025-10-26 18:18:35,762 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+2025-10-26 18:18:35,772 [INFO] django.server: "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2025-10-26 18:18:35,775 [INFO] django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2025-10-26 18:18:35,785 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:18:35,790 [INFO] django.server: "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2025-10-26 18:18:35,796 [INFO] django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2025-10-26 18:18:35,800 [INFO] django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2025-10-26 18:18:35,836 [INFO] django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2025-10-26 18:18:35,874 [INFO] django.server: "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2025-10-26 18:18:35,892 [INFO] django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2025-10-26 18:18:35,936 [INFO] django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2025-10-26 18:18:35,979 [INFO] django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2025-10-26 18:18:35,984 [INFO] django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2025-10-26 18:18:35,985 [INFO] django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2025-10-26 18:18:57,358 [INFO] django.server: "POST /admin/auth/user/ HTTP/1.1" 200 9719
+2025-10-26 18:18:57,422 [INFO] django.server: "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+2025-10-26 18:18:58,181 [INFO] django.server: "POST /admin/auth/user/ HTTP/1.1" 302 0
+2025-10-26 18:18:58,206 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12975
+2025-10-26 18:18:58,231 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:19:05,955 [INFO] django.server: "GET / HTTP/1.1" 200 4878
+2025-10-26 18:19:12,456 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12836
+2025-10-26 18:19:14,560 [INFO] django.server: "GET /admin/auth/user/add/ HTTP/1.1" 200 13469
+2025-10-26 18:19:14,594 [INFO] django.server: "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+2025-10-26 18:19:14,595 [INFO] django.server: "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+2025-10-26 18:19:14,599 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:19:14,600 [INFO] django.server: "GET /static/admin/css/widgets.css HTTP/1.1" 200 11973
+2025-10-26 18:19:14,611 [INFO] django.server: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2025-10-26 18:19:14,630 [INFO] django.server: "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2025-10-26 18:19:14,640 [INFO] django.server: "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+2025-10-26 18:19:22,056 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12836
+2025-10-26 18:19:23,246 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 51997
+2025-10-26 18:19:23,279 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:20:02,537 [INFO] django.server: "GET /admin/auth/group/ HTTP/1.1" 200 9144
+2025-10-26 18:20:02,572 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:20:07,409 [INFO] django.server: "GET /admin/auth/group/add/ HTTP/1.1" 200 13641
+2025-10-26 18:20:07,446 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:20:07,478 [INFO] django.server: "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+2025-10-26 18:20:07,485 [INFO] django.server: "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+2025-10-26 18:20:07,621 [INFO] django.server: "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2025-10-26 18:20:16,167 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12836
+2025-10-26 18:20:16,200 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:20:19,500 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 10367
+2025-10-26 18:20:19,553 [INFO] django.server: "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2025-10-26 18:20:23,452 [INFO] django.server: "GET /admin/core/process/ HTTP/1.1" 200 11127
+2025-10-26 18:20:23,484 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:20:27,445 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 51997
+2025-10-26 18:20:27,471 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:20:28,061 [INFO] django.server: "GET /admin/auth/group/ HTTP/1.1" 200 9144
+2025-10-26 18:20:28,097 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:20:28,568 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12836
+2025-10-26 18:20:28,602 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-26 18:20:30,846 [INFO] django.server: "POST /admin/logout/ HTTP/1.1" 200 3636
+2025-10-26 18:20:31,854 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 302 0
+2025-10-26 18:20:31,863 [INFO] django.server: "GET /admin/login/?next=/admin/auth/user/ HTTP/1.1" 200 4229
+2025-10-27 19:44:55,757 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 19:45:02,750 [INFO] django.server: "GET / HTTP/1.1" 200 4560
+2025-10-27 19:45:02,765 [INFO] django.server: "GET / HTTP/1.1" 200 4560
+2025-10-27 19:45:02,769 [INFO] django.server: "GET / HTTP/1.1" 200 4560
+2025-10-27 19:45:03,263 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 304 0
+2025-10-27 19:45:03,278 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 19:45:03,318 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 19:45:03,855 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-27 19:45:03,856 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3762
+2025-10-27 19:45:07,030 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The view core.views.about_view didn't return an HttpResponse object. It returned None instead.
+2025-10-27 19:45:07,032 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 71808
+2025-10-27 19:45:10,691 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2275
+2025-10-27 19:45:17,624 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2275
+2025-10-27 19:46:50,946 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 19:46:52,620 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 19:46:53,060 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+2025-10-27 19:46:53,064 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 70373
+2025-10-27 19:46:55,179 [INFO] django.server: "GET / HTTP/1.1" 200 4560
+2025-10-27 19:46:56,620 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\utils\deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'get'
+2025-10-27 19:46:56,622 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 70373
+2025-10-27 19:51:53,924 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 19:51:54,985 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 19:52:09,612 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 16, in about_view
+    return render(request, 'about.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+2025-10-27 19:52:09,616 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 86833
+2025-10-27 19:53:32,727 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 16, in about_view
+    return render(request, 'about.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+2025-10-27 19:53:32,730 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 86833
+2025-10-27 19:53:36,322 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 16, in about_view
+    return render(request, 'about.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+2025-10-27 19:53:36,324 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 86696
+2025-10-27 19:56:32,474 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 16, in about_view
+    return render(request, 'about.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: about.html
+2025-10-27 19:56:32,476 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 86696
+2025-10-27 19:57:16,955 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 19:57:20,274 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 19:57:20,638 [INFO] django.server: "GET /about/ HTTP/1.1" 200 461
+2025-10-27 19:57:27,096 [INFO] django.server: "GET /about/ HTTP/1.1" 200 461
+2025-10-27 19:57:53,339 [INFO] django.server: "GET /about/ HTTP/1.1" 200 461
+2025-10-27 19:57:54,062 [INFO] django.server: "GET /about/ HTTP/1.1" 200 461
+2025-10-27 19:57:54,436 [INFO] django.server: "GET /about/ HTTP/1.1" 200 461
+2025-10-27 19:58:32,626 [INFO] django.server: "GET /about/ HTTP/1.1" 200 461
+2025-10-27 19:58:33,161 [INFO] django.server: "GET /about/ HTTP/1.1" 200 461
+2025-10-27 19:58:33,511 [INFO] django.server: "GET /about/ HTTP/1.1" 200 461
+2025-10-27 19:58:41,689 [INFO] django.server: "GET /about/ HTTP/1.1" 200 261
+2025-10-27 19:59:29,273 [ERROR] django.request: Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 16, in about_view
+    return render(request, 'core/about.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 519, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 540, in extend_nodelist
+    raise self.error(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: {% extends "core/base.html" %} must be the first tag in 'core/about.html'.
+2025-10-27 19:59:29,280 [ERROR] django.server: "GET /about/ HTTP/1.1" 500 134760
+2025-10-27 19:59:58,487 [INFO] django.server: "GET /about/ HTTP/1.1" 200 722
+2025-10-27 20:01:04,369 [INFO] django.server: "GET /about/ HTTP/1.1" 200 834
+2025-10-27 20:03:45,580 [INFO] django.server: "GET /about/ HTTP/1.1" 200 834
+2025-10-27 20:39:45,605 [INFO] django.server: "GET /about/ HTTP/1.1" 200 834
+2025-10-27 20:43:18,012 [INFO] django.server: "GET /about/ HTTP/1.1" 200 834
+2025-10-27 20:43:20,422 [INFO] django.server: "GET /about/ HTTP/1.1" 200 834
+2025-10-27 20:44:44,073 [INFO] django.server: "GET / HTTP/1.1" 200 4586
+2025-10-27 20:44:45,511 [INFO] django.server: "GET /about/ HTTP/1.1" 200 834
+2025-10-27 20:44:50,535 [INFO] django.server: "GET /about/ HTTP/1.1" 200 834
+2025-10-27 20:45:49,536 [INFO] django.server: "GET / HTTP/1.1" 200 4602
+2025-10-27 20:45:50,817 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2275
+2025-10-27 20:46:49,224 [INFO] django.server: "GET / HTTP/1.1" 200 4540
+2025-10-27 20:46:50,270 [INFO] django.server: "GET /about/ HTTP/1.1" 200 834
+2025-10-27 20:46:51,903 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2275
+2025-10-27 20:46:53,876 [INFO] django.server: "GET /about/ HTTP/1.1" 200 834
+2025-10-27 20:49:02,822 [INFO] django.server: "GET / HTTP/1.1" 200 4590
+2025-10-27 20:49:03,877 [INFO] django.server: "GET /about/ HTTP/1.1" 200 884
+2025-10-27 20:49:05,567 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 20:49:18,725 [INFO] django.server: "GET / HTTP/1.1" 200 4640
+2025-10-27 20:49:20,069 [INFO] django.server: "GET /about/ HTTP/1.1" 200 884
+2025-10-27 20:49:21,751 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 20:50:25,768 [INFO] django.server: "GET /about/ HTTP/1.1" 200 884
+2025-10-27 20:53:30,393 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 20:53:31,874 [INFO] django.server: "GET /about/ HTTP/1.1" 200 886
+2025-10-27 20:53:34,336 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 20:53:36,981 [INFO] django.server: "GET /about/ HTTP/1.1" 200 886
+2025-10-27 20:53:42,866 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 20:53:42,867 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 20:54:40,125 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 20:54:40,185 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 20:54:40,186 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 20:54:41,714 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 20:54:41,715 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 20:54:41,730 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 20:54:41,730 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 20:55:42,103 [INFO] django.server: "GET /about/ HTTP/1.1" 200 886
+2025-10-27 20:56:28,956 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 20:56:31,136 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 20:56:32,221 [INFO] django.server: "GET /about/ HTTP/1.1" 200 886
+2025-10-27 20:58:24,445 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 20:58:25,807 [INFO] django.server: "GET /about/ HTTP/1.1" 200 886
+2025-10-27 20:58:27,255 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 20:58:31,448 [INFO] django.server: "GET /about/ HTTP/1.1" 200 886
+2025-10-27 20:58:59,738 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 20:59:00,921 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 20:59:31,977 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 20:59:33,223 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 20:59:35,144 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 20:59:36,397 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:01:45,306 [INFO] django.server: "GET / HTTP/1.1" 200 4557
+2025-10-27 21:01:46,435 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:01:47,770 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 21:01:49,025 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:03:14,589 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 21:03:15,706 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:03:19,762 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:03:19,762 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:03:31,134 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 21:03:31,162 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:03:31,162 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:03:38,073 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 21:03:38,114 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:03:38,114 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:03:56,303 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:03:56,356 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:03:56,357 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:04:00,825 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:04:00,825 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:04:00,855 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:04:00,855 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:04:29,199 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:04:29,250 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:04:29,251 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:04:32,392 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:04:32,393 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:04:32,415 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:04:32,416 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:04:33,021 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 21:04:33,083 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:04:33,083 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:04:35,686 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:04:35,686 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:04:35,708 [WARNING] django.request: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-27 21:04:35,709 [WARNING] django.server: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3873
+2025-10-27 21:05:49,916 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 21:05:50,088 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9275
+2025-10-27 21:05:50,119 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-27 21:05:50,121 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 2102
+2025-10-27 21:05:50,585 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-27 21:05:50,586 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3762
+2025-10-27 21:05:52,708 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:05:52,744 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:06:01,559 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 21:06:26,181 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2254
+2025-10-27 21:06:26,208 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:06:40,623 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 21:06:40,691 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:06:43,014 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 21:08:30,872 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:08:30,925 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-27 21:08:30,955 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 989
+2025-10-27 21:08:33,003 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 21:08:33,034 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:09:18,050 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:09:18,073 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:09:18,117 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1890
+2025-10-27 21:09:19,788 [INFO] django.server: "GET / HTTP/1.1" 200 4597
+2025-10-27 21:09:19,817 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:09:21,196 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:09:21,225 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:09:22,889 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 21:09:22,915 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:10:37,711 [INFO] django.server: "GET / HTTP/1.1" 200 4571
+2025-10-27 21:10:37,744 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:10:37,745 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:10:38,670 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:10:48,870 [INFO] django.server: "GET / HTTP/1.1" 200 4547
+2025-10-27 21:10:48,894 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:11:41,278 [INFO] django.server: "GET / HTTP/1.1" 200 4395
+2025-10-27 21:11:41,303 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:11:41,308 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:14:13,937 [INFO] django.server: "GET / HTTP/1.1" 200 4553
+2025-10-27 21:14:13,972 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:14:13,972 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:14:15,070 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 21:18:44,642 [INFO] django.server: "GET / HTTP/1.1" 200 4463
+2025-10-27 21:18:44,667 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-27 21:18:44,671 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 2574
+2025-10-27 21:18:44,698 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1774
+2025-10-27 21:18:45,028 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-27 21:18:45,028 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3762
+2025-10-27 21:19:19,622 [INFO] django.server: "GET / HTTP/1.1" 200 4463
+2025-10-27 21:19:19,653 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:19:19,654 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-27 21:19:24,790 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:19:24,830 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:19:46,075 [INFO] django.server: "GET / HTTP/1.1" 200 4554
+2025-10-27 21:19:46,108 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:19:46,110 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:20:14,351 [INFO] django.server: "GET / HTTP/1.1" 200 4571
+2025-10-27 21:20:14,370 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:20:14,371 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:20:16,932 [WARNING] django.request: Not Found: /null
+2025-10-27 21:20:16,933 [WARNING] django.server: "GET /null HTTP/1.1" 404 3741
+2025-10-27 21:20:26,421 [WARNING] django.request: Not Found: /null
+2025-10-27 21:20:26,422 [WARNING] django.server: "GET /null HTTP/1.1" 404 3741
+2025-10-27 21:21:19,189 [WARNING] django.request: Not Found: /null
+2025-10-27 21:21:19,190 [WARNING] django.server: "GET /null HTTP/1.1" 404 3741
+2025-10-27 21:22:05,059 [WARNING] django.request: Not Found: /null
+2025-10-27 21:22:05,060 [WARNING] django.server: "GET /null HTTP/1.1" 404 3741
+2025-10-27 21:25:12,929 [WARNING] django.request: Not Found: /null
+2025-10-27 21:25:12,930 [WARNING] django.server: "GET /null HTTP/1.1" 404 3741
+2025-10-27 21:25:15,584 [INFO] django.server: "GET / HTTP/1.1" 200 4610
+2025-10-27 21:25:15,608 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-27 21:25:15,609 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-27 21:25:16,726 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:25:19,341 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2325
+2025-10-27 21:25:19,369 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:25:24,540 [INFO] django.server: "GET / HTTP/1.1" 200 4610
+2025-10-27 21:25:24,571 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-27 21:25:24,576 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-27 21:25:24,576 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-27 21:25:25,865 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-27 21:25:25,865 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3762
+2025-10-27 21:25:26,787 [INFO] django.server: "GET /about/ HTTP/1.1" 200 941
+2025-10-27 21:26:16,908 [INFO] django.server: "GET / HTTP/1.1" 200 4561
+2025-10-27 21:26:16,944 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:26:16,944 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:26:18,431 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:26:21,114 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2276
+2025-10-27 21:26:24,534 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:26:34,467 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:26:34,510 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:26:34,532 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:26:38,407 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2276
+2025-10-27 21:26:40,662 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:29:53,756 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:29:53,804 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:29:53,804 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:34:13,037 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2276
+2025-10-27 21:34:33,813 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:34:33,855 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:34:33,867 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:35:58,169 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 21:35:58,195 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:35:58,200 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:35:59,964 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2205
+2025-10-27 21:36:05,530 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:36:08,302 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 21:36:13,312 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 21:36:13,347 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-27 21:36:13,348 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-27 21:36:13,351 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-27 21:36:19,129 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-27 21:36:19,130 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3762
+2025-10-27 21:36:29,964 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2205
+2025-10-27 21:50:46,651 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 21:50:49,148 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 21:50:49,285 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8536
+2025-10-27 21:50:49,320 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1784
+2025-10-27 21:50:54,450 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:50:54,485 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:50:58,191 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2276
+2025-10-27 21:51:31,133 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 21:51:31,164 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:51:31,165 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-27 21:51:37,595 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2276
+2025-10-27 21:51:40,772 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2205
+2025-10-27 21:51:43,190 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:51:43,292 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:51:43,292 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:51:46,129 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2205
+2025-10-27 21:52:11,492 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 21:52:11,518 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-27 21:52:11,521 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-27 21:52:13,021 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2205
+2025-10-27 21:52:14,908 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2276
+2025-10-27 21:53:08,145 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-27 21:53:09,134 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 21:53:50,591 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-27 21:53:51,573 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 21:53:56,537 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2276
+2025-10-27 21:53:57,961 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2205
+2025-10-27 21:54:04,738 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 21:54:04,777 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:54:04,779 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:54:08,565 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2205
+2025-10-27 21:55:02,679 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2329
+2025-10-27 21:55:04,262 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2329
+2025-10-27 21:55:04,775 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2329
+2025-10-27 21:55:25,247 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 2401
+2025-10-27 21:55:25,276 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:57:16,134 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4053
+2025-10-27 21:57:16,158 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:57:16,159 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:58:53,096 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 21:58:53,121 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:58:53,122 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 21:59:33,668 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 21:59:33,693 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 21:59:34,978 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 21:59:35,002 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:00:32,101 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:00:32,127 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:00:32,127 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:00:44,217 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:00:56,843 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:01:07,316 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4195
+2025-10-27 22:01:18,635 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4203
+2025-10-27 22:01:38,497 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4207
+2025-10-27 22:01:38,524 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:01:38,526 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:01:50,449 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4208
+2025-10-27 22:02:04,662 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4204
+2025-10-27 22:02:11,880 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:02:32,588 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:02:57,968 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:02:58,009 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:02:58,009 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:03:48,651 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:03:58,525 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:04:40,683 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4208
+2025-10-27 22:04:40,702 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:04:40,703 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:04:41,417 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4208
+2025-10-27 22:05:22,630 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:05:42,267 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4186
+2025-10-27 22:05:51,920 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4195
+2025-10-27 22:06:04,635 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4193
+2025-10-27 22:06:04,661 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:06:04,662 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:06:15,182 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4193
+2025-10-27 22:06:16,022 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4193
+2025-10-27 22:06:28,056 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4185
+2025-10-27 22:06:44,345 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4195
+2025-10-27 22:07:21,483 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4202
+2025-10-27 22:08:25,739 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4262
+2025-10-27 22:08:25,759 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:08:25,759 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:11:25,250 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4306
+2025-10-27 22:11:25,278 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:11:25,280 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:12:00,704 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4306
+2025-10-27 22:12:01,446 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4306
+2025-10-27 22:12:15,065 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4306
+2025-10-27 22:12:26,425 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4306
+2025-10-27 22:12:37,623 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4306
+2025-10-27 22:12:48,230 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4307
+2025-10-27 22:12:58,625 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4308
+2025-10-27 22:13:06,840 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4307
+2025-10-27 22:13:12,639 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4306
+2025-10-27 22:13:49,000 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4445
+2025-10-27 22:13:49,019 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:13:49,019 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:14:07,000 [WARNING] django.request: Not Found: /accounts/login/index.html
+2025-10-27 22:14:07,001 [WARNING] django.server: "GET /accounts/login/index.html HTTP/1.1" 404 3804
+2025-10-27 22:14:21,805 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4440
+2025-10-27 22:14:22,635 [WARNING] django.request: Not Found: /accounts/login/index
+2025-10-27 22:14:22,636 [WARNING] django.server: "GET /accounts/login/index HTTP/1.1" 404 3789
+2025-10-27 22:15:03,939 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4436
+2025-10-27 22:15:04,885 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:15:06,699 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4436
+2025-10-27 22:15:56,414 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4462
+2025-10-27 22:16:30,527 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:16:30,556 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:16:30,560 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:16:48,386 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4466
+2025-10-27 22:16:48,420 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:16:48,420 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:16:59,380 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4468
+2025-10-27 22:18:55,229 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:18:55,877 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:18:57,604 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4480
+2025-10-27 22:18:59,164 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4480
+2025-10-27 22:19:07,959 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4480
+2025-10-27 22:19:08,124 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-27 22:19:08,125 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-27 22:19:08,126 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-27 22:19:08,234 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-27 22:19:08,235 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3762
+2025-10-27 22:20:13,032 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:21:10,818 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4499
+2025-10-27 22:21:34,737 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4512
+2025-10-27 22:22:14,255 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:22:14,285 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:22:14,285 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:22:18,033 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4512
+2025-10-27 22:22:33,476 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4484
+2025-10-27 22:23:50,209 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 1567
+2025-10-27 22:23:59,901 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:24:01,393 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 1567
+2025-10-27 22:24:17,790 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 1567
+2025-10-27 22:24:19,426 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 1567
+2025-10-27 22:24:25,295 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:24:27,597 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4512
+2025-10-27 22:24:45,713 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4435
+2025-10-27 22:25:03,755 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4435
+2025-10-27 22:25:07,280 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:25:08,999 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:25:52,791 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4485
+2025-10-27 22:25:52,820 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:25:52,820 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:26:19,794 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4485
+2025-10-27 22:26:22,832 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4485
+2025-10-27 22:26:22,866 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8028
+2025-10-27 22:26:22,867 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-27 22:26:22,868 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-27 22:26:23,031 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-27 22:26:23,032 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 3762
+2025-10-27 22:26:45,361 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:29:37,942 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:30:01,668 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:30:01,693 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:30:01,694 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:30:21,069 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:30:21,092 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8023
+2025-10-27 22:30:47,607 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:30:47,630 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:31:14,984 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:31:15,003 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:31:33,974 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:31:33,995 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:31:47,598 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:31:47,628 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:31:48,786 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:31:48,816 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:32:01,462 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:32:01,489 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:32:17,445 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:32:17,467 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:32:21,862 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:32:21,890 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:32:38,288 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:32:38,307 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:32:47,026 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:32:47,050 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:32:59,877 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:32:59,905 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:33:10,053 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:33:10,074 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:33:17,228 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:33:17,248 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:33:58,918 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:33:58,952 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:33:58,953 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:34:40,844 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:34:40,875 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8021
+2025-10-27 22:34:55,867 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:34:55,896 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:34:57,802 [INFO] django.server: "GET /about/ HTTP/1.1" 200 892
+2025-10-27 22:34:57,841 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:35:00,615 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:35:00,649 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:35:01,697 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:35:03,183 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 2276
+2025-10-27 22:35:04,994 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:35:05,024 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:36:24,449 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4487
+2025-10-27 22:36:24,476 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:36:54,509 [INFO] django.server: "GET / HTTP/1.1" 200 3820
+2025-10-27 22:36:54,552 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:36:57,089 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4487
+2025-10-27 22:38:29,550 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4486
+2025-10-27 22:38:29,570 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-27 22:38:29,570 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:38:51,142 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4483
+2025-10-27 22:39:57,541 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4368
+2025-10-27 22:39:57,572 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:42:23,441 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4608
+2025-10-27 22:42:23,476 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:42:37,476 [INFO] core: Login realizado: Kayke
+2025-10-27 22:42:37,518 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-27 22:42:37,534 [INFO] django.server: "GET / HTTP/1.1" 200 4138
+2025-10-27 22:42:45,930 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4926
+2025-10-27 22:42:54,504 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4926
+2025-10-27 22:48:16,290 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 22:48:17,284 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 22:49:30,676 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 22:49:31,679 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 22:49:51,696 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-27 22:49:52,695 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 22:51:02,958 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-27 22:51:03,872 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 22:51:08,880 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 41, in index
+    return render(request, "core/index.html", {"user": request.user if request.user.is_authenticated('home') else redirect('login')})
+                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+TypeError: 'bool' object is not callable
+2025-10-27 22:51:08,883 [ERROR] django.server: "GET / HTTP/1.1" 500 71048
+2025-10-27 22:53:56,441 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 22:53:57,427 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 22:54:12,249 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 22:54:13,166 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 22:54:17,838 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 22:54:17,998 [ERROR] django.request: Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 19, in home_view
+    return render(request, 'core/home.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 577, in invalid_block_tag
+    raise self.error(
+    ...<3 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+2025-10-27 22:54:18,005 [ERROR] django.server: "GET /home/ HTTP/1.1" 500 139367
+2025-10-27 22:55:22,919 [INFO] django.server: "GET /home/ HTTP/1.1" 200 279
+2025-10-27 22:55:22,946 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 22:55:38,810 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 22:55:38,816 [INFO] django.server: "GET /home/ HTTP/1.1" 200 279
+2025-10-27 22:57:04,708 [INFO] django.server: "GET /home/ HTTP/1.1" 200 314
+2025-10-27 22:57:47,351 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 22:57:47,380 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 23:07:12,342 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:07:12,450 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8148
+2025-10-27 23:09:00,018 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:09:00,047 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 1833
+2025-10-27 23:09:02,074 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:09:02,079 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:09:02,102 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 23:09:04,288 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:09:04,293 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:09:04,316 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 23:09:05,190 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:09:05,194 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:09:05,217 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 23:09:05,736 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:09:05,740 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:09:06,192 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:09:06,197 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:09:06,218 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 23:09:06,665 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:09:06,670 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:09:07,129 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:09:07,134 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:09:07,154 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 23:10:00,917 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 23:10:01,972 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 23:10:03,168 [INFO] django.server: "GET /home/ HTTP/1.1" 200 304
+2025-10-27 23:10:03,184 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-27 23:10:05,040 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,048 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,054 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,061 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,068 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,075 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,081 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,088 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,094 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,101 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,108 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,115 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,121 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,128 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,134 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,141 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,147 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,154 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,160 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:05,166 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,234 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,247 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,256 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,265 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,274 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,282 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,290 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,296 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,303 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,310 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,316 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,323 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,330 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,336 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,342 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,349 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,356 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,363 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,369 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:06,376 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,107 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,115 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,122 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,128 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,134 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,142 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,148 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,154 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,161 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,167 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,173 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,179 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,185 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,191 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,197 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,204 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,211 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,217 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,224 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:07,234 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,308 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,317 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,325 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,332 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,339 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,346 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,352 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,359 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,366 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,372 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,379 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,385 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,392 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,398 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,404 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,411 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,417 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,424 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,430 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:12,436 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,798 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,808 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,816 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,822 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,828 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,834 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,841 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,846 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,852 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,858 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,864 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,870 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,876 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,885 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,896 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,906 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,913 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,920 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,931 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:32,938 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:33,990 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,000 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,008 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,015 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,026 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,033 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,040 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,046 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,054 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,060 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,066 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,073 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,079 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,088 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,094 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,100 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,106 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,112 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,118 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,124 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,638 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,645 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,651 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,658 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,664 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,672 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,679 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,686 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,693 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,699 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,705 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,711 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,717 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,724 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,730 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,736 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,742 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,748 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,755 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:34,760 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,379 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,386 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,393 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,399 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,406 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,412 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,418 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,427 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,434 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,440 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,446 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,452 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,458 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,464 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,470 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,476 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,482 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,488 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,493 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:35,499 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,547 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,555 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,564 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,572 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,579 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,585 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,591 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,597 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,604 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,610 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,615 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,625 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,631 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,637 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,644 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,650 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,656 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,662 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,668 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:40,674 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:54,917 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 23:10:55,884 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 23:10:57,467 [INFO] django.server: "GET / HTTP/1.1" 302 0
+2025-10-27 23:10:57,479 [WARNING] django.request: Not Found: /index.html
+2025-10-27 23:10:57,480 [WARNING] django.server: "GET /index.html HTTP/1.1" 404 4010
+2025-10-27 23:12:29,148 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 23:12:30,093 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 23:13:12,616 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 23:13:13,599 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 23:13:41,286 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-27 23:14:22,802 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-27 23:14:23,779 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

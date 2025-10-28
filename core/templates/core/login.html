@@ -2,41 +2,86 @@
 {% load static %}
 {% block content %}
 
-<div class="flex flex-col items-center min-h-[80vh] mt-[-50px] py-10">
-    <div class="bg-amber-200 rounded-xl p-5 ">
-        <div class="text-center">
-            <h2 class="text-4xl font-semibold mb-8">Login</h2>
-        </div>
-        <hr>
-        <form method="post" class="flex flex-col space-y-6 w-full max-w-sm">
-            {% csrf_token %}
+<body class="overflow-hidden flex flex-col items-center relative">
+    <!-- TÍTULO CENTRAL -->
+    <header class="w-full text-center py-16 relative z-30">
+        <a href="{% url 'index' %}"
+            class="no-underline decoration-transparent hover:opacity-80 transition duration-200 inline-block"
+            style="text-decoration: none !important;">
+            <h1
+                class="text-4xl font-bold text-white flex items-center justify-center gap-2 drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                White Security
+                <span class="relative flex items-center">
+                    <span class="opacity-0 select-none">O</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none"
+                        class="w-12 h-12 absolute left-0 top-1/2 -translate-y-1/2 animate-spin-slow">
+                        <defs>
+                            <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="50%" stop-color="#c084fc" />
+                                <stop offset="100%" stop-color="#ffffff" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="50" cy="50" r="40" stroke="url(#ringGradient)" stroke-width="3" />
+                        <path d="M50 15 Q75 35 50 55 Q25 75 50 95" stroke="url(#ringGradient)" stroke-width="2"
+                            opacity="0.8" />
+                        <path d="M50 25 Q70 40 50 55 Q30 70 50 85" stroke="url(#ringGradient)" stroke-width="1.5"
+                            opacity="0.6" />
+                    </svg>
+                    <span class="ml-[1rem]">nion</span>
+                </span>
+            </h1>
+        </a>
+    </header>
 
-            <div class="flex flex-col w-full">
-                <label for="usuario" class="mb-2 text-lg font-semibold">Usuário</label>
-                <input id="usuario" name="username" type="text"
-                    class="border border-black rounded-2xl p-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    required>
+    <!-- MENU CENTRAL -->
+    <div class="flex flex-col items-center justify-center min-h-[50vh] relative z-20">
+        <div class="bg-white rounded-xl p-20 shadow-lg">
+            <div class="text-center">
+                <h2 class="text-4xl font-semibold mb-8">Login</h2>
             </div>
+            <hr class="mb-6">
 
-            <div class="flex flex-col w-full">
-                <label for="senha" class="mb-2 text-lg font-semibold">Senha</label>
-                <input id="senha" name="password" type="password"
-                    class="border border-black rounded-2xl p-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    required>
-            </div>
-
-            <div class="flex flex-col">
-                <button
-                    class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-2xl transition-colors"
-                    type="submit">
-                    Entrar
-                </button>
-                <div class="text-center my-3">
-                    <a href="{% url 'signup' %}" class="px-1 text-blue-600 hover:underline font-medium" style="text-decoration: none;">Cadastrar</a>
+            <form method="post" class="flex flex-col space-y-6 w-full max-w-sm">
+                {% csrf_token %}
+                <div class="flex flex-col w-full">
+                    <label for="usuario" class="mb-2 text-lg font-semibold">Usuário</label>
+                    <input id="usuario" name="username" type="text"
+                        class="border border-black rounded-2xl p-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        required>
                 </div>
-            </div>
-        </form>
+
+                <div class="flex flex-col w-full">
+                    <label for="senha" class="mb-2 text-lg font-semibold">Senha</label>
+                    <input id="senha" name="password" type="password"
+                        class="border border-black rounded-2xl p-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        required>
+                </div>
+
+                <div class="flex flex-col">
+                    <button
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-2xl transition-colors"
+                        type="submit">
+                        Entrar
+                    </button>
+                    <div class="text-center my-3">
+                        <a href="{% url 'signup' %}" class="px-1 text-blue-600 hover:underline font-medium"
+                            style="text-decoration: none;">
+                            Cadastrar
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
+
+    <!-- PLANETAS (fundo decorativo) -->
+    <div class="planet planet1 absolute z-10"></div>
+    <div class="planet planet2 absolute z-10"></div>
+
+    <!-- SCRIPTS -->
+    <script src="{% static 'js/script.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</body>
 
 {% endblock %}
