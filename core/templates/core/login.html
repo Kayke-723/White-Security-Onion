@@ -2,14 +2,18 @@
 {% load static %}
 {% block content %}
 
-<body class="overflow-hidden flex flex-col items-center relative">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body class="bg_Ceu overflow-hidden flex flex-col items-center relative">
     <!-- TÍTULO CENTRAL -->
     <header class="w-full text-center py-16 relative z-30">
         <a href="{% url 'index' %}"
             class="no-underline decoration-transparent hover:opacity-80 transition duration-200 inline-block"
             style="text-decoration: none !important;">
             <h1
-                class="text-4xl font-bold text-white flex items-center justify-center gap-2 drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                class=" text-4xl font-bold text-white flex items-center justify-center gap-2 drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
                 White Security
                 <span class="relative flex items-center">
                     <span class="opacity-0 select-none">O</span>
@@ -35,27 +39,27 @@
     </header>
 
     <!-- MENU CENTRAL -->
-    <div class="flex flex-col items-center justify-center min-h-[50vh] relative z-20">
-        <div class="bg-white rounded-xl p-20 shadow-lg">
-            <div class="text-center">
-                <h2 class="text-4xl font-semibold mb-8">Login</h2>
+    <div class="items-center min-h-[60vh] mt-[-50px] py-4 ">
+        <div class="border-white border-2 bg_CeuMenu rounded-xl p-5 ">
+            <div class=" text-center">
+                <h2 class="text-4xl font-semibold mb-8 text-white">Login</h2>
             </div>
             <hr class="mb-6">
 
             <form method="post" class="flex flex-col space-y-6 w-full max-w-sm">
                 {% csrf_token %}
                 <div class="flex flex-col w-full">
-                    <label for="usuario" class="mb-2 text-lg font-semibold">Usuário</label>
+                    <label for="usuario" class="mb-2  text-lg font-semibold text-white">Usuário</label>
                     <input id="usuario" name="username" type="text"
-                        class="border border-black rounded-2xl p-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        required>
+                        class="border bg-transparent placeholder-gray-800 border-white rounded-2xl p-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="Informe seu Usuário" required>
                 </div>
 
                 <div class="flex flex-col w-full">
-                    <label for="senha" class="mb-2 text-lg font-semibold">Senha</label>
+                    <label for="senha" class="mb-2 text-white text-lg font-semibold">Senha</label>
                     <input id="senha" name="password" type="password"
-                        class="border border-black rounded-2xl p-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        required>
+                        class="border  placeholder:text-gray-500 border-white rounded-2xl p-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        placeholder="Digite sua Senha" required>
                 </div>
 
                 <div class="flex flex-col">
@@ -81,7 +85,7 @@
 
     <!-- SCRIPTS -->
     <script src="{% static 'js/script.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
 </body>
 
 {% endblock %}

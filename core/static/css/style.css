@@ -61,12 +61,19 @@
 }
 
 /* ==== FUNDO ESPACIAL ==== */
-body {
+.bg_Ceu {
     background: radial-gradient(circle at 20% 30%, #150764, #13122d 60%, #000 100%);
     overflow: hidden;
     position: relative;
     height: 100vh;
     width: 100%;
+}
+
+.bg_CeuMenu {
+    background: radial-gradient(circle at 20% 30%, #1a0979, #201f4d 60%, #000 100%);
+    overflow: hidden;
+    position: relative;
+
 }
 
 /* Efeito de estrelas */
@@ -201,7 +208,7 @@ body::after {
     position: absolute;
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.3);
-    animation: spin 15s linear infinite;
+    animation: spin 15s reverse infinite;
 }
 
 .onion::before {
@@ -233,9 +240,10 @@ body::after {
 
 .onion.active {
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1);
     filter: none;
     z-index: 20;
+
 }
 
 .content {
@@ -279,9 +287,56 @@ body {
     overflow-x: hidden;
 }
 
-/* Impede elementos decorativos de bloquear cliques */
+/* ======== Fundo decorativo fixo ======== */
+
+/* Planetas permanecem absolutos em relação ao body */
 .planet,
-.bg,
-.overlay {
+.planet1,
+.planet2 {
+    position: fixed !important;
+    /* fica fixo no fundo */
+    z-index: 0 !important;
+    /* atrás do conteúdo */
     pointer-events: none !important;
+    /* não bloqueia cliques */
+}
+
+/* Garante que o conteúdo principal fique clicável acima */
+header,
+main,
+footer,
+form,
+button,
+input,
+a,
+label,
+h1,
+h2,
+div {
+    position: relative;
+    z-index: 10;
+}
+
+input,
+select,
+textarea {
+    color: white !important;
+}
+
+::placeholder {
+    color: #606369;
+    /* placeholder em cinza claro */
+}
+
+.image {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #a78bfa 0%, #7c3aed 30%, #5b21b6 60%, #4c1d95 100%);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
 }

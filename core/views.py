@@ -66,7 +66,7 @@ def login_view(request):
         if user is not None:
             login(request, user) 
             registrar_log(f"Login realizado: {user.username}", user=user)
-            return redirect('index')
+            return redirect('home')
         else:
             messages.error(request, "Usuário ou senha inválidos.")
             registrar_log(f"Tentativa de login falha: {username}", level='WARNING')
