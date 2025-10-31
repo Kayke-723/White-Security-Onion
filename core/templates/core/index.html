@@ -60,24 +60,27 @@
 
     <!-- CONTAINER DAS CEBOLAS -->
     <main id="onionContainer"
-        class="flex gap-20 py-30 items-center justify-center flex-grow relative mb-12 z-20 select-none">
+        class=" flex gap-20 py-30 items-center justify-center flex-grow relative mb-12 z-20 select-none">
 
         <!-- SOBRE -->
-        <a href="{% url 'about' %}" class="onion active onion-link " data-target="{% url 'about' %}">
+        <a href="{% url 'about' %}" class="transition-transform hover:scale-110 onion active onion-link "
+            data-target="{% url 'about' %}">
             <div class="content pointer-events-none">
                 <h2 class="text-3xl font-bold">Sobre</h2>
             </div>
         </a>
 
         <!-- LOGIN -->
-        <a href="{% url 'login' %}" class="onion active onion-link" data-target="{% url 'login' %}">
+        <a href="{% url 'login' %}" class="transition-transform hover:scale-110 onion active onion-link"
+            data-target="{% url 'login' %}">
             <div class="content pointer-events-none">
                 <h2 class="text-3xl font-bold">Entrar</h2>
             </div>
         </a>
 
         <!-- CADASTRO -->
-        <a href="{% url 'signup' %}" class="onion active onion-link" data-target="{% url 'signup' %}">
+        <a href="{% url 'signup' %}" class="transition-transform hover:scale-110 onion active onion-link"
+            data-target="{% url 'signup' %}">
             <div class="content pointer-events-none">
                 <h2 class="text-3xl font-bold">Cadastro</h2>
             </div>

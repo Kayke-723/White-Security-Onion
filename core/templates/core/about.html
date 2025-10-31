@@ -19,7 +19,7 @@
 
 <body class="bg_Ceu">
     <!-- TÍTULO CENTRAL -->
-    <header class="left-7  relative ">
+    <header class="left-7 flex justify-items-center relative gap-x-10">
         <a href="{% url 'index' %}"
             class="no-underline decoration-transparent hover:opacity-80 transition duration-200 inline-block"
             style="text-decoration: none !important;">
@@ -47,7 +47,21 @@
                 </span>
             </h1>
         </a>
+        <div
+            class="py-3 left-10 bg_Ceumenu-opacity-5 border-4 border-gray-400 rounded-full w-91.8 felx justify-between">
+            <a href="{% url 'login' %}"
+                class="hover:bg-white/20 bg-cover rounded-full py-3 px-5 text-gray-200 text-2xl font-bold">Entrar</a>
+            <a href="{% url 'signup' %}"
+                class="hover:bg-white/20 bg-cover rounded-full py-3 px-4 text-gray-200 text-2xl font-bold">Cadastrar</a>
+            <a href="{% url 'index' %}"
+                class="hover:bg-red-400/50 bg-cover rounded-full py-3 px-4 text-gray-200 text-2xl font-bold">Voltar</a>
+
+        </div>
+
     </header>
+
+
+
     <p class="text-white text-4xl py-20 text-center font-semibold">O que você encontrará em nosso Site </p>
 
 

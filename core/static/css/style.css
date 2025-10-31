@@ -194,7 +194,7 @@ body::after {
     width: 380px;
     height: 380px;
     border-radius: 50%;
-    background: radial-gradient(circle at center, #a78bfa 0%, #7c3aed 30%, #5b21b6 60%, #4c1d95 100%);
+    background: radial-gradient(circle at center, #a78bfab0 0%, #7c3aedba 30%, #5a21b6ba 60%, #4d1d95b7 100%);
     box-shadow: 0 0 40px rgba(255, 255, 255, 0.15);
     display: flex;
     justify-content: center;
@@ -384,12 +384,13 @@ html {
     width: 480px;
     height: 480px;
     border-radius: 50%;
-    background: radial-gradient(circle at center, #a78bfa 0%, #7c3aed 30%, #5b21b6 60%, #4c1d95 100%);
-    box-shadow: 0 0 40px rgba(255, 255, 255, 0.15);
+    background: radial-gradient(circle at center, #a78bfac3 0%, #7c3aedbc 30%, #5a21b6b6 60%, #4d1d95b5 100%);
+    box-shadow: 0 0 45px rgba(255, 255, 255, 0.155);
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.8s ease;
+
 }
 
 .onionSolid::before,

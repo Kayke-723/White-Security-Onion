@@ -6852,3 +6852,626 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 2: 'bl
 2025-10-30 21:21:08,198 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
 2025-10-30 21:21:34,020 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
 2025-10-30 21:21:35,013 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-30 21:22:33,515 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6486
+2025-10-30 21:22:33,532 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 21:22:37,189 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6486
+2025-10-30 21:23:05,224 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:23:23,697 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:23:39,468 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3741
+2025-10-30 21:23:44,154 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:23:46,944 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:23:56,979 [INFO] core: Login realizado: Admin
+2025-10-30 21:23:57,015 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-30 21:23:57,026 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6486
+2025-10-30 21:24:00,667 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6486
+2025-10-30 21:24:01,161 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6486
+2025-10-30 21:25:42,355 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6486
+2025-10-30 21:25:45,870 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5263
+2025-10-30 21:37:43,476 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 4854
+2025-10-30 21:37:43,497 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 21:38:22,047 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5407
+2025-10-30 21:38:38,149 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:38:39,721 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:39:08,782 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:39:10,500 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:39:11,988 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5437
+2025-10-30 21:39:14,578 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:39:15,477 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:39:16,751 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:39:17,555 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5437
+2025-10-30 21:39:19,058 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:39:21,201 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5437
+2025-10-30 21:39:26,554 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:39:27,477 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:40:01,025 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:40:02,933 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:40:04,437 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-30 21:40:08,706 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:40:09,790 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:40:11,574 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:40:12,411 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-30 21:40:14,354 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:40:16,076 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:40:56,255 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-30 21:40:59,185 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:41:00,240 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 21:43:59,153 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 21:43:59,178 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 21:44:08,751 [INFO] core: Login realizado: Admin
+2025-10-30 21:44:08,784 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-30 21:44:08,796 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6486
+2025-10-30 21:44:39,067 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6504
+2025-10-30 21:45:25,229 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6576
+2025-10-30 21:46:06,027 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 750
+2025-10-30 21:59:35,941 [INFO] django.server: "GET /home/ HTTP/1.1" 200 7270
+2025-10-30 21:59:35,958 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 21:59:41,912 [INFO] django.server: "GET /home/ HTTP/1.1" 200 7270
+2025-10-30 21:59:42,203 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-30 21:59:42,213 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 21:59:42,223 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8943
+2025-10-30 21:59:42,226 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-30 21:59:42,385 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 21:59:42,386 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:00:54,542 [INFO] django.server: "GET /home/ HTTP/1.1" 200 7287
+2025-10-30 22:00:54,568 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8943
+2025-10-30 22:00:54,568 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-30 22:00:54,569 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:00:54,579 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-30 22:00:59,102 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:00:59,102 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:02:06,510 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6590
+2025-10-30 22:02:06,530 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8943
+2025-10-30 22:02:06,530 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:02:06,533 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-30 22:02:06,541 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-30 22:02:10,642 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:02:10,643 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:02:37,183 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6591
+2025-10-30 22:05:49,587 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6537
+2025-10-30 22:05:49,611 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:05:49,611 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8943
+2025-10-30 22:05:49,611 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 979
+2025-10-30 22:05:49,631 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-30 22:05:50,412 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:05:50,413 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:07:37,528 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-30 22:09:42,692 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6629
+2025-10-30 22:11:30,257 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-30 22:11:31,221 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 22:11:32,582 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 22:11:34,489 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3741
+2025-10-30 22:12:45,546 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3359
+2025-10-30 22:13:21,438 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3184
+2025-10-30 22:13:33,692 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 22:13:33,716 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:13:35,131 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 22:13:41,647 [INFO] core: Login realizado: Admin
+2025-10-30 22:13:42,027 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-30 22:13:42,038 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-30 22:16:07,526 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-30 22:16:10,766 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 22:16:11,782 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3252
+2025-10-30 22:16:11,821 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 561957
+2025-10-30 22:18:37,316 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3273
+2025-10-30 22:18:38,538 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3273
+2025-10-30 22:18:38,554 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:18:38,555 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8943
+2025-10-30 22:18:38,975 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:18:38,976 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:19:09,979 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3285
+2025-10-30 22:19:17,869 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3253
+2025-10-30 22:19:19,216 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3253
+2025-10-30 22:19:19,234 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8943
+2025-10-30 22:19:19,235 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:19:19,675 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:19:19,676 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:19:45,736 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3272
+2025-10-30 22:19:45,754 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:20:24,140 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3284
+2025-10-30 22:20:24,155 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:20:25,546 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3284
+2025-10-30 22:20:25,568 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8943
+2025-10-30 22:20:25,568 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:20:25,574 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 561957
+2025-10-30 22:20:25,962 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:20:25,962 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:21:15,467 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3287
+2025-10-30 22:21:15,484 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:21:16,535 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3287
+2025-10-30 22:21:16,556 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 8943
+2025-10-30 22:21:16,556 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:21:16,561 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 561957
+2025-10-30 22:21:17,007 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:21:17,007 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:21:26,616 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3286
+2025-10-30 22:21:27,698 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3286
+2025-10-30 22:21:38,343 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3285
+2025-10-30 22:25:54,963 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3285
+2025-10-30 22:25:54,989 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 22:26:42,577 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3296
+2025-10-30 22:26:42,598 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:28:01,744 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3296
+2025-10-30 22:28:01,760 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:29:24,330 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3300
+2025-10-30 22:29:24,348 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:30:19,838 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3303
+2025-10-30 22:30:19,855 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:31:10,274 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3303
+2025-10-30 22:31:10,291 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9616
+2025-10-30 22:31:10,293 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:31:26,308 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3303
+2025-10-30 22:31:26,324 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9616
+2025-10-30 22:31:40,701 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3303
+2025-10-30 22:31:40,719 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9616
+2025-10-30 22:32:09,184 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3299
+2025-10-30 22:32:09,199 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:32:09,199 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:32:24,072 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3299
+2025-10-30 22:32:24,090 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:32:44,116 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3299
+2025-10-30 22:32:44,132 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9618
+2025-10-30 22:33:20,039 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3454
+2025-10-30 22:33:20,053 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:33:20,054 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:33:38,200 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3461
+2025-10-30 22:33:38,219 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:33:46,032 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3462
+2025-10-30 22:33:46,050 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:34:08,788 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3462
+2025-10-30 22:34:08,804 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:34:08,805 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:35:51,738 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3540
+2025-10-30 22:35:51,753 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:35:51,753 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:36:03,639 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3545
+2025-10-30 22:36:16,322 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3546
+2025-10-30 22:36:16,337 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:36:29,831 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3558
+2025-10-30 22:36:50,547 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3572
+2025-10-30 22:36:50,564 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:37:05,805 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3530
+2025-10-30 22:37:05,819 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:37:19,849 [INFO] django.server: "GET /about/ HTTP/1.1" 200 2982
+2025-10-30 22:37:19,863 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:37:45,642 [INFO] django.server: "GET /about/ HTTP/1.1" 200 2831
+2025-10-30 22:38:29,766 [INFO] django.server: "GET /about/ HTTP/1.1" 200 2831
+2025-10-30 22:38:29,788 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9618
+2025-10-30 22:38:29,788 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:39:26,525 [INFO] django.server: "GET /about/ HTTP/1.1" 200 2831
+2025-10-30 22:39:26,538 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9618
+2025-10-30 22:39:38,310 [INFO] django.server: "GET /about/ HTTP/1.1" 200 2831
+2025-10-30 22:39:38,328 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:43:41,483 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3689
+2025-10-30 22:43:41,503 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:43:41,506 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:47:15,891 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3673
+2025-10-30 22:47:15,910 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:47:15,910 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:50:15,592 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3673
+2025-10-30 22:50:15,613 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:50:15,614 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:50:18,325 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3673
+2025-10-30 22:50:18,349 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:50:18,350 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9618
+2025-10-30 22:50:18,352 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 22:50:18,641 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:50:18,641 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:50:24,301 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3400
+2025-10-30 22:50:47,132 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3445
+2025-10-30 22:51:03,220 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3448
+2025-10-30 22:52:07,268 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3448
+2025-10-30 22:52:07,283 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:52:08,942 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3448
+2025-10-30 22:52:08,963 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:52:08,963 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9618
+2025-10-30 22:52:08,993 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-30 22:52:09,265 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:52:09,266 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 22:52:12,383 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3673
+2025-10-30 22:52:39,394 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3550
+2025-10-30 22:53:17,499 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3590
+2025-10-30 22:53:17,513 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:53:55,659 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3590
+2025-10-30 22:53:55,677 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9616
+2025-10-30 22:54:19,022 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3590
+2025-10-30 22:54:19,038 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 9711
+2025-10-30 22:55:57,710 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3592
+2025-10-30 22:55:57,725 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10487
+2025-10-30 22:56:39,143 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3592
+2025-10-30 22:56:39,158 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 22:56:39,159 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 22:57:23,263 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3611
+2025-10-30 22:57:23,281 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:58:03,681 [INFO] django.server: "GET /about/ HTTP/1.1" 200 3606
+2025-10-30 22:58:03,696 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:58:49,754 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4719
+2025-10-30 22:58:49,771 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:59:12,504 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4745
+2025-10-30 22:59:12,518 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 22:59:13,539 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4745
+2025-10-30 22:59:13,561 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 22:59:13,562 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 22:59:13,565 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 22:59:14,436 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 22:59:14,436 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:00:15,396 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4769
+2025-10-30 23:00:15,412 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:00:16,414 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4769
+2025-10-30 23:00:16,435 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:00:16,435 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:00:16,439 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:00:17,038 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:00:17,039 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:01:58,710 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4769
+2025-10-30 23:01:58,731 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:02:27,434 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4850
+2025-10-30 23:02:28,560 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4850
+2025-10-30 23:02:28,585 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:02:28,586 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:02:28,588 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:02:28,989 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:02:28,989 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:02:48,707 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4892
+2025-10-30 23:02:58,616 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4883
+2025-10-30 23:03:10,617 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4889
+2025-10-30 23:03:10,632 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:03:35,437 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4890
+2025-10-30 23:03:48,318 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4691
+2025-10-30 23:03:49,414 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4691
+2025-10-30 23:03:49,433 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:03:49,436 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:03:49,439 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:03:49,859 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:03:49,859 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:03:59,526 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4838
+2025-10-30 23:04:13,205 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4836
+2025-10-30 23:04:22,756 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4837
+2025-10-30 23:04:30,553 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4837
+2025-10-30 23:04:31,627 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4837
+2025-10-30 23:04:46,481 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4838
+2025-10-30 23:04:46,499 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:05:03,599 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4837
+2025-10-30 23:05:11,605 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4837
+2025-10-30 23:06:05,619 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4753
+2025-10-30 23:06:05,636 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:06:20,964 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4766
+2025-10-30 23:06:21,983 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4766
+2025-10-30 23:06:22,008 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:06:22,009 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:06:22,010 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:06:22,440 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:06:22,441 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:06:40,321 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4771
+2025-10-30 23:06:56,282 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4786
+2025-10-30 23:06:57,285 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4786
+2025-10-30 23:06:57,309 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:06:57,309 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:06:57,312 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:06:57,751 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:06:57,751 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:09:47,992 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4815
+2025-10-30 23:09:48,013 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:10:09,585 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4820
+2025-10-30 23:10:10,419 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4820
+2025-10-30 23:10:27,074 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4816
+2025-10-30 23:10:50,874 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4815
+2025-10-30 23:11:02,338 [INFO] django.server: "GET /about/ HTTP/1.1" 200 4822
+2025-10-30 23:11:17,531 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5864
+2025-10-30 23:11:17,545 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 23:11:17,545 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:11:31,014 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5864
+2025-10-30 23:11:50,385 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5880
+2025-10-30 23:12:40,861 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5848
+2025-10-30 23:12:57,558 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5808
+2025-10-30 23:12:57,576 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:13:15,210 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5770
+2025-10-30 23:13:16,365 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5770
+2025-10-30 23:13:16,388 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:13:16,388 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:13:16,391 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:13:16,821 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:13:16,821 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:13:37,594 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5781
+2025-10-30 23:13:51,243 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5781
+2025-10-30 23:13:53,941 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5781
+2025-10-30 23:13:53,964 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:13:53,965 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:13:53,967 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:13:54,996 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:13:54,996 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:14:03,127 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5765
+2025-10-30 23:14:26,748 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5773
+2025-10-30 23:14:28,868 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5773
+2025-10-30 23:14:28,893 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:14:28,893 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:14:28,895 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:14:29,218 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:14:29,218 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:14:58,696 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5766
+2025-10-30 23:15:11,034 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5766
+2025-10-30 23:15:12,282 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5766
+2025-10-30 23:15:13,067 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5766
+2025-10-30 23:15:21,701 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5759
+2025-10-30 23:15:22,682 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5759
+2025-10-30 23:15:41,623 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5763
+2025-10-30 23:15:59,139 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5769
+2025-10-30 23:16:00,147 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5769
+2025-10-30 23:16:00,169 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:16:00,169 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:16:00,171 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:16:00,509 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:16:00,510 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:16:10,090 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5770
+2025-10-30 23:16:26,179 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5764
+2025-10-30 23:16:38,417 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5771
+2025-10-30 23:18:10,604 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5779
+2025-10-30 23:18:10,619 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:20:01,154 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 23:20:01,185 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-30 23:20:02,511 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-30 23:20:09,040 [INFO] core: Login realizado: Admin
+2025-10-30 23:20:09,075 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-30 23:20:09,085 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-30 23:22:12,364 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 23:22:12,451 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:22:13,026 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:22:13,026 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:23:34,831 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5701
+2025-10-30 23:23:34,862 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 304 0
+2025-10-30 23:23:35,031 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4'
+2025-10-30 23:23:35,034 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4' HTTP/1.1" 404 4638
+2025-10-30 23:23:41,726 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5701
+2025-10-30 23:23:41,878 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4'
+2025-10-30 23:23:41,879 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4' HTTP/1.1" 404 4638
+2025-10-30 23:28:50,717 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5890
+2025-10-30 23:28:50,732 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:28:51,013 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4}'
+2025-10-30 23:28:51,013 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4%7D' HTTP/1.1" 404 4643
+2025-10-30 23:29:00,319 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5890
+2025-10-30 23:29:00,344 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:29:00,345 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:29:00,348 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:29:00,554 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4}'
+2025-10-30 23:29:00,554 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4%7D' HTTP/1.1" 404 4643
+2025-10-30 23:29:00,638 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:29:00,638 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:29:15,909 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5890
+2025-10-30 23:29:15,928 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:29:15,929 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:29:15,931 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:29:16,101 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4}'
+2025-10-30 23:29:16,102 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4%7D' HTTP/1.1" 404 4643
+2025-10-30 23:29:16,160 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:29:16,160 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:30:02,284 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5884
+2025-10-30 23:30:02,509 [WARNING] django.request: Not Found: /about/static/videos/home.mp4
+2025-10-30 23:30:02,509 [WARNING] django.server: "GET /about/static/videos/home.mp4 HTTP/1.1" 404 4585
+2025-10-30 23:31:04,647 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5879
+2025-10-30 23:31:04,669 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:31:04,670 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:31:04,672 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:31:05,004 [WARNING] django.request: Not Found: /about/videos/home.mp4
+2025-10-30 23:31:05,005 [WARNING] django.server: "GET /about/videos/home.mp4 HTTP/1.1" 404 4564
+2025-10-30 23:31:05,078 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:31:05,078 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:31:39,463 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5889
+2025-10-30 23:31:39,482 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:31:39,482 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:31:39,485 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:31:39,753 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4'
+2025-10-30 23:31:39,754 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4' HTTP/1.1" 404 4638
+2025-10-30 23:31:39,827 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:31:39,827 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:31:49,554 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5872
+2025-10-30 23:31:49,711 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4'
+2025-10-30 23:31:49,712 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4' HTTP/1.1" 404 4638
+2025-10-30 23:32:12,855 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5872
+2025-10-30 23:32:12,878 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:32:12,878 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:32:12,880 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:32:13,145 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4'
+2025-10-30 23:32:13,146 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4' HTTP/1.1" 404 4638
+2025-10-30 23:32:13,227 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:32:13,228 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:35:08,328 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5881
+2025-10-30 23:35:08,658 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4'
+2025-10-30 23:35:08,658 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4' HTTP/1.1" 404 4638
+2025-10-30 23:35:31,112 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5808
+2025-10-30 23:35:31,136 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:35:31,136 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:35:31,138 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:35:31,407 [WARNING] django.request: Not Found: /about/{% static 'videos/home.mp4'
+2025-10-30 23:35:31,407 [WARNING] django.server: "GET /about/%7B%%20static%20'videos/home.mp4' HTTP/1.1" 404 4638
+2025-10-30 23:35:31,471 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:35:31,472 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:39:12,643 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5781
+2025-10-30 23:39:12,665 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:39:12,665 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:39:12,670 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:39:13,183 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:39:13,183 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:39:45,942 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5797
+2025-10-30 23:39:45,962 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:39:45,962 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:39:45,964 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:39:46,246 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:39:46,246 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:40:37,785 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5806
+2025-10-30 23:40:37,805 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:40:37,805 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:40:37,808 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:40:38,099 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:40:38,099 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:44:04,038 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5815
+2025-10-30 23:44:04,063 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:44:04,064 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:44:04,066 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:44:04,575 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:44:04,575 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:45:36,063 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5819
+2025-10-30 23:45:36,087 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:45:36,087 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10493
+2025-10-30 23:45:36,090 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:45:36,430 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-30 23:45:36,546 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:45:36,546 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:46:41,496 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5825
+2025-10-30 23:48:32,629 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5846
+2025-10-30 23:48:32,654 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10644
+2025-10-30 23:48:32,654 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:48:32,656 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:48:33,166 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-30 23:48:33,228 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:48:33,229 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:49:06,239 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5847
+2025-10-30 23:49:06,259 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:49:06,260 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10644
+2025-10-30 23:49:06,261 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:49:06,729 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:49:06,730 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:49:22,371 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5847
+2025-10-30 23:49:22,390 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:49:51,013 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5847
+2025-10-30 23:49:51,033 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:49:51,033 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10643
+2025-10-30 23:49:51,035 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:49:51,451 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:49:51,452 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:50:09,769 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5847
+2025-10-30 23:50:09,792 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10643
+2025-10-30 23:50:09,792 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:50:09,794 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:50:10,138 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:50:10,138 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:51:03,173 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5847
+2025-10-30 23:51:03,196 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:51:03,196 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10643
+2025-10-30 23:51:03,198 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:51:03,613 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:51:03,613 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:51:15,118 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5834
+2025-10-30 23:51:15,132 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:51:29,739 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5847
+2025-10-30 23:51:29,761 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:51:29,762 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10643
+2025-10-30 23:51:29,765 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:51:30,152 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:51:30,153 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:52:11,532 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5847
+2025-10-30 23:52:11,553 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:52:11,553 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10644
+2025-10-30 23:52:11,555 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:52:11,948 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:52:11,948 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:54:07,773 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5863
+2025-10-30 23:54:07,802 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:54:07,803 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11057
+2025-10-30 23:54:07,806 [INFO] django.server: "GET /static/imagens/home.png HTTP/1.1" 200 234020
+2025-10-30 23:54:08,288 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-30 23:54:08,374 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:54:08,374 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:55:00,395 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6031
+2025-10-30 23:55:00,412 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:55:00,412 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11057
+2025-10-30 23:55:05,638 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:55:05,638 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:55:17,336 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-30 23:55:17,361 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:55:17,361 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-30 23:55:48,810 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6031
+2025-10-30 23:55:48,832 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-30 23:55:49,064 [INFO] django.server: - Broken pipe from ('127.0.0.1', 51671)
+2025-10-30 23:55:49,065 [INFO] django.server: - Broken pipe from ('127.0.0.1', 64963)
+2025-10-30 23:55:49,260 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-30 23:57:24,171 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6031
+2025-10-30 23:57:24,195 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:57:24,196 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11055
+2025-10-30 23:57:24,765 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-30 23:57:25,403 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:57:25,403 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:57:55,058 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6031
+2025-10-30 23:57:55,076 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:57:55,077 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11055
+2025-10-30 23:57:55,685 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:57:55,685 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:58:27,914 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6031
+2025-10-30 23:58:27,937 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11055
+2025-10-30 23:58:27,937 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:58:28,574 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:58:28,575 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:58:57,121 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6006
+2025-10-30 23:58:57,138 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11055
+2025-10-30 23:58:57,138 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:58:57,559 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:58:57,559 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-30 23:59:45,130 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6006
+2025-10-30 23:59:45,148 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-30 23:59:45,149 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11055
+2025-10-30 23:59:45,753 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-30 23:59:45,888 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-30 23:59:45,889 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:00:24,932 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6006
+2025-10-31 00:00:24,957 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 00:00:24,958 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11055
+2025-10-31 00:00:25,566 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 00:00:25,567 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:00:57,433 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6006
+2025-10-31 00:00:57,456 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 00:00:57,456 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11053
+2025-10-31 00:00:58,002 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 00:00:58,003 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:01:31,858 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6006
+2025-10-31 00:01:31,886 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11055
+2025-10-31 00:01:31,886 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 00:01:32,467 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 00:01:32,467 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:02:14,694 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6006
+2025-10-31 00:02:14,713 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 00:02:14,713 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11043
+2025-10-31 00:02:15,343 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 00:02:15,344 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:02:26,337 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6006
+2025-10-31 00:02:26,358 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 00:02:26,358 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 00:02:26,722 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 00:02:26,723 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:02:51,574 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6006
+2025-10-31 00:02:51,592 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 00:02:51,592 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11047
+2025-10-31 00:02:52,158 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 00:02:52,158 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:03:15,776 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6006
+2025-10-31 00:03:15,793 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 00:03:15,793 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 00:03:16,133 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 00:03:16,133 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:04:09,267 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5989
+2025-10-31 00:04:09,287 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 00:04:09,287 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 00:04:09,957 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 00:04:09,957 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:04:21,027 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5989
+2025-10-31 00:04:21,044 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 00:04:36,106 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5989
+2025-10-31 00:04:36,129 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 00:04:36,130 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 00:04:37,516 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 00:04:37,516 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 00:04:43,243 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-31 00:04:43,268 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-31 00:04:44,916 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5989
+2025-10-31 00:04:44,940 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 00:04:45,058 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 304 0
+2025-10-31 00:04:49,448 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-31 00:05:03,682 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5989
+2025-10-31 00:05:03,712 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 00:05:03,933 [INFO] django.server: - Broken pipe from ('127.0.0.1', 58036)
+2025-10-31 00:05:03,934 [INFO] django.server: - Broken pipe from ('127.0.0.1', 54891)
+2025-10-31 00:05:04,130 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 00:05:27,358 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5989
+2025-10-31 00:05:27,376 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 00:09:40,322 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-31 00:09:40,349 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 00:09:42,355 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 00:09:44,041 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-31 09:51:17,250 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
