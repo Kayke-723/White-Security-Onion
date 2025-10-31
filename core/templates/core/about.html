@@ -48,26 +48,90 @@
             </h1>
         </a>
     </header>
-    <div class="text-3xl text-center text-white">
-        <a href="{% url 'index'%}">Página de Inicial</a>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round"
-                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-        </svg>
-    </div>
+    <p class="text-white text-4xl py-20 text-center font-semibold">O que você encontrará em nosso Site </p>
 
 
-    <div class="text-2xl py-10 text-white">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, ipsam? Eos architecto amet tenetur dolorum
-            temporibus maiores! Eligendi voluptas impedit exercitationem provident sint recusandae, vel iure amet eum
-            incidunt
-            nesciunt!</p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium repudiandae natus, id nobis ex
-        cupiditate accusamus perferendis assumenda unde culpa iure, ullam officiis? Doloremque, recusandae? Non ex rem
-        voluptas?
-    </div>
+    <body" class="flex justify-items-center gap-40 ">
+        <div class=" group h-96 w-96 [perspective:1000px]">
+            <div
+                class="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <!-- Frente do card -->
+                <div class="absolute inset-0 backface-hidden">
+                    <!-- Conteúdo da frente -->
+                    <div class="onionSolid">
+                        <h1 class="text-4xl font-semibold text-white">Home</h1>
+                    </div>
+
+                </div>
+                <!-- Verso do card -->
+                <div class="absolute inset-0 backface-hidden [transform:rotateY(180deg)]">
+                    <!-- Conteúdo do verso -->
+                    <div class="onionImg video-container">
+                        <video class="video-redondo" controls autoplay muted>
+                            <source src="{% static 'videos/home.mp4' %}" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="group h-96 w-96 [perspective:1000px]">
+            <div
+                class="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <!-- Frente do card -->
+                <div class="absolute inset-0 backface-hidden">
+                    <!-- Conteúdo da frente -->
+                    <div class="onionSolid">
+                        <h1 class="text-4xl font-semibold text-white">Funções</h1>
+                    </div>
+
+                </div>
+                <!-- Verso do card -->
+                <div class="absolute inset-0 backface-hidden [transform:rotateY(180deg)]">
+                    <!-- Conteúdo do verso -->
+                    <div class="onionImg video-container">
+                        <video class="video-redondo" width="500" height="500" controls autoplay muted>
+                            <source src="{% static 'videos/home.mp4' %}">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="group h-96 w-96 [perspective:1000px]">
+            <div
+                class="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <!-- Frente do card -->
+                <div class="absolute inset-0 backface-hidden">
+                    <!-- Conteúdo da frente -->
+                    <div class="onionSolid">
+                        <h1 class="text-4xl font-semibold text-white">Seu Perfil</h1>
+                    </div>
+
+                </div>
+                <!-- Verso do card -->
+                <div class="absolute inset-0 backface-hidden [transform:rotateY(180deg)]">
+                    <!-- Conteúdo do verso -->
+                    <div class="onionImg video-container">
+                        <video class="video-redondo" width="500" height="500" controls autoplay muted>
+                            <source src="{% static 'videos/home.mp4' %}" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
 </body>
+
+
+
+</body>
+
+
+
 
 </html>
 {% endblock content %}

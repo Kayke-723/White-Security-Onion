@@ -27,3 +27,10 @@ onions.forEach((onion) => {
         }
     })
 })
+
+const flipper = document.getElementById('flipper')
+const container = flipper.parentElement
+
+container.addEventListener('click', () => {
+    flipper.classList.toggle('rotate-y-180')
+})

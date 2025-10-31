@@ -12,6 +12,12 @@ import logging
 
 logger = logging.getLogger('core')
 
+def profile_view(request):
+    return render(request, 'core/profile.html')
+
+def terms_view(request):
+    return render(request, 'core/terms_conditions.html')
+
 def about_view(request):
     return render(request, 'core/about.html')
 
