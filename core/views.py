@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
-from .forms import SignUpForm
+from .forms import SignUpForm, UpdateProfileForm
 from .models import Log, Process
 from django.contrib.auth.models import User
 from datetime import datetime
@@ -12,8 +12,37 @@ import logging
 
 logger = logging.getLogger('core')
 
+@login_required
 def profile_view(request):
     return render(request, 'core/profile.html')
+
+@login_required
+def update_profile(request):
+    if request.method == 'POST':
+        old_user = request.user  # guarda o usuário atual (antes das alterações)
+        old_username = old_user.username
+        old_email = old_user.email
+
+        form = UpdateProfileForm(request.POST, instance=old_user)
+        if form.is_valid():
+            user = form.save()
+
+            # Verifica se o nome foi alterado
+            if old_username != user.username:
+                registrar_log(f"{user} alterou o nome de '{old_username}' para '{user.username}'", user=user)
+
+            # Verifica se o e-mail foi alterado
+            if old_email != user.email:
+                registrar_log(f"{user} alterou o e-mail de '{old_email}' para '{user.email}'", user=user)
+
+            messages.success(request, 'Perfil atualizado com sucesso!')
+            return redirect('profile')
+    else:
+        form = UpdateProfileForm(instance=request.user)
+
+    return render(request, 'update_profile.html', {'form': form})
+
+
 
 def terms_view(request):
     return render(request, 'core/terms_conditions.html')

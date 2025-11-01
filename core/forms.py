@@ -4,6 +4,12 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 
 
+class UpdateProfileForm(forms.ModelForm):
+    class Meta:
+        model = User
+        fields = ['username', 'email']
+
+
 class SignUpForm(UserCreationForm):
     email = forms.EmailField(required=True) 
 
@@ -16,7 +22,7 @@ class SignUpForm(UserCreationForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         # Aplica o mesmo estilo a todos os campos do formulário
-        for field_name, field in self.fields.items():
+        for User, field in self.fields.items():
             field.widget.attrs.update({
                 'class': 'border border-white rounded-2xl p-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500 text-white bg-transparent placeholder-gray-300'
             })

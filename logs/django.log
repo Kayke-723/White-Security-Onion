@@ -7475,3 +7475,1828 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 2: 'bl
 2025-10-31 00:09:42,355 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
 2025-10-31 00:09:44,041 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
 2025-10-31 09:51:17,250 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 09:51:24,644 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-31 09:51:25,121 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 09:51:25,222 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-31 09:51:26,753 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 09:51:26,754 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 09:52:13,692 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5972
+2025-10-31 09:52:13,900 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 304 0
+2025-10-31 09:53:18,851 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5931
+2025-10-31 09:54:22,600 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5931
+2025-10-31 09:54:39,638 [INFO] django.server: "GET / HTTP/1.1" 200 4044
+2025-10-31 09:56:20,012 [INFO] django.server: "GET / HTTP/1.1" 200 4069
+2025-10-31 09:56:20,488 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 09:56:20,496 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 09:56:20,579 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 09:56:20,765 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 09:56:20,766 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 09:58:20,406 [INFO] django.server: "GET / HTTP/1.1" 200 4095
+2025-10-31 09:58:42,904 [INFO] django.server: "GET / HTTP/1.1" 200 4108
+2025-10-31 09:58:42,937 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 09:58:42,938 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 09:58:42,938 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 09:58:43,300 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 09:58:43,301 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 09:59:09,846 [INFO] django.server: "GET / HTTP/1.1" 200 4159
+2025-10-31 09:59:09,872 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 09:59:09,876 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 09:59:09,877 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 09:59:10,230 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 09:59:10,231 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 09:59:16,271 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-31 10:00:33,506 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 10:00:33,538 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:00:33,539 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 10:00:33,539 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:00:33,902 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:00:33,902 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:00:54,980 [INFO] django.server: "GET / HTTP/1.1" 200 4131
+2025-10-31 10:00:55,008 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 10:00:55,008 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:00:55,008 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:00:55,311 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:00:55,311 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:02:11,030 [INFO] django.server: "GET / HTTP/1.1" 200 4131
+2025-10-31 10:02:11,055 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:02:11,057 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11023
+2025-10-31 10:02:11,060 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 10:02:12,346 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:02:12,346 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:03:04,000 [INFO] django.server: "GET / HTTP/1.1" 200 4131
+2025-10-31 10:03:04,036 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:03:04,037 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10995
+2025-10-31 10:03:04,038 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 10:03:04,837 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:03:04,838 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:03:37,892 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 10:03:37,926 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:03:37,926 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 10995
+2025-10-31 10:03:37,930 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 10:03:38,269 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:03:38,269 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:03:39,632 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-31 10:03:41,456 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 10:03:41,482 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:03:42,637 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-31 10:03:43,841 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 10:05:17,705 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 10:05:17,732 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:05:17,735 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11103
+2025-10-31 10:05:17,736 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 10:05:18,285 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:05:18,286 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:05:19,573 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 10:05:19,600 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:05:21,922 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 10:05:21,967 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:05:23,045 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5931
+2025-10-31 10:05:23,078 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:05:23,336 [INFO] django.server: - Broken pipe from ('127.0.0.1', 54955)
+2025-10-31 10:05:23,338 [INFO] django.server: - Broken pipe from ('127.0.0.1', 51778)
+2025-10-31 10:05:23,562 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 10:05:35,102 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5931
+2025-10-31 10:05:35,137 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:05:35,137 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:05:35,652 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:05:35,655 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:05:41,843 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 10:05:41,888 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:05:43,254 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 10:05:43,314 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:05:51,018 [INFO] core: Login realizado: Admin
+2025-10-31 10:05:51,060 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 10:05:51,100 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 10:05:51,141 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 304 0
+2025-10-31 10:05:51,141 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:10:02,771 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 10:10:02,804 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:10:02,804 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:10:02,806 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 10:10:02,847 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 10:10:03,401 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:10:03,402 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:10:04,185 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 10:10:05,461 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 10:10:06,496 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 10:10:07,802 [INFO] django.server: "GET /about/ HTTP/1.1" 200 7105
+2025-10-31 10:10:08,029 [INFO] django.server: - Broken pipe from ('127.0.0.1', 62793)
+2025-10-31 10:10:08,035 [INFO] django.server: - Broken pipe from ('127.0.0.1', 58479)
+2025-10-31 10:10:08,233 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 10:11:26,688 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6943
+2025-10-31 10:11:26,716 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:11:27,931 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6943
+2025-10-31 10:11:27,966 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:11:27,967 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:11:28,456 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:11:28,457 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:11:55,440 [INFO] django.server: "GET /about/ HTTP/1.1" 200 7013
+2025-10-31 10:11:55,471 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:11:55,472 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:11:55,909 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:11:55,909 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:12:35,076 [INFO] django.server: "GET /about/ HTTP/1.1" 200 7005
+2025-10-31 10:12:35,104 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:12:35,105 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:12:35,792 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:12:35,793 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:12:52,564 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6915
+2025-10-31 10:12:52,588 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:12:52,589 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:12:53,090 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:12:53,090 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:15:11,857 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5727
+2025-10-31 10:15:11,884 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:15:11,884 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:15:12,569 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 10:15:12,729 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:15:12,730 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:15:29,083 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5667
+2025-10-31 10:15:29,117 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:15:29,118 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:15:29,739 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:15:29,740 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:15:29,768 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 10:15:55,085 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5662
+2025-10-31 10:15:55,115 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:15:55,116 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:15:55,726 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:15:55,727 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:16:40,881 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5625
+2025-10-31 10:16:40,916 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:16:40,917 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:16:41,572 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:16:41,573 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:18:23,260 [INFO] django.server: "GET /about/ HTTP/1.1" 200 5989
+2025-10-31 10:18:23,295 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:18:23,295 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:18:24,044 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:18:24,044 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:19:44,958 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6055
+2025-10-31 10:19:44,984 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:19:44,985 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:19:45,539 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 10:19:45,694 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:19:45,695 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:20:11,587 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6072
+2025-10-31 10:20:11,620 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:20:11,620 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:20:12,260 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:20:12,260 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:20:36,921 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6088
+2025-10-31 10:20:36,943 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:20:36,944 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:20:37,423 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:20:37,424 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:21:00,070 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6091
+2025-10-31 10:21:00,102 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:21:00,102 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:21:00,590 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:21:00,591 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:21:14,553 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6099
+2025-10-31 10:21:14,584 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:21:14,585 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:21:15,181 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:21:15,182 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:21:26,191 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6104
+2025-10-31 10:21:26,231 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:21:26,232 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:21:26,702 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:21:26,702 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:22:06,060 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:22:06,087 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:22:06,088 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:22:06,758 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 10:22:06,938 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:22:06,939 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:23:52,417 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:23:52,442 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:23:52,442 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:23:52,868 [INFO] django.server: - Broken pipe from ('127.0.0.1', 58339)
+2025-10-31 10:23:53,107 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:23:53,107 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:24:04,109 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:04,143 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:24:04,146 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:24:04,649 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:24:04,649 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:24:06,305 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:17,521 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:17,556 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:24:17,556 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:24:18,064 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:24:18,065 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:24:26,294 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6143
+2025-10-31 10:24:26,320 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:24:26,320 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:24:26,779 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:24:26,780 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:24:35,498 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:35,529 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:24:35,529 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:24:35,989 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:24:35,989 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:24:53,052 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:53,087 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:24:53,087 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:24:53,565 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:24:53,565 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:24:54,680 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:54,820 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:55,002 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:55,124 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:55,270 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:55,475 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:24:55,581 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6148
+2025-10-31 10:25:11,989 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6156
+2025-10-31 10:25:12,012 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:25:12,012 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:25:12,460 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:25:12,461 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:25:23,855 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6168
+2025-10-31 10:25:23,880 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:25:23,881 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:25:24,447 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:25:24,448 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:25:41,887 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6181
+2025-10-31 10:25:41,917 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:25:41,917 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:25:42,346 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 10:25:42,552 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:25:42,553 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:26:06,528 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6358
+2025-10-31 10:26:06,549 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:26:06,549 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:26:07,221 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:26:07,222 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:26:22,974 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6365
+2025-10-31 10:26:23,011 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:26:23,012 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:26:23,543 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:26:23,544 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:26:24,385 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6365
+2025-10-31 10:26:36,031 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6363
+2025-10-31 10:26:36,060 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:26:36,061 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:26:36,576 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:26:36,576 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:26:53,830 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6357
+2025-10-31 10:26:53,858 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:26:53,859 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:26:54,550 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:26:54,551 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:27:05,095 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6356
+2025-10-31 10:27:05,117 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:27:05,117 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:27:05,592 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:27:05,592 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:27:38,416 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6365
+2025-10-31 10:27:38,450 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:27:38,450 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:27:39,073 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:27:39,073 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:27:39,888 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6365
+2025-10-31 10:27:39,920 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:27:39,920 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:27:40,416 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:27:40,416 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:27:55,516 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6364
+2025-10-31 10:27:57,028 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6364
+2025-10-31 10:28:08,477 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6361
+2025-10-31 10:28:08,505 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:28:08,505 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:28:08,996 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:28:08,997 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:28:28,991 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6371
+2025-10-31 10:28:40,782 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6371
+2025-10-31 10:28:58,201 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6374
+2025-10-31 10:29:27,971 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6374
+2025-10-31 10:29:27,995 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:29:27,996 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:29:28,549 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:29:28,550 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:31:01,627 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6374
+2025-10-31 10:31:21,738 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6387
+2025-10-31 10:31:21,772 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:31:21,773 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:31:22,262 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:31:22,264 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:31:36,563 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6387
+2025-10-31 10:31:43,898 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6387
+2025-10-31 10:31:54,254 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6387
+2025-10-31 10:32:12,908 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6387
+2025-10-31 10:32:23,536 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6386
+2025-10-31 10:32:29,618 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6386
+2025-10-31 10:32:42,014 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6399
+2025-10-31 10:32:43,321 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6399
+2025-10-31 10:32:43,360 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:32:43,360 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:32:43,821 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:32:43,822 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:33:04,919 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6412
+2025-10-31 10:33:06,183 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6412
+2025-10-31 10:33:26,199 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6412
+2025-10-31 10:33:27,225 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6412
+2025-10-31 10:33:40,918 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6387
+2025-10-31 10:34:08,806 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6382
+2025-10-31 10:34:42,555 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6407
+2025-10-31 10:35:06,248 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6402
+2025-10-31 10:35:15,998 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6402
+2025-10-31 10:35:39,130 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6409
+2025-10-31 10:35:39,156 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:35:46,066 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6410
+2025-10-31 10:36:05,887 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6409
+2025-10-31 10:36:29,945 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6418
+2025-10-31 10:37:05,094 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6420
+2025-10-31 10:37:06,249 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6420
+2025-10-31 10:37:06,277 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:37:06,278 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:37:06,711 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:37:06,712 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:37:46,173 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6428
+2025-10-31 10:37:47,488 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6428
+2025-10-31 10:37:47,527 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:37:47,528 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:37:47,975 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:37:47,976 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:38:49,664 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6482
+2025-10-31 10:40:01,178 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6446
+2025-10-31 10:40:07,666 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 10:40:32,526 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6475
+2025-10-31 10:40:51,577 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6480
+2025-10-31 10:41:02,464 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6480
+2025-10-31 10:41:02,484 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:41:37,087 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6478
+2025-10-31 10:41:54,932 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6478
+2025-10-31 10:43:21,703 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6474
+2025-10-31 10:43:51,927 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6479
+2025-10-31 10:45:42,372 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6485
+2025-10-31 10:45:42,397 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:46:50,029 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6494
+2025-10-31 10:47:41,347 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6489
+2025-10-31 10:47:48,606 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6489
+2025-10-31 10:47:55,284 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6489
+2025-10-31 10:48:17,533 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6611
+2025-10-31 10:48:49,447 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6616
+2025-10-31 10:48:52,647 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6616
+2025-10-31 10:48:52,709 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:48:52,710 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:48:53,195 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:48:53,196 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:50:32,493 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6611
+2025-10-31 10:50:50,254 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6612
+2025-10-31 10:51:18,936 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6611
+2025-10-31 10:51:25,267 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6611
+2025-10-31 10:51:40,663 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6613
+2025-10-31 10:51:50,222 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6613
+2025-10-31 10:52:11,402 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6611
+2025-10-31 10:53:53,302 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6551
+2025-10-31 10:53:53,317 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 10:54:34,160 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6710
+2025-10-31 10:54:50,208 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6710
+2025-10-31 10:55:16,921 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6713
+2025-10-31 10:55:28,890 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6711
+2025-10-31 10:55:34,913 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6711
+2025-10-31 10:55:57,786 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6702
+2025-10-31 10:56:06,885 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6702
+2025-10-31 10:56:36,198 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6720
+2025-10-31 10:56:53,184 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6704
+2025-10-31 10:57:23,806 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6704
+2025-10-31 10:57:25,738 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6704
+2025-10-31 10:57:25,762 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:57:25,763 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:57:26,237 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:57:26,238 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:57:32,001 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6611
+2025-10-31 10:57:50,171 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6610
+2025-10-31 10:58:13,998 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6610
+2025-10-31 10:58:15,507 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6610
+2025-10-31 10:58:15,541 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 10:58:15,542 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 10:58:15,997 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 10:58:15,998 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 10:58:39,663 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6610
+2025-10-31 10:59:07,394 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6612
+2025-10-31 10:59:30,475 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6610
+2025-10-31 10:59:37,281 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6610
+2025-10-31 10:59:44,463 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6610
+2025-10-31 10:59:56,059 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6610
+2025-10-31 11:00:02,473 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6610
+2025-10-31 11:00:09,400 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6612
+2025-10-31 11:01:57,069 [INFO] django.server: - Broken pipe from ('127.0.0.1', 63403)
+2025-10-31 11:03:06,055 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 11:03:29,326 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 11:03:30,410 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:03:36,645 [INFO] core: Login realizado: Admin
+2025-10-31 11:03:36,681 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 11:03:36,696 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 11:03:36,722 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:05:04,536 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 11:05:55,034 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 11:05:56,934 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 11:05:58,186 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6613
+2025-10-31 11:05:59,353 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6613
+2025-10-31 11:05:59,393 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 11:05:59,394 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 11:05:59,876 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 11:05:59,877 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 11:06:02,271 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 11:06:19,184 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6615
+2025-10-31 11:06:48,235 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:06:49,609 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 11:06:50,522 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 11:06:51,843 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6615
+2025-10-31 11:06:52,777 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:06:53,703 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 11:07:12,910 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 11:07:14,149 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:07:18,656 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 11:07:21,887 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:07:22,133 [INFO] django.server: - Broken pipe from ('127.0.0.1', 50566)
+2025-10-31 11:07:22,320 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 11:07:23,956 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-31 11:07:25,710 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 11:07:27,243 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:07:41,299 [INFO] django.server: "GET / HTTP/1.1" 200 4140
+2025-10-31 11:08:30,093 [INFO] django.server: "GET / HTTP/1.1" 200 4177
+2025-10-31 11:08:57,665 [INFO] django.server: "GET / HTTP/1.1" 200 4190
+2025-10-31 11:09:42,878 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:10:10,609 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:10:33,984 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:11:27,795 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:12:27,584 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:12:27,613 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11049
+2025-10-31 11:13:35,536 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:13:35,557 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11057
+2025-10-31 11:13:51,764 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:13:51,795 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:13:52,002 [INFO] django.server: - Broken pipe from ('127.0.0.1', 63826)
+2025-10-31 11:13:52,004 [INFO] django.server: - Broken pipe from ('127.0.0.1', 49209)
+2025-10-31 11:13:52,192 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 11:14:59,219 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:14:59,243 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:15:12,006 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:15:12,029 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:15:16,828 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:15:16,865 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 11:15:16,866 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11057
+2025-10-31 11:15:17,396 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 11:15:17,396 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 11:15:29,113 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:15:29,136 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:16:11,309 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:16:11,331 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:16:19,929 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:17:16,518 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:17:16,541 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11063
+2025-10-31 11:17:28,798 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:17:28,824 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11065
+2025-10-31 11:17:51,935 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:17:51,959 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11066
+2025-10-31 11:18:10,850 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:18:10,876 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11066
+2025-10-31 11:18:52,466 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:18:52,492 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:18:52,492 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-31 11:18:57,068 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:18:57,099 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:19:18,654 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:19:18,686 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:19:21,276 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-31 11:19:25,612 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:19:25,638 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:19:26,863 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6601
+2025-10-31 11:20:09,396 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6629
+2025-10-31 11:20:09,419 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:20:18,969 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6629
+2025-10-31 11:20:34,337 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6632
+2025-10-31 11:20:34,356 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:21:11,947 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:21:11,969 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:21:44,799 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:21:44,829 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11083
+2025-10-31 11:21:51,047 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:21:51,072 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11085
+2025-10-31 11:21:58,578 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:21:58,597 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11085
+2025-10-31 11:22:18,868 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:22:18,892 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 11:25:04,908 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:25:05,161 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:25:12,927 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:25:15,701 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:25:18,311 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:25:21,477 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:25:28,286 [INFO] core: Login realizado: Admin
+2025-10-31 11:25:28,324 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 11:25:28,338 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 11:25:28,372 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:25:36,191 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 750
+2025-10-31 11:25:53,956 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 11:25:53,978 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:25:56,898 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:26:04,753 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:26:04,994 [INFO] django.server: - Broken pipe from ('127.0.0.1', 54722)
+2025-10-31 11:26:04,995 [INFO] django.server: - Broken pipe from ('127.0.0.1', 61876)
+2025-10-31 11:26:05,185 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 11:26:13,763 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:27:39,934 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:27:39,968 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:27:40,200 [INFO] django.server: - Broken pipe from ('127.0.0.1', 55637)
+2025-10-31 11:27:40,202 [INFO] django.server: - Broken pipe from ('127.0.0.1', 54451)
+2025-10-31 11:27:40,401 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 11:27:55,971 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:27:57,316 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:27:59,380 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:27:59,598 [INFO] django.server: - Broken pipe from ('127.0.0.1', 64642)
+2025-10-31 11:27:59,599 [INFO] django.server: - Broken pipe from ('127.0.0.1', 61671)
+2025-10-31 11:27:59,811 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 11:28:06,309 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:28:13,974 [INFO] core: Login realizado: Admin
+2025-10-31 11:28:14,011 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 11:28:14,024 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 11:28:14,058 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:34:21,553 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 11:34:21,572 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:34:23,400 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:34:24,215 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:34:44,275 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:34:44,506 [INFO] django.server: - Broken pipe from ('127.0.0.1', 64536)
+2025-10-31 11:34:44,703 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 11:34:57,736 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:35:02,274 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:35:03,362 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5474
+2025-10-31 11:35:07,433 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:35:08,310 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 11:35:10,518 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:35:41,560 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 11:35:41,589 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 11:35:43,153 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 11:35:52,388 [INFO] core: Login realizado: Admin
+2025-10-31 11:35:52,449 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 11:35:52,461 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6637
+2025-10-31 17:39:12,890 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 17:39:15,099 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 17:39:15,141 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-31 17:39:15,144 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 17:39:15,714 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 17:39:15,715 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 17:39:17,639 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 17:39:24,717 [INFO] core: Login realizado: Admin
+2025-10-31 17:39:24,761 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 17:39:24,814 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6929
+2025-10-31 17:39:24,862 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 304 0
+2025-10-31 17:42:12,313 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6921
+2025-10-31 17:42:36,980 [INFO] django.server: "GET /home/ HTTP/1.1" 200 7186
+2025-10-31 17:42:50,595 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6632
+2025-10-31 17:43:34,205 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6628
+2025-10-31 17:43:52,493 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6621
+2025-10-31 17:44:19,083 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6609
+2025-10-31 17:45:26,649 [INFO] django.server: "GET /home/ HTTP/1.1" 200 7201
+2025-10-31 17:47:23,991 [INFO] django.server: "GET /home/ HTTP/1.1" 200 7560
+2025-10-31 17:48:02,147 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6780
+2025-10-31 17:49:01,968 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6659
+2025-10-31 17:49:33,032 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6646
+2025-10-31 17:49:34,232 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6646
+2025-10-31 17:51:16,330 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6439
+2025-10-31 17:51:50,019 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6447
+2025-10-31 17:52:02,525 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6448
+2025-10-31 17:52:11,062 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6448
+2025-10-31 17:52:18,747 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6448
+2025-10-31 17:52:38,224 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6457
+2025-10-31 17:52:43,971 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6457
+2025-10-31 17:52:44,303 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 17:52:44,338 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 17:52:44,354 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 17:52:44,369 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 17:52:44,865 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 17:52:44,865 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 17:53:09,584 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6457
+2025-10-31 17:53:11,742 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6457
+2025-10-31 17:53:11,786 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 17:53:11,788 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 17:53:11,788 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 17:53:11,807 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 17:53:17,590 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 17:53:17,591 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 17:53:29,023 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6462
+2025-10-31 17:54:19,806 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6417
+2025-10-31 17:54:33,003 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6416
+2025-10-31 17:54:34,780 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6416
+2025-10-31 17:54:34,820 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 17:54:34,821 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 17:54:34,821 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 17:54:34,833 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 17:54:35,436 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 17:54:35,436 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 17:54:44,132 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6468
+2025-10-31 17:55:02,914 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6464
+2025-10-31 17:56:05,621 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6462
+2025-10-31 17:56:12,709 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6462
+2025-10-31 17:56:35,326 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6464
+2025-10-31 17:56:50,351 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6472
+2025-10-31 17:57:01,228 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6473
+2025-10-31 17:57:08,171 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6473
+2025-10-31 17:57:17,431 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6473
+2025-10-31 17:57:24,600 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6473
+2025-10-31 17:57:30,843 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6473
+2025-10-31 17:57:38,386 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6473
+2025-10-31 17:58:18,300 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6479
+2025-10-31 17:58:21,135 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6479
+2025-10-31 17:58:21,180 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 17:58:21,180 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 17:58:21,181 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 17:58:21,194 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 17:58:21,720 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 17:58:21,721 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 17:59:40,537 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6479
+2025-10-31 18:00:13,353 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6477
+2025-10-31 18:00:54,313 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6500
+2025-10-31 18:00:55,928 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6500
+2025-10-31 18:00:55,979 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 18:00:55,980 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 18:00:55,981 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 18:00:56,001 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 18:00:56,537 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 18:00:56,537 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 18:01:23,643 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6506
+2025-10-31 18:01:50,445 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6506
+2025-10-31 18:02:00,103 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6500
+2025-10-31 18:02:22,776 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6496
+2025-10-31 18:02:34,661 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6496
+2025-10-31 18:02:35,670 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6496
+2025-10-31 18:03:10,007 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6497
+2025-10-31 18:03:11,784 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6497
+2025-10-31 18:03:19,559 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6498
+2025-10-31 18:03:26,658 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6499
+2025-10-31 18:03:28,036 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6499
+2025-10-31 18:03:29,066 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6499
+2025-10-31 18:03:41,385 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6498
+2025-10-31 18:03:54,544 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6498
+2025-10-31 18:04:30,035 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6501
+2025-10-31 18:04:37,008 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6502
+2025-10-31 18:04:43,709 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6502
+2025-10-31 18:05:33,457 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6503
+2025-10-31 18:05:43,175 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6503
+2025-10-31 18:05:51,319 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6502
+2025-10-31 18:05:59,231 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6502
+2025-10-31 18:06:06,390 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6493
+2025-10-31 18:06:21,058 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6499
+2025-10-31 18:06:29,642 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6499
+2025-10-31 18:06:37,957 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6499
+2025-10-31 18:06:46,882 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6500
+2025-10-31 18:06:53,100 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6500
+2025-10-31 18:07:15,388 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6500
+2025-10-31 18:07:25,834 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6500
+2025-10-31 18:07:32,847 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6500
+2025-10-31 18:08:18,450 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6414
+2025-10-31 18:08:25,373 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6414
+2025-10-31 18:09:08,272 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6422
+2025-10-31 18:09:15,574 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6422
+2025-10-31 18:09:23,559 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6422
+2025-10-31 18:09:30,490 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6422
+2025-10-31 18:09:41,700 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6422
+2025-10-31 18:09:49,029 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6422
+2025-10-31 18:10:01,210 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6422
+2025-10-31 18:12:13,817 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6440
+2025-10-31 18:13:50,016 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6430
+2025-10-31 18:14:18,009 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6436
+2025-10-31 18:14:49,453 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6438
+2025-10-31 18:15:11,913 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6447
+2025-10-31 18:18:30,660 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6436
+2025-10-31 18:19:37,503 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6379
+2025-10-31 18:21:05,100 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6399
+2025-10-31 18:22:18,345 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6321
+2025-10-31 18:22:42,094 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6322
+2025-10-31 18:22:48,948 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6322
+2025-10-31 18:22:56,502 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6322
+2025-10-31 18:23:04,542 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6322
+2025-10-31 18:23:13,951 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6322
+2025-10-31 18:23:21,847 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6324
+2025-10-31 18:24:04,365 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6318
+2025-10-31 18:25:09,642 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6325
+2025-10-31 18:26:12,576 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6363
+2025-10-31 18:27:00,429 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6334
+2025-10-31 18:28:21,090 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6308
+2025-10-31 18:30:02,628 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6319
+2025-10-31 18:33:56,069 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6309
+2025-10-31 18:34:20,695 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6379
+2025-10-31 18:35:22,539 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6392
+2025-10-31 18:38:15,098 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6197
+2025-10-31 18:40:28,778 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6238
+2025-10-31 18:41:31,594 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6237
+2025-10-31 18:41:31,631 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-10-31 18:41:39,683 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6238
+2025-10-31 18:42:01,539 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6238
+2025-10-31 18:42:17,097 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6247
+2025-10-31 18:42:30,130 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6247
+2025-10-31 18:42:42,067 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6247
+2025-10-31 18:42:50,831 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6247
+2025-10-31 18:42:59,168 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6247
+2025-10-31 18:43:07,098 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6247
+2025-10-31 18:43:30,752 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6247
+2025-10-31 18:43:38,104 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6246
+2025-10-31 18:43:48,106 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6246
+2025-10-31 18:44:06,395 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6246
+2025-10-31 18:44:17,040 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6246
+2025-10-31 18:44:38,605 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6252
+2025-10-31 18:48:05,588 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6255
+2025-10-31 18:48:16,541 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6255
+2025-10-31 18:48:16,586 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 18:48:16,587 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 18:48:16,602 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 18:48:17,131 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 18:48:17,131 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 18:49:11,357 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6321
+2025-10-31 18:49:29,539 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6330
+2025-10-31 18:49:39,366 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6330
+2025-10-31 18:49:41,119 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6330
+2025-10-31 18:49:42,230 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6330
+2025-10-31 18:50:01,479 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6330
+2025-10-31 18:50:02,910 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6330
+2025-10-31 18:50:04,207 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6330
+2025-10-31 18:50:30,936 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6330
+2025-10-31 18:50:40,322 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6338
+2025-10-31 18:50:49,369 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:50:56,676 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:51:04,470 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:51:12,751 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:51:24,124 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:51:34,909 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:51:44,232 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:51:55,592 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:52:04,591 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:52:12,243 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:52:21,129 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:52:31,086 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:52:39,068 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:52:45,848 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6339
+2025-10-31 18:55:18,505 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6344
+2025-10-31 18:55:28,804 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6345
+2025-10-31 18:55:58,932 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6345
+2025-10-31 18:56:56,261 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6345
+2025-10-31 18:57:56,897 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:58:53,521 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:59:04,279 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:59:22,210 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:59:33,415 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:59:43,097 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:59:51,251 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6347
+2025-10-31 18:59:58,492 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6348
+2025-10-31 19:00:14,182 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6348
+2025-10-31 19:00:23,630 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6355
+2025-10-31 19:00:34,867 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6358
+2025-10-31 19:00:42,380 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6358
+2025-10-31 19:00:49,654 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6358
+2025-10-31 19:01:20,323 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6358
+2025-10-31 19:01:31,567 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6358
+2025-10-31 19:01:55,156 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6360
+2025-10-31 19:02:11,187 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6360
+2025-10-31 19:02:29,237 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6360
+2025-10-31 19:02:45,907 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6370
+2025-10-31 19:02:54,486 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6370
+2025-10-31 19:03:00,467 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6370
+2025-10-31 19:03:10,377 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6370
+2025-10-31 19:03:22,951 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6370
+2025-10-31 19:03:29,629 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6370
+2025-10-31 19:03:42,256 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6357
+2025-10-31 19:04:07,036 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6370
+2025-10-31 19:04:34,892 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6276
+2025-10-31 19:04:43,058 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6274
+2025-10-31 19:04:49,746 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6274
+2025-10-31 19:05:23,962 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6283
+2025-10-31 19:05:32,200 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6283
+2025-10-31 19:05:45,244 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:05:54,041 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:06:06,246 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:06:16,408 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:06:26,767 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:06:34,572 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:06:46,453 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 19:06:56,889 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 19:07:04,413 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:07:54,410 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 750
+2025-10-31 19:07:57,964 [INFO] core: Logout: Admin
+2025-10-31 19:07:57,983 [INFO] django.server: "GET /accounts/logout/ HTTP/1.1" 302 0
+2025-10-31 19:07:57,988 [INFO] django.server: "GET / HTTP/1.1" 200 4184
+2025-10-31 19:11:54,802 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6630
+2025-10-31 19:11:55,092 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 304 0
+2025-10-31 19:12:01,738 [INFO] django.server: "GET / HTTP/1.1" 200 4184
+2025-10-31 19:12:12,382 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4773
+2025-10-31 19:12:18,509 [INFO] core: Login realizado: Admin
+2025-10-31 19:12:18,547 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 19:12:18,557 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:12:28,922 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:14:42,310 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 19:14:44,546 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4345
+2025-10-31 19:15:40,346 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4359
+2025-10-31 19:15:42,983 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4359
+2025-10-31 19:15:43,019 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 19:15:43,019 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 19:15:43,031 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 19:15:43,570 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 19:15:43,570 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 19:16:32,033 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4231
+2025-10-31 19:16:33,277 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4231
+2025-10-31 19:16:33,309 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 19:16:33,309 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 19:16:33,329 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 19:16:33,860 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 19:16:33,860 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 19:17:45,521 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4176
+2025-10-31 19:17:46,800 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4176
+2025-10-31 19:17:46,830 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 19:17:46,831 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 19:17:46,843 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 19:17:47,383 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 19:17:47,384 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 19:17:57,961 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4190
+2025-10-31 19:17:59,556 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4190
+2025-10-31 19:17:59,584 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 19:17:59,584 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 19:17:59,597 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 19:18:00,134 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 19:18:00,134 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 19:18:57,721 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4356
+2025-10-31 19:18:58,954 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4356
+2025-10-31 19:18:58,985 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 19:18:58,985 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 19:18:58,997 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 19:18:59,543 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 19:18:59,543 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 19:19:23,864 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4357
+2025-10-31 19:21:26,479 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4470
+2025-10-31 19:22:52,139 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4498
+2025-10-31 19:23:11,904 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4486
+2025-10-31 19:23:19,322 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4487
+2025-10-31 19:24:04,756 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6481
+2025-10-31 19:24:18,689 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4374
+2025-10-31 19:25:31,591 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5143
+2025-10-31 19:25:38,802 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 5143
+2025-10-31 19:29:46,872 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 4376
+2025-10-31 19:30:24,576 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6784
+2025-10-31 19:30:35,550 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6173
+2025-10-31 19:31:42,677 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6194
+2025-10-31 19:31:44,194 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6194
+2025-10-31 19:31:44,227 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 19:31:44,228 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 19:31:44,240 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 19:31:44,583 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 19:31:44,584 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 19:33:21,830 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6222
+2025-10-31 19:33:32,212 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6216
+2025-10-31 19:34:33,873 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6250
+2025-10-31 19:34:50,989 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6255
+2025-10-31 19:35:40,471 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6256
+2025-10-31 19:35:55,797 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6256
+2025-10-31 19:36:08,007 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6256
+2025-10-31 19:36:57,519 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6228
+2025-10-31 19:37:11,335 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6233
+2025-10-31 19:37:26,023 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6233
+2025-10-31 19:37:54,118 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6228
+2025-10-31 19:38:18,466 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6234
+2025-10-31 19:38:20,888 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6234
+2025-10-31 19:38:20,919 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 19:38:20,920 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 19:38:20,932 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 19:38:21,504 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 19:38:21,504 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 19:38:36,252 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6235
+2025-10-31 19:39:01,061 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6254
+2025-10-31 19:39:10,255 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6255
+2025-10-31 19:39:13,618 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6255
+2025-10-31 19:39:13,646 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 19:39:13,647 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 19:39:13,659 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 19:39:14,204 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 19:39:14,205 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 19:39:27,494 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6255
+2025-10-31 19:39:39,467 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6255
+2025-10-31 19:39:47,091 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6255
+2025-10-31 19:40:07,476 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6255
+2025-10-31 19:42:24,388 [ERROR] django.request: Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 16, in profile_view
+    return render(request, 'core/profile.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'Alterar Senha' not found. 'Alterar Senha' is not a valid view function or pattern name.
+2025-10-31 19:42:24,397 [ERROR] django.server: "POST /profile/ HTTP/1.1" 500 157277
+2025-10-31 19:42:43,608 [ERROR] django.request: Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 16, in profile_view
+    return render(request, 'core/profile.html')
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+2025-10-31 19:42:43,613 [ERROR] django.server: "POST /profile/ HTTP/1.1" 500 156954
+2025-10-31 19:42:53,469 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6687
+2025-10-31 19:43:37,931 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6725
+2025-10-31 19:44:20,881 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6725
+2025-10-31 19:44:45,826 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6725
+2025-10-31 19:45:06,887 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6724
+2025-10-31 19:45:22,723 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6724
+2025-10-31 19:45:37,075 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6724
+2025-10-31 19:46:14,033 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6732
+2025-10-31 19:46:22,872 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6732
+2025-10-31 19:46:38,063 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6734
+2025-10-31 19:46:47,419 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6735
+2025-10-31 19:46:56,799 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6735
+2025-10-31 19:47:09,771 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6731
+2025-10-31 19:47:47,622 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6725
+2025-10-31 19:48:23,530 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6730
+2025-10-31 19:48:32,305 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6731
+2025-10-31 19:48:40,722 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6730
+2025-10-31 19:48:47,454 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6730
+2025-10-31 19:48:54,132 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6730
+2025-10-31 19:49:04,242 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6730
+2025-10-31 19:49:13,363 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6730
+2025-10-31 19:52:28,246 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6750
+2025-10-31 19:52:40,304 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6750
+2025-10-31 19:52:48,176 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6750
+2025-10-31 19:52:57,464 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6750
+2025-10-31 19:53:07,364 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6752
+2025-10-31 19:53:14,603 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6752
+2025-10-31 19:53:24,429 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6752
+2025-10-31 19:59:46,949 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6757
+2025-10-31 19:59:57,615 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6757
+2025-10-31 20:00:35,765 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6738
+2025-10-31 20:00:56,864 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6738
+2025-10-31 20:01:07,703 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6738
+2025-10-31 20:01:34,050 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6738
+2025-10-31 20:01:51,538 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6738
+2025-10-31 20:02:04,290 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6738
+2025-10-31 20:02:58,042 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6745
+2025-10-31 20:03:07,867 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6746
+2025-10-31 20:05:24,887 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6746
+2025-10-31 20:10:40,032 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6746
+2025-10-31 20:11:16,797 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6746
+2025-10-31 20:11:40,009 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6745
+2025-10-31 20:11:43,716 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6745
+2025-10-31 20:11:43,762 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 20:11:43,763 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 20:11:43,774 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 20:11:44,138 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 20:11:44,138 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 20:12:12,064 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6747
+2025-10-31 20:12:24,879 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6744
+2025-10-31 20:14:24,576 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 20:14:24,605 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-10-31 20:14:26,168 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 20:15:19,902 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 20:15:21,315 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 20:15:28,664 [INFO] core: Login realizado: Admin
+2025-10-31 20:15:28,697 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 20:15:28,710 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 20:15:31,696 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6543
+2025-10-31 20:15:44,503 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6543
+2025-10-31 20:16:05,969 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6540
+2025-10-31 20:16:33,738 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6540
+2025-10-31 20:17:49,788 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6360
+2025-10-31 20:29:16,511 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6429
+2025-10-31 20:29:28,005 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6430
+2025-10-31 20:29:37,813 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6430
+2025-10-31 20:30:39,823 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6406
+2025-10-31 20:31:01,032 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6411
+2025-10-31 20:31:03,756 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6411
+2025-10-31 20:31:03,785 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 20:31:03,785 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 20:31:03,797 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 20:31:04,346 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 20:31:04,347 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 20:31:12,703 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6411
+2025-10-31 20:31:19,727 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6412
+2025-10-31 20:31:36,296 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6419
+2025-10-31 20:31:44,849 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6412
+2025-10-31 20:31:53,245 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6412
+2025-10-31 20:32:01,197 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6412
+2025-10-31 20:33:06,066 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6321
+2025-10-31 20:34:06,516 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6326
+2025-10-31 20:34:09,515 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6326
+2025-10-31 20:34:09,550 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 20:34:09,550 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 20:34:09,562 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 20:34:14,444 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 20:34:14,444 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 20:37:35,740 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6360
+2025-10-31 20:37:50,085 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6343
+2025-10-31 20:38:16,601 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6342
+2025-10-31 20:38:19,400 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6342
+2025-10-31 20:38:19,427 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 20:38:19,428 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 20:38:19,440 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 20:38:19,928 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 20:38:19,929 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 20:38:53,339 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6341
+2025-10-31 20:38:54,837 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6341
+2025-10-31 20:38:56,236 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6341
+2025-10-31 20:38:56,664 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6341
+2025-10-31 20:39:42,770 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6347
+2025-10-31 20:39:44,744 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6347
+2025-10-31 20:39:44,778 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 20:39:44,778 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 20:39:44,791 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 20:39:45,248 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 20:39:45,249 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 20:40:05,107 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6341
+2025-10-31 20:40:27,914 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6341
+2025-10-31 20:40:51,195 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6345
+2025-10-31 20:41:18,173 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6341
+2025-10-31 20:41:29,999 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6341
+2025-10-31 20:41:43,851 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6340
+2025-10-31 20:41:52,320 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6342
+2025-10-31 20:42:46,125 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6342
+2025-10-31 20:42:53,554 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6344
+2025-10-31 20:43:08,559 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6341
+2025-10-31 20:43:32,825 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6349
+2025-10-31 20:43:42,320 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6348
+2025-10-31 20:43:49,189 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6348
+2025-10-31 20:43:56,991 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6348
+2025-10-31 20:44:35,089 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6365
+2025-10-31 20:44:52,981 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6365
+2025-10-31 20:45:19,304 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6365
+2025-10-31 20:45:34,932 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6365
+2025-10-31 20:46:17,434 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6365
+2025-10-31 20:46:25,894 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6364
+2025-10-31 20:46:32,195 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6364
+2025-10-31 20:46:58,488 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6368
+2025-10-31 20:47:25,097 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6368
+2025-10-31 20:47:33,061 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6368
+2025-10-31 20:47:55,217 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6374
+2025-10-31 20:48:25,789 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6368
+2025-10-31 20:49:05,935 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6368
+2025-10-31 20:49:16,877 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6368
+2025-10-31 20:50:48,150 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6614
+2025-10-31 20:51:23,029 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6631
+2025-10-31 20:51:35,121 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6633
+2025-10-31 20:51:48,560 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6633
+2025-10-31 20:52:07,035 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6633
+2025-10-31 20:52:09,565 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6633
+2025-10-31 20:52:09,599 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 20:52:09,600 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 20:52:09,613 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 20:52:10,620 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 20:52:10,621 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 20:52:19,171 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6632
+2025-10-31 20:52:29,725 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6632
+2025-10-31 20:53:09,195 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6637
+2025-10-31 20:53:19,966 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6633
+2025-10-31 20:54:03,418 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6633
+2025-10-31 20:54:25,741 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6634
+2025-10-31 20:55:26,427 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6648
+2025-10-31 20:55:51,037 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6653
+2025-10-31 20:56:06,170 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6652
+2025-10-31 20:56:15,350 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6652
+2025-10-31 20:56:26,397 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6652
+2025-10-31 20:56:34,334 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6652
+2025-10-31 20:57:00,551 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6658
+2025-10-31 20:57:02,590 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6658
+2025-10-31 20:57:02,622 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 20:57:02,622 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 20:57:02,633 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 20:57:03,162 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 20:57:03,162 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 20:57:17,237 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6652
+2025-10-31 20:57:31,315 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6652
+2025-10-31 20:57:33,244 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6652
+2025-10-31 20:57:33,276 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 20:57:33,277 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 20:57:33,289 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 20:57:33,806 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 20:57:33,806 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 20:57:39,482 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6655
+2025-10-31 20:57:51,026 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6655
+2025-10-31 20:58:20,729 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6653
+2025-10-31 21:01:03,010 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6479
+2025-10-31 21:01:23,701 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6473
+2025-10-31 21:03:11,979 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6494
+2025-10-31 21:03:37,155 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6515
+2025-10-31 21:03:40,537 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6515
+2025-10-31 21:03:40,568 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:03:40,569 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:03:40,582 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:03:41,109 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:03:41,109 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:03:55,128 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6514
+2025-10-31 21:04:15,387 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6515
+2025-10-31 21:04:29,068 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6515
+2025-10-31 21:04:40,688 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6495
+2025-10-31 21:04:57,738 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6493
+2025-10-31 21:05:34,560 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6529
+2025-10-31 21:05:42,496 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6529
+2025-10-31 21:06:06,867 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6529
+2025-10-31 21:06:57,763 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6404
+2025-10-31 21:07:42,937 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6279
+2025-10-31 21:07:59,147 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6279
+2025-10-31 21:08:16,949 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6279
+2025-10-31 21:08:55,429 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6278
+2025-10-31 21:09:10,483 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6277
+2025-10-31 21:10:04,291 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6257
+2025-10-31 21:10:34,015 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6306
+2025-10-31 21:10:34,046 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:10:34,048 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:10:34,060 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:10:34,609 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:10:34,609 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:10:42,655 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6307
+2025-10-31 21:10:42,683 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:10:42,683 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:10:42,694 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:10:43,209 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:10:43,210 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:10:51,488 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6307
+2025-10-31 21:10:51,514 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:10:51,515 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:10:51,525 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:10:52,033 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:10:52,033 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:11:02,691 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6307
+2025-10-31 21:11:15,169 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6307
+2025-10-31 21:11:15,197 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:11:15,197 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:11:15,209 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:11:15,709 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:11:15,709 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:11:22,604 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6307
+2025-10-31 21:11:22,627 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:11:22,631 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:11:22,641 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:11:23,165 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:11:23,166 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:12:39,514 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6594
+2025-10-31 21:12:39,546 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:12:39,547 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:12:39,557 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:12:40,156 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:12:40,157 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:13:26,932 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6589
+2025-10-31 21:13:26,961 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:13:26,961 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:13:26,972 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:13:27,529 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:13:27,530 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:13:49,469 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6614
+2025-10-31 21:13:49,496 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:13:49,496 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:13:49,507 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:13:50,018 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:13:50,019 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:14:11,547 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6637
+2025-10-31 21:14:11,575 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:14:11,575 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:14:11,583 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:14:12,076 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:14:12,076 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:14:20,921 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6638
+2025-10-31 21:14:20,950 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:14:20,951 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:14:20,961 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:14:21,474 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:14:21,475 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:14:28,835 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6638
+2025-10-31 21:14:28,863 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:14:28,863 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:14:28,873 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:14:29,373 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:14:29,374 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:14:45,141 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6685
+2025-10-31 21:14:45,169 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:14:45,170 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:14:45,179 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:14:45,710 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:14:45,710 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:15:08,353 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6685
+2025-10-31 21:15:08,383 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:15:08,383 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:15:08,394 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:15:08,917 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:15:08,918 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:15:21,440 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6685
+2025-10-31 21:15:21,470 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:15:21,470 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:15:21,481 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:15:21,973 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:15:21,974 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:15:37,737 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6683
+2025-10-31 21:15:37,768 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:15:37,768 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:15:37,778 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:15:38,287 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:15:38,287 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:16:15,893 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6696
+2025-10-31 21:16:15,922 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:16:15,923 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:16:15,934 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:16:16,534 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:16:16,534 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:16:17,108 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6696
+2025-10-31 21:16:18,430 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6696
+2025-10-31 21:18:04,987 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6667
+2025-10-31 21:18:05,020 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:18:05,021 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:18:05,032 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:18:05,630 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:18:05,630 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:18:10,702 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 21:18:31,376 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6679
+2025-10-31 21:18:31,406 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:18:31,406 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:18:31,418 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:18:32,686 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:18:32,687 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:19:09,680 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6629
+2025-10-31 21:19:09,709 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:19:09,709 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:19:09,720 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:19:10,817 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:19:10,817 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:19:21,738 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6638
+2025-10-31 21:19:21,769 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:19:21,769 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:19:21,781 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:19:22,304 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:19:22,304 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:19:30,157 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 21:19:36,803 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6638
+2025-10-31 21:19:40,423 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 21:19:42,715 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 21:19:42,883 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 304 0
+2025-10-31 21:20:37,681 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 21:20:37,714 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:20:37,714 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:20:38,209 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:20:38,209 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:20:38,215 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:20:38,407 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:20:38,407 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:20:39,555 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6638
+2025-10-31 21:20:39,793 [INFO] django.server: - Broken pipe from ('127.0.0.1', 50913)
+2025-10-31 21:20:39,795 [INFO] django.server: - Broken pipe from ('127.0.0.1', 49795)
+2025-10-31 21:20:39,975 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:03,197 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6664
+2025-10-31 21:21:03,229 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:21:03,229 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:21:03,745 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:03,745 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:03,747 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:03,928 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:21:03,929 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:21:32,865 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6664
+2025-10-31 21:21:32,917 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:21:32,918 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:21:33,389 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:33,389 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:33,390 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:33,554 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:21:33,554 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:21:46,296 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6664
+2025-10-31 21:21:46,346 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:21:46,347 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:21:46,833 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:46,834 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:46,834 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:21:46,993 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:21:46,994 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4534
+2025-10-31 21:21:48,144 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6664
+2025-10-31 21:21:48,382 [INFO] django.server: - Broken pipe from ('127.0.0.1', 52749)
+2025-10-31 21:21:48,384 [INFO] django.server: - Broken pipe from ('127.0.0.1', 49429)
+2025-10-31 21:21:48,572 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 200 25241021
+2025-10-31 21:22:29,233 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 21:22:33,888 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4781
+2025-10-31 21:22:44,711 [INFO] core: Login realizado: Admin
+2025-10-31 21:22:44,746 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 21:22:44,756 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6293
+2025-10-31 21:22:48,041 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6638
+2025-10-31 21:22:52,186 [INFO] django.server: "GET / HTTP/1.1" 200 4192
+2025-10-31 21:25:59,809 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 21:26:01,749 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 21:26:06,440 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 21:26:07,407 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 21:27:39,019 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4791
+2025-10-31 21:27:40,626 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4791
+2025-10-31 21:27:40,872 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 21:27:40,881 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:27:40,888 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:27:40,979 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:27:40,979 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4807
+2025-10-31 21:27:47,326 [INFO] core: Login realizado: Admin
+2025-10-31 21:27:47,359 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 21:27:47,371 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6303
+2025-10-31 21:27:49,856 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6648
+2025-10-31 21:27:55,733 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6648
+2025-10-31 21:29:19,747 [INFO] django.server: "POST /profile/ HTTP/1.1" 200 6673
+2025-10-31 21:29:19,779 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:29:19,779 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:29:19,791 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-10-31 21:29:20,322 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:29:20,323 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4807
+2025-10-31 21:29:25,630 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:29:25,630 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4916
+2025-10-31 21:30:38,252 [INFO] django.server: "GET / HTTP/1.1" 200 4194
+2025-10-31 21:30:39,901 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 21:30:45,866 [INFO] core: Login realizado: Admin
+2025-10-31 21:30:45,900 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 21:30:45,911 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 21:30:48,314 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6665
+2025-10-31 21:30:52,667 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:30:52,669 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4916
+2025-10-31 21:31:41,900 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:31:41,900 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4916
+2025-10-31 21:31:43,689 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:31:43,690 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4916
+2025-10-31 21:31:43,782 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:31:43,783 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4807
+2025-10-31 21:32:17,082 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 21:32:18,097 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 21:32:19,392 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:32:19,393 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:32:19,509 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:32:19,510 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 21:32:48,689 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:32:48,690 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:32:50,154 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:32:50,154 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:32:50,249 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:32:50,250 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 21:32:54,671 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:32:54,671 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:33:04,255 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:33:04,256 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:33:04,372 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:33:04,373 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 21:34:18,258 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:34:18,259 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:34:19,771 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:34:19,772 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:34:19,858 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:34:19,858 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 21:34:21,762 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:34:21,763 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:35:13,847 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:35:13,847 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:35:15,048 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:35:15,049 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:35:15,136 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:35:15,136 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 21:35:17,119 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:35:17,119 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:35:42,810 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 21:35:43,796 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 21:35:46,326 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:35:46,326 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:35:46,457 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:35:46,458 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 21:35:48,063 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:35:48,063 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:35:48,151 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:35:48,152 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 21:35:50,166 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:35:50,167 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:36:28,943 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 21:36:29,917 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 21:36:30,953 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:36:30,954 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:36:31,082 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:36:31,083 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 21:36:32,552 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:36:32,552 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:40:42,476 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:40:42,476 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:40:42,686 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:40:42,686 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 21:40:50,966 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:40:50,966 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:42:54,606 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 21:42:55,603 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 21:44:50,136 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 21:44:51,122 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 21:44:55,740 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:44:55,741 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:44:57,676 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:44:57,676 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:44:57,767 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:44:57,768 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 21:45:01,557 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:45:01,557 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:45:38,854 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:45:38,854 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:45:40,326 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:45:40,327 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:45:40,411 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:45:40,412 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 21:46:52,968 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:46:52,969 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:46:54,756 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:46:54,756 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:46:54,843 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:46:54,843 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 21:47:02,320 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:47:02,320 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:47:28,486 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 21:47:29,476 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 21:47:42,296 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:47:42,297 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:48:15,874 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:48:15,874 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:48:17,288 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:48:17,288 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4914
+2025-10-31 21:48:17,377 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:48:17,377 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 21:49:14,904 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 21:49:15,882 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 21:49:36,901 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:49:36,901 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:49:37,036 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:49:37,037 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 21:52:28,387 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:52:28,387 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:52:28,600 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:52:28,600 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 21:52:53,058 [INFO] django.server: "GET /profile/update_profile HTTP/1.1" 301 0
+2025-10-31 21:52:53,185 [ERROR] django.request: Internal Server Error: /profile/update_profile/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The view core.views.update_profile didn't return an HttpResponse object. It returned None instead.
+2025-10-31 21:52:53,187 [ERROR] django.server: "GET /profile/update_profile/ HTTP/1.1" 500 71682
+2025-10-31 21:52:57,278 [WARNING] django.request: Not Found: /profile/% url 'update_profile' %}
+2025-10-31 21:52:57,278 [WARNING] django.server: "POST /profile/%%20url%20'update_profile'%20%%7D HTTP/1.1" 404 4922
+2025-10-31 21:55:43,814 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 21:55:46,568 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 21:55:52,919 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 21:55:54,547 [INFO] django.server: "GET / HTTP/1.1" 200 4194
+2025-10-31 21:55:55,831 [INFO] django.server: "GET / HTTP/1.1" 200 4194
+2025-10-31 21:55:56,076 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11068
+2025-10-31 21:55:56,092 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-10-31 21:55:56,093 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 200 1173
+2025-10-31 21:55:56,277 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 21:55:56,277 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 21:55:57,383 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 21:56:03,280 [INFO] core: Login realizado: Admin
+2025-10-31 21:56:03,315 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 21:56:03,325 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 21:56:06,046 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6666
+2025-10-31 21:56:11,165 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 21:56:11,166 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4927
+2025-10-31 22:00:45,470 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\forms.py changed, reloading.
+2025-10-31 22:00:46,461 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:00:54,623 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 22:00:56,190 [ERROR] django.request: Internal Server Error: /accounts/signup/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 71, in signup_view
+    form = SignUpForm()
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\forms.py", line 20, in __init__
+    field.widget.attrs.update({
+    ^^^^^
+NameError: name 'field' is not defined
+2025-10-31 22:00:56,194 [ERROR] django.server: "GET /accounts/signup/ HTTP/1.1" 500 74954
+2025-10-31 22:01:09,610 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\forms.py changed, reloading.
+2025-10-31 22:01:10,586 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:01:57,593 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\forms.py changed, reloading.
+2025-10-31 22:01:58,582 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:01:59,514 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5476
+2025-10-31 22:06:06,661 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 22:06:07,661 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:06:09,888 [INFO] django.server: "GET / HTTP/1.1" 200 4194
+2025-10-31 22:06:10,983 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 22:06:16,648 [INFO] core: Login realizado: Admin
+2025-10-31 22:06:16,685 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 22:06:16,696 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 22:06:19,049 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6666
+2025-10-31 22:06:23,472 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:06:23,472 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4912
+2025-10-31 22:06:49,050 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 22:06:50,026 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:07:03,837 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:07:03,837 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4918
+2025-10-31 22:07:03,938 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 22:07:03,939 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4804
+2025-10-31 22:07:05,541 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:07:05,542 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4918
+2025-10-31 22:07:20,403 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\forms.py changed, reloading.
+2025-10-31 22:07:21,387 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:07:32,478 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\forms.py changed, reloading.
+2025-10-31 22:07:33,461 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:07:52,129 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:07:52,130 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4918
+2025-10-31 22:07:53,140 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:07:53,141 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4918
+2025-10-31 22:07:53,230 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 22:07:53,231 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4804
+2025-10-31 22:08:34,454 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 22:08:35,431 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:09:33,017 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 22:09:34,005 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:10:17,200 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:10:17,201 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4918
+2025-10-31 22:10:19,174 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:10:19,174 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4918
+2025-10-31 22:10:39,225 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 22:10:40,183 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:10:41,986 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:10:41,986 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4926
+2025-10-31 22:10:43,451 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:10:43,451 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4926
+2025-10-31 22:10:43,567 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 22:10:43,567 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4812
+2025-10-31 22:13:11,082 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 22:13:12,059 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:13:13,716 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:13:13,717 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4927
+2025-10-31 22:13:13,896 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 22:13:13,896 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 22:13:14,917 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:13:14,917 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4927
+2025-10-31 22:13:56,344 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:13:56,345 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4927
+2025-10-31 22:13:57,622 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:13:57,623 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4927
+2025-10-31 22:13:57,709 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 22:13:57,710 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4813
+2025-10-31 22:13:59,920 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:13:59,921 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4927
+2025-10-31 22:14:01,819 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:14:01,820 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4927
+2025-10-31 22:14:59,737 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-10-31 22:15:00,709 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:15:01,724 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:15:01,725 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4919
+2025-10-31 22:15:03,163 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:15:03,163 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4919
+2025-10-31 22:15:03,257 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 22:15:03,257 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 22:15:05,287 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:15:05,288 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4919
+2025-10-31 22:15:05,407 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 22:15:05,408 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 22:16:05,563 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:16:05,563 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4919
+2025-10-31 22:16:06,553 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:16:06,553 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4919
+2025-10-31 22:16:06,645 [WARNING] django.request: Not Found: /favicon.ico
+2025-10-31 22:16:06,645 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 4805
+2025-10-31 22:16:07,852 [WARNING] django.request: Not Found: /profile/{% url 'update_profile'% }
+2025-10-31 22:16:07,853 [WARNING] django.server: "POST /profile/%7B%%20url%20'update_profile'%%20%7D HTTP/1.1" 404 4919
+2025-10-31 22:16:57,626 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:16:59,770 [INFO] django.server: "GET / HTTP/1.1" 200 4194
+2025-10-31 22:17:01,218 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 22:17:07,807 [INFO] core: Login realizado: Admin
+2025-10-31 22:17:07,840 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 22:17:07,851 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 22:17:10,639 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6632
+2025-10-31 22:17:15,525 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:17:15,534 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6400
+2025-10-31 22:17:18,382 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6636
+2025-10-31 22:17:26,013 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:17:26,023 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6400
+2025-10-31 22:17:47,282 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 22:17:48,273 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:17:50,624 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 22:17:52,510 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6632
+2025-10-31 22:17:58,961 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:17:58,970 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6735
+2025-10-31 22:18:19,742 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:18:19,752 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6723
+2025-10-31 22:18:32,286 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:18:32,297 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6737
+2025-10-31 22:18:35,825 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6632
+2025-10-31 22:19:03,134 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7813
+2025-10-31 22:19:03,165 [INFO] django.server: "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2025-10-31 22:19:03,170 [INFO] django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2025-10-31 22:19:03,171 [INFO] django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2025-10-31 22:19:03,171 [INFO] django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2025-10-31 22:19:03,171 [INFO] django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2025-10-31 22:19:03,172 [INFO] django.server: "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2025-10-31 22:19:03,183 [INFO] django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2025-10-31 22:19:03,187 [INFO] django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2025-10-31 22:19:03,187 [INFO] django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2025-10-31 22:19:06,462 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 61350
+2025-10-31 22:19:06,485 [INFO] django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2025-10-31 22:19:06,494 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2025-10-31 22:19:06,494 [INFO] django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2025-10-31 22:19:06,496 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2025-10-31 22:19:06,496 [INFO] django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2025-10-31 22:19:06,498 [INFO] django.server: "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2025-10-31 22:19:06,499 [INFO] django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2025-10-31 22:19:06,499 [INFO] django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2025-10-31 22:19:06,500 [INFO] django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2025-10-31 22:19:06,514 [INFO] django.server: "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2025-10-31 22:19:06,552 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-31 22:19:06,587 [INFO] django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2025-10-31 22:19:06,592 [INFO] django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2025-10-31 22:21:01,898 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 22:21:02,894 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:21:06,163 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7813
+2025-10-31 22:21:10,986 [ERROR] django.request: Internal Server Error: /update_profile/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 24, in update_profile
+    registrar_log(f"Usuário alterou o nome: {user.username}", user=user)
+                                             ^^^^
+NameError: name 'user' is not defined. Did you mean: 'User'?
+2025-10-31 22:21:10,989 [ERROR] django.server: "POST /update_profile/ HTTP/1.1" 500 77442
+2025-10-31 22:21:53,572 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 22:21:54,573 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:21:57,213 [INFO] core: Usuário alterou o nome: aaaaaaa
+2025-10-31 22:21:57,238 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:21:57,278 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6741
+2025-10-31 22:21:59,919 [INFO] core: Usuário alterou o nome: aaaaaaa
+2025-10-31 22:21:59,939 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:21:59,949 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6741
+2025-10-31 22:22:05,703 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7815
+2025-10-31 22:22:07,547 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 61062
+2025-10-31 22:22:07,578 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-31 22:22:14,875 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7815
+2025-10-31 22:22:22,227 [INFO] core: Usuário alterou o nome: Admin
+2025-10-31 22:22:22,247 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:22:22,256 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6737
+2025-10-31 22:22:31,200 [INFO] django.server: "GET /admin HTTP/1.1" 301 0
+2025-10-31 22:22:31,218 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7813
+2025-10-31 22:22:33,495 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 61042
+2025-10-31 22:22:33,525 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-31 22:22:52,731 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 22:22:53,725 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-10-31 22:22:57,216 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7813
+2025-10-31 22:23:00,815 [INFO] core: aaaaaa alterou o nome: aaaaaa
+2025-10-31 22:23:00,835 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:23:00,847 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6739
+2025-10-31 22:23:08,187 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7814
+2025-10-31 22:23:09,866 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 61066
+2025-10-31 22:23:09,896 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-31 22:23:19,043 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7814
+2025-10-31 22:23:25,503 [INFO] core: Admin alterou o nome: Admin
+2025-10-31 22:23:25,522 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:23:25,533 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6737
+2025-10-31 22:23:27,158 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 22:24:39,709 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6632
+2025-10-31 22:24:54,367 [INFO] django.server: "GET / HTTP/1.1" 200 4194
+2025-10-31 22:25:12,560 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 22:25:20,034 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 22:25:30,263 [WARNING] core: Tentativa de login falha: vania
+2025-10-31 22:25:30,285 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 200 4885
+2025-10-31 22:25:36,507 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 22:25:37,792 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 5476
+2025-10-31 22:25:48,547 [INFO] django.server: "GET / HTTP/1.1" 200 4194
+2025-10-31 22:25:51,086 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6640
+2025-10-31 22:26:01,430 [INFO] django.server: "GET / HTTP/1.1" 200 4194
+2025-10-31 22:26:06,891 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4783
+2025-10-31 22:26:15,368 [WARNING] core: Tentativa de login falha: Admin
+2025-10-31 22:26:15,390 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 200 4885
+2025-10-31 22:26:23,611 [INFO] core: Login realizado: Admin
+2025-10-31 22:26:23,646 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 22:26:23,656 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 22:26:36,805 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6632
+2025-10-31 22:27:03,297 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7813
+2025-10-31 22:27:04,946 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 60875
+2025-10-31 22:27:04,978 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-31 22:27:52,316 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 13305
+2025-10-31 22:27:52,355 [INFO] django.server: "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+2025-10-31 22:27:52,355 [INFO] django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2025-10-31 22:27:52,358 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-31 22:27:52,359 [INFO] django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2025-10-31 22:27:52,376 [INFO] django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+2025-10-31 22:27:57,708 [INFO] django.server: "GET /admin/auth/group/ HTTP/1.1" 200 9144
+2025-10-31 22:27:57,739 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-31 22:28:03,590 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 13305
+2025-10-31 22:28:04,412 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 60875
+2025-10-31 22:28:04,969 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7813
+2025-10-31 22:28:40,476 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 22:28:41,769 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 22:28:45,512 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 22:29:18,250 [INFO] core: Logout: Admin
+2025-10-31 22:29:18,268 [INFO] django.server: "GET /accounts/logout/ HTTP/1.1" 302 0
+2025-10-31 22:29:18,274 [INFO] django.server: "GET / HTTP/1.1" 200 4186
+2025-10-31 22:29:19,564 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 4775
+2025-10-31 22:29:25,910 [INFO] core: Login realizado: Admin
+2025-10-31 22:29:25,945 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-10-31 22:29:25,956 [INFO] django.server: "GET /home/ HTTP/1.1" 200 6295
+2025-10-31 22:29:32,217 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6632
+2025-10-31 22:30:08,858 [INFO] core: aaaaaa alterou o nome: aaaaaa
+2025-10-31 22:30:08,877 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:30:08,893 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6739
+2025-10-31 22:30:24,661 [INFO] core: aaaaaa alterou o nome: aaaaaa
+2025-10-31 22:30:24,680 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:30:24,690 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6729
+2025-10-31 22:30:31,805 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7814
+2025-10-31 22:30:33,780 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 60840
+2025-10-31 22:30:33,812 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-31 22:30:44,996 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 60840
+2025-10-31 22:30:45,030 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-10-31 22:31:03,555 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 7814
+2025-10-31 22:31:21,269 [INFO] core: Admin alterou o nome: Admin
+2025-10-31 22:31:21,287 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-10-31 22:31:21,296 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6737
+2025-10-31 22:34:45,743 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-10-31 22:34:46,805 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

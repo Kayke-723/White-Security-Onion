@@ -15,8 +15,6 @@
 
     <!-- CABEÇALHO -->
     <header class="relative flex items-center justify-between px-10 py-3 bg-gray-800/70 shadow-lg z-40">
-
-
         <!-- TÍTULO -->
         <a href="{% url 'home' %}"
             class="no-underline decoration-transparent hover:opacity-80 transition duration-200 inline-block"
@@ -47,7 +45,7 @@
         </a>
 
         <!-- MENU -->
-        <nav class="flex items-center gap-20">
+        <nav class="pr-100 flex justify-between gap-10">
             <button @click="page = 'home'"
                 :class="page === 'home' ? 'text-white bg-white/10' : 'text-gray-300 hover:text-white hover:bg-white/5'"
                 class="px-3 py-2 rounded-md text-lg font-medium transition">Home</button>
@@ -62,71 +60,56 @@
 
             <button @click="page = 'termos'"
                 :class="page === 'termos' ? 'text-white bg-white/10' : 'text-gray-300 hover:text-white hover:bg-white/5'"
-                class="px-3 py-2 flex items-center rounded-md text-lg font-medium transition whitespace-nowrap">Termos e
-                Condições</button>
-
-            <!-- DROPDOWN PERFIL -->
-            <div x-data="{ open: false }" class="relative">
-                <!-- BOTÃO PERFIL -->
-                <button @click="open = !open" class="flex flex-col items-center focus:outline-none relative z-50">
-                    <div class="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center bg-gray-700">
-                        <img src="{% static 'imagens/perfil.jpg' %}" alt="Perfil"
-                            class="w-full h-full object-cover rounded-full hover:opacity-80 transition">
-                    </div>
-                    <span class="mt-1 text-sm text-gray-300 whitespace-nowrap">Seu Perfil</span>
-                </button>
-
-                <!-- MENU FLUTUANTE -->
-                <div x-show="open" @click.outside="open = false" x-transition
-                    class="absolute right-0 mt-2 w-48 bg-gray-800 text-gray-300 rounded-md shadow-lg ring-1 ring-white/10 z-50"
-                    style="top: 100%; position: absolute;">
-                    <a href="{% url 'profile' %}" class="block px-4 py-2 text-sm hover:bg-white/5 hover:text-white">Seu
-                        Perfil</a>
-                    <a href="#" class="block px-4 py-2 text-sm hover:bg-white/5 hover:text-white">Configurações</a>
-                    <a href="{% url 'logout' %}"
-                        class="block px-4 py-2 text-sm hover:bg-white/5 hover:text-white">Sair</a>
-                </div>
-            </div>
-
-
-
-
-
-
-
+                class="px-3 py-2 flex items-center rounded-md text-lg font-medium transition whitespace-nowrap">
+                Termos e Condições
+            </button>
+        </nav>
     </header>
+
+    <!-- PERFIL E DROPDOWN (fora do header, mas alinhado à direita) -->
+    <div class="relative top-3 right-10 flex flex-col items-end" x-data>
+        <!-- BOTÃO PERFIL -->
+        <button @click="open = !open" class="focus:outline-none relative z-50">
+            <div
+                class="absolute left-300 bottom-19 w-14 h-14 rounded-full overflow-hidden flex items-center justify-center bg-gray-700 border border-white/10">
+                <img src="{% static 'imagens/perfil.jpg' %}" alt="Perfil"
+                    class="w-full h-full object-cover rounded-full hover:opacity-80 transition">
+            </div>
+        </button>
+
+        <!-- MENU FLUTUANTE -->
+        <div x-show="open" @click.outside="open = false" x-transition
+            class="right-55 bottom-18 absolute mt-1 w-48 bg-gray-800 text-gray-300 rounded-md shadow-lg ring-1 ring-white/10 z-auto">
+            <a href="{% url 'profile' %}" class="block px-4 py-2 text-sm hover:bg-white/5 hover:text-white">Seu
+                Perfil</a>
+            <a href="#" class="block px-4 py-2 text-sm hover:bg-white/5 hover:text-white">Configurações</a>
+            <a href="{% url 'logout' %}" class="block px-4 py-2 text-sm hover:bg-white/5 hover:text-white">Sair</a>
+        </div>
+    </div>
 
     <!-- CONTEÚDO -->
     <main class="flex-grow p-10 mt-4 text-center">
-
-        <!-- HOME -->
         <section x-show="page === 'home'" x-transition>
             <h2 class="text-3xl font-bold mb-4">Bem-vindo à White Security!</h2>
             <p class="text-gray-400">Página inicial com introdução e boas-vindas.</p>
         </section>
 
-        <!-- FUNÇÕES -->
         <section x-show="page === 'funcoes'" x-transition>
             <h2 class="text-3xl font-bold mb-4">Funções e Ferramentas</h2>
             <p class="text-gray-400">Aqui você encontra as principais funcionalidades do sistema.</p>
         </section>
 
-        <!-- SOBRE -->
         <section x-show="page === 'sobre'" x-transition>
             <h2 class="text-3xl font-bold mb-4">Sobre o Projeto</h2>
             <p class="text-gray-400">Informações sobre o propósito e desenvolvimento do site.</p>
         </section>
 
-        <!-- TERMOS -->
         <section x-show="page === 'termos'" x-transition>
             <h2 class="text-3xl font-bold mb-4">Termos e Condições</h2>
             <p class="text-gray-400">Regras e políticas de uso da White Security.</p>
         </section>
-
     </main>
 
-    <!-- SCRIPTS -->
-    <script src="{% static 'js/script.js' %}"></script>
 </body>
 
 </html>
