@@ -95,8 +95,35 @@
         </section>
 
         <section x-show="page === 'funcoes'" x-transition>
-            <h2 class="text-3xl font-bold mb-4">Funções e Ferramentas</h2>
-            <p class="text-gray-400">Aqui você encontra as principais funcionalidades do sistema.</p>
+            <div class="flex flex-col" style="bottom: 100px;">
+                <h2 class="text-3xl font-bold mb-4">Funções e Ferramentas</h2>
+                <p class="text-gray-400">Aqui você encontra as principais funcionalidades do sistema.</p>
+            </div>
+
+
+            <div class="flex justify-between">
+                <!--Conversao-->
+                <div class="bg-purple-800 rounded-full" style="
+                width: 400px;
+                height: 500px;">
+                    <a href="{% url 'conversao'%}">Conversao</a>
+                </div>
+
+                <!--IoT-->
+                <div class="bg-purple-800 rounded-full" style="
+                width: 400px;
+                height: 500px;">
+                </div>
+
+                <!--Outro-->
+                <div class="bg-purple-800 rounded-full" style="
+                width: 400px;
+                height: 500px;">
+
+
+                </div>
+            </div>
+
         </section>
 
         <section x-show="page === 'sobre'" x-transition>

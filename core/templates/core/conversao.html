@@ -1,5 +1,44 @@
 {% extends "core/base.html" %}
+{% load static %}
 {% block content %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body class="bg_Ceu">
+    <!-- TÍTULO CENTRAL -->
+    <header class="left-7 flex justify-items-center relative gap-x-10">
+        <a href="{% url 'index' %}"
+            class="no-underline decoration-transparent hover:opacity-80 transition duration-200 inline-block"
+            style="text-decoration: none !important;">
+            <h1
+                class="text-5xl font-bold text-white flex items-center justify-center gap-2 drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                White Security
+                <span class="relative flex items-center">
+                    <span class="opacity-0 select-none">O</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none"
+                        class="w-12 h-12 absolute left-0 top-1/2 -translate-y-1/2 animate-spin-slow">
+                        <defs>
+                            <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#ffffff" />
+                                <stop offset="50%" stop-color="#c084fc" />
+                                <stop offset="100%" stop-color="#ffffff" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="50" cy="50" r="40" stroke="url(#ringGradient)" stroke-width="3" />
+                        <path d="M50 15 Q75 35 50 55 Q25 75 50 95" stroke="url(#ringGradient)" stroke-width="2"
+                            opacity="0.8" />
+                        <path d="M50 25 Q70 40 50 55 Q30 70 50 85" stroke="url(#ringGradient)" stroke-width="1.5"
+                            opacity="0.6" />
+                    </svg>
+                    <span class="ml-[0.5rem]">nion</span>
+                </span>
+            </h1>
+        </a>
+
+    </header>
+
     <div class="text-center">
         <h2>Conversão Numérica</h2>
     </div>
@@ -26,16 +65,19 @@
     </form>
 
     {% if result %}
-        <h4 class="mt-3">Resultados</h4>
-        <ul>
-            <li>Decimal: {{ result.decimal }}</li>
-            <li>Binário: {{ result.binary }}</li>
-            <li>Hexadecimal: {{ result.hex }}</li>
-            <li>Octal: {{ result.oct }}</li>
-        </ul>
+    <h4 class="mt-3">Resultados</h4>
+    <ul>
+        <li>Decimal: {{ result.decimal }}</li>
+        <li>Binário: {{ result.binary }}</li>
+        <li>Hexadecimal: {{ result.hex }}</li>
+        <li>Octal: {{ result.oct }}</li>
+    </ul>
     {% endif %}
     <hr>
     <div class="m-5 text-center">
-        <a href="{% url 'index' %}" class="text-xl bg-amber-200 p-3 rounded-xl text-black font-bold" style="text-decoration: none;">Voltar</a>
+        <a href="{% url 'index' %}" class="text-xl bg-amber-200 p-3 rounded-xl text-black font-bold"
+            style="text-decoration: none;">Voltar</a>
     </div>
+</body>
+
 {% endblock %}

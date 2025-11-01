@@ -62,12 +62,22 @@
                         placeholder="Digite sua Senha" required>
                 </div>
 
+
                 <div class="flex flex-col">
+
                     <button
-                        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-2xl transition-colors"
-                        type="submit">
+                        class=" bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-2xl transition-colors"
+                        type="submit" style="margin-top: 20px;">
                         Entrar
                     </button>
+
+                    <h1 class="text-white text-sm font-semibold text-center py-3">Ou</h1>
+
+                    <a href="{% url 'login_gesto' %}"
+                        class="text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-2xl transition-colors"
+                        style="margin-bottom: 5px;">Entre
+                        com Gesto</a>
+
                     <div class="text-center my-3">
                         <a href="{% url 'signup' %}" class="px-1 text-blue-600 hover:underline font-medium"
                             style="text-decoration: none;">

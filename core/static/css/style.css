@@ -434,3 +434,37 @@ html {
     height: 100%;
     object-fit: cover;
 }
+
+.onionGesto {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #a78bfa 0%, #7c3aed 30%, #5b21b6 60%, #4c1d95 100%);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+}
+
+.onionGesto::before,
+.onionGesto::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgb(192, 192, 218);
+    animation: spin 15s reverse infinite;
+}
+
+.onionGesto::before {
+    width: 100%;
+    height: 100%;
+    animation-direction: reverse;
+}
+
+.onionGesto::after {
+    width: 95%;
+    height: 95%;
+    animation-direction: reverse;
+}
