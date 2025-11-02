@@ -3,7 +3,7 @@
 {% block content %}
 
 <!DOCTYPE html>
-<html class="h-full bg-gray-900" lang="pt-br">
+<html class="h-full  bg-gray-900" lang="pt-br">
 
 <head>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
-<body x-data="{ page: 'home', open: false }" class="h-full flex flex-col bg_Ceu text-white">
+<body x-data="{ page: 'home', open: false }" class="h-full flex flex-col bg_Ceu text-white ">
 
     <!-- CABEÇALHO -->
-    <header class="relative flex items-center justify-between px-10 py-3 bg-gray-800/70 shadow-lg z-40">
+    <header class="relative flex items-center justify-between px-10 py-3 bg-gray-800/70 shadow-lg z-10">
         <!-- TÍTULO -->
         <a href="{% url 'home' %}"
             class="no-underline decoration-transparent hover:opacity-80 transition duration-200 inline-block"
@@ -44,6 +44,7 @@
             </h1>
         </a>
 
+
         <!-- MENU -->
         <nav class="pr-100 flex justify-between gap-10">
             <button @click="page = 'home'"
@@ -69,7 +70,7 @@
     <!-- PERFIL E DROPDOWN (fora do header, mas alinhado à direita) -->
     <div class="relative top-3 right-10 flex flex-col items-end" x-data>
         <!-- BOTÃO PERFIL -->
-        <button @click="open = !open" class="focus:outline-none relative z-50">
+        <button @click="open = !open" class="cursor-pointer focus:outline-none relative z-50">
             <div
                 class="absolute left-300 bottom-19 w-14 h-14 rounded-full overflow-hidden flex items-center justify-center bg-gray-700 border border-white/10">
                 <img src="{% static 'imagens/perfil.jpg' %}" alt="Perfil"
@@ -90,10 +91,38 @@
     <!-- CONTEÚDO -->
     <main class="flex-grow p-10 mt-4 text-center">
         <section x-show="page === 'home'" x-transition>
+
             <h2 class="text-3xl font-bold mb-4">Bem-vindo à White Security!</h2>
-            <p class="text-gray-400">Página inicial com introdução e boas-vindas.</p>
+            <div class="flex flex-col items-center m-10 text">
+                <p class="text-3x1 md:text-xl max-w-3xl leading-relaxed mb-8 text-gray-300">
+                    Explore um espaço criado para transformar sua curiosidade em experiência.
+                    Aqui, você poderá <span class="text-blue-400 font-semibold">converter números entre bases</span> com
+                    um
+                    clique,
+                    <span class="text-blue-400 font-semibold">desenhar com suas próprias mãos</span> através da webcam,
+                    e mergulhar em um sistema de <span class="text-blue-400 font-semibold">criptografia de
+                        mensagens</span>
+                    que desperta
+                    o mistério da segurança digital.
+                </p>
+
+                <p class="text-lg text-gray-400 italic">
+                    Prepare-se para descobrir, criar e experimentar um novo jeito de interagir com a tecnologia.
+                </p>
+
+                <button @click="page = 'funcoes'"
+                    class="mt-8 inline-block bg-blue-600 hover:bg-blue-700  text-white font-semibold py-3 px-8 
+                    rounded-full shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg cursor-pointer"
+                    style="width: 200px;">
+                    Começar Agora →
+                </button>
+            </div>
+
         </section>
 
+
+
+        <!--FUNÇÕES-->
         <section x-show="page === 'funcoes'" x-transition>
             <div class="flex flex-col" style="bottom: 100px;">
                 <h2 class="text-3xl font-bold mb-4">Funções e Ferramentas</h2>
@@ -101,24 +130,55 @@
             </div>
 
 
-            <div class="flex justify-between">
+            <div class="flex justify-between gap-x-10  bg-black/20  rounded-full">
                 <!--Conversao-->
-                <div class="bg-purple-800 rounded-full" style="
-                width: 400px;
-                height: 500px;">
-                    <a href="{% url 'conversao'%}">Conversao</a>
+                <div class="bg-purple-800 rounded-full transition-transform hover:scale-110" style="
+                width: 480px;
+                height: 480px;">
+
+                    <div class=" flex justify-between items-center top-25  text-6xl" style="">
+                        <a href="{% url 'conversao'%}" class=" text-white/50  font-bold  h-40 " style="
+                        ">Conversao Numérica
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-70 pb-30 " style="opacity: 0.5; margin-left: 95;">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V13.5Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25V18Zm2.498-6.75h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V13.5Zm0 2.25h.007v.008h-.007v-.008Zm0 2.25h.007v.008h-.007V18Zm2.504-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18Zm2.498-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V13.5ZM8.25 6h7.5v2.25h-7.5V6ZM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 0 0 2.25 2.25h10.5a2.25 2.25 0 0 0 2.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0 0 12 2.25Z" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
 
                 <!--IoT-->
-                <div class="bg-purple-800 rounded-full" style="
-                width: 400px;
-                height: 500px;">
+                <div class=" bg-purple-800 rounded-full transition-transform hover:scale-110" style="
+                width: 480px;
+                height: 480px;">
+                    <div class=" flex justify-baseline top-25  text-6xl" style="">
+                        <a href="{% url 'conversao'%}" class=" text-white/50  font-bold  h-40 " style="
+                                        ">Desenho com Mapeamento
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-70 pb-30 left-60"
+                                style="opacity: 0.5; margin-left: 100;">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-12.15 12.15a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32L19.513 8.2Z" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
 
                 <!--Outro-->
-                <div class="bg-purple-800 rounded-full" style="
-                width: 400px;
-                height: 500px;">
+                <div class="bg-purple-800 rounded-full transition-transform hover:scale-110" style="
+                width: 480px;
+                height: 480px;">
+                    <div class=" relative flex justify-between  top-25  text-6xl" style="">
+                        <a href="{% url 'msgCriptografia'%}" class=" text-white/50  font-bold  h-40 " style="
+                                            ">Mensagem Criptografada
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-70 pb-20" style="opacity: 0.5; margin-left: 100;">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12.516 2.17a.75.75 0 0 0-1.032 0 11.209 11.209 0 0 1-7.877 3.08.75.75 0 0 0-.722.515A12.74 12.74 0 0 0 2.25 9.75c0 5.942 4.064 10.933 9.563 12.348a.749.749 0 0 0 .374 0c5.499-1.415 9.563-6.406 9.563-12.348 0-1.39-.223-2.73-.635-3.985a.75.75 0 0 0-.722-.516l-.143.001c-2.996 0-5.717-1.17-7.734-3.08Zm3.094 8.016a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z">
+                            </svg>
+                        </a>
+                    </div>
 
 
                 </div>
@@ -132,8 +192,112 @@
         </section>
 
         <section x-show="page === 'termos'" x-transition>
-            <h2 class="text-3xl font-bold mb-4">Termos e Condições</h2>
-            <p class="text-gray-400">Regras e políticas de uso da White Security.</p>
+            <section
+                class="max-h-128 overflow-y-auto bg-gray-900 text-gray-200 py-16 px-8 rounded-2xl shadow-lg max-w-5xl mx-auto leading-relaxed">
+                <h1 class="text-4xl font-bold text-white mb-6 text-center">Termos e Condições de Uso</h1>
+
+                <p class="mb-4">
+                    Bem-vindo à <span class="text-blue-400 font-semibold">White Security</span>. Estes Termos e
+                    Condições regulam o
+                    uso do nosso site e dos serviços oferecidos.
+                    Ao acessar ou utilizar o site, você concorda com todas as condições aqui descritas.
+                </p>
+
+                <h2 class="text-2xl font-semibold text-blue-400 mt-8 mb-3">1. Coleta e Uso de Dados</h2>
+                <p class="mb-4">
+                    Em conformidade com a <strong>Lei nº 13.709/2018 (Lei Geral de Proteção de Dados - LGPD)</strong>,
+                    informamos
+                    que coletamos apenas os dados estritamente necessários para o funcionamento do site, tais como:
+                </p>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Nome de usuário e e-mail para criação e autenticação de conta;</li>
+                    <li>Informações de gesto ou interação com câmera (apenas para autenticação biométrica opcional);
+                    </li>
+                    <li>Dados técnicos do dispositivo e logs de acesso, para fins de segurança e desempenho.</li>
+                </ul>
+                <p class="mb-4">
+                    Todos os dados coletados têm como base legal o <strong>consentimento do usuário</strong> ou o
+                    <strong>legítimo
+                        interesse</strong> para execução dos serviços oferecidos.
+                </p>
+
+                <h2 class="text-2xl font-semibold text-blue-400 mt-8 mb-3">2. Armazenamento e Segurança</h2>
+                <p class="mb-4">
+                    Os dados são armazenados em ambiente seguro e controlado, com medidas técnicas e administrativas
+                    adequadas para
+                    proteger contra acessos não autorizados, perda, destruição ou alteração indevida.
+                </p>
+                <p class="mb-4">
+                    Nenhuma informação sensível, como gestos capturados via webcam, é compartilhada com terceiros, sendo
+                    utilizada
+                    exclusivamente para validação e autenticação dentro do sistema.
+                </p>
+
+                <h2 class="text-2xl font-semibold text-blue-400 mt-8 mb-3">3. Direitos do Usuário</h2>
+                <p class="mb-4">
+                    Conforme previsto na LGPD, o usuário tem direito a:
+                </p>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Solicitar acesso, correção ou exclusão dos seus dados pessoais;</li>
+                    <li>Revogar o consentimento a qualquer momento;</li>
+                    <li>Ser informado sobre o uso que é feito dos seus dados;</li>
+                    <li>Portar seus dados a outro serviço, mediante solicitação expressa.</li>
+                </ul>
+                <p class="mb-4">
+                    As solicitações podem ser feitas pelo canal de contato oficial disponível neste site.
+                </p>
+
+                <h2 class="text-2xl font-semibold text-blue-400 mt-8 mb-3">4. Compartilhamento de Informações</h2>
+                <p class="mb-4">
+                    A <strong>White Security</strong> não compartilha dados pessoais com terceiros, exceto quando:
+                </p>
+                <ul class="list-disc list-inside mb-4">
+                    <li>Houver obrigação legal ou determinação judicial;</li>
+                    <li>For necessário para proteção de direitos, segurança ou prevenção de fraudes;</li>
+                    <li>Houver consentimento expresso do usuário.</li>
+                </ul>
+
+                <h2 class="text-2xl font-semibold text-blue-400 mt-8 mb-3">5. Uso de Câmera e Reconhecimento de Gestos
+                </h2>
+                <p class="mb-4">
+                    Algumas funcionalidades do site utilizam a câmera do dispositivo para captura de gestos. As imagens
+                    não são
+                    gravadas nem armazenadas permanentemente, sendo processadas apenas localmente para reconhecimento e
+                    autenticação.
+                </p>
+                <p class="mb-4">
+                    O uso dessa funcionalidade é opcional e depende do consentimento do usuário.
+                </p>
+
+                <h2 class="text-2xl font-semibold text-blue-400 mt-8 mb-3">6. Responsabilidades do Usuário</h2>
+                <p class="mb-4">
+                    O usuário se compromete a fornecer informações verdadeiras, manter a confidencialidade de suas
+                    credenciais e
+                    utilizar o site de forma ética, respeitando os direitos de terceiros e as leis vigentes.
+                </p>
+
+                <h2 class="text-2xl font-semibold text-blue-400 mt-8 mb-3">7. Alterações nos Termos</h2>
+                <p class="mb-4">
+                    A <strong>White Security</strong> reserva-se o direito de alterar estes Termos e Condições a
+                    qualquer momento.
+                    Recomendamos que o usuário revise periodicamente esta página para manter-se informado sobre
+                    eventuais mudanças.
+                </p>
+
+                <h2 class="text-2xl font-semibold text-blue-400 mt-8 mb-3">8. Contato</h2>
+                <p class="mb-4">
+                    Caso tenha dúvidas, solicitações ou reclamações sobre a coleta e o tratamento de dados pessoais, o
+                    usuário pode
+                    entrar em contato pelo e-mail:
+                    <a href="mailto:contato@whitesecurity.com"
+                        class="text-blue-400 hover:underline">contato@whitesecurity.com</a>.
+                </p>
+
+                <p class="mt-10 text-center text-gray-400 italic">
+                    Última atualização: Novembro de 2025.
+                </p>
+            </section>
+
         </section>
     </main>
 

@@ -16,6 +16,8 @@ from django.views.decorators.csrf import csrf_exempt
 
 
 
+def termos_view(request):
+    return render(request, 'core/termos.html')
 
 def cadastro_gesto(request):
     return render(request, 'core/gesto/cadastro_gesto.html')
@@ -54,6 +56,8 @@ import math
 def valida_gesto(request):
     """
     Verifica se o usuário existe e valida o gesto salvo no banco.
+    Comparação normalizada: independe da posição e escala da mão.
+    Retorna JSON e, em caso de sucesso, autentica o usuário na sessão.
     """
     if request.method != 'POST':
         return JsonResponse({'status': 'error', 'message': 'Método inválido'}, status=405)
@@ -66,50 +70,111 @@ def valida_gesto(request):
     username = data.get('username')
     incoming_kps = data.get('keypoints')
 
-    # 🔹 Verificar se o nome foi informado
     if not username:
         return JsonResponse({'status': 'error', 'message': 'Nome de usuário não informado'}, status=400)
 
-    # 🔹 Verificar se o usuário existe no banco
+    # Verifica se o usuário existe
     try:
         user = User.objects.get(username=username)
     except User.DoesNotExist:
         return JsonResponse({'status': 'fail', 'message': 'Usuário não encontrado'}, status=404)
 
-    # 🔹 Verificar se o usuário possui gesto cadastrado
+    # Busca o gesto cadastrado
     gesto = Gesto.objects.filter(user=user).first()
     if not gesto:
         return JsonResponse({'status': 'fail', 'message': 'Usuário não possui gesto cadastrado'}, status=404)
 
-    # 🔹 Verificar se foram enviados keypoints
     if not incoming_kps:
-        return JsonResponse({'status': 'error', 'message': 'Nenhum gesto foi detectado'}, status=400)
+        return JsonResponse({'status': 'error', 'message': 'Nenhum gesto detectado'}, status=400)
 
     saved_kps = gesto.keypoints
 
-    # 🔹 Comparar o gesto salvo com o gesto atual
-    def avg_distance(a, b):
-        if not (isinstance(a, list) and isinstance(b, list) and len(a) == len(b)):
-            return float('inf')
-        total = 0.0
-        for pa, pb in zip(a, b):
-            try:
-                dx = float(pa[0]) - float(pb[0])
-                dy = float(pa[1]) - float(pb[1])
-                dz = (float(pa[2]) - float(pb[2])) if len(pa) > 2 and len(pb) > 2 else 0.0
-                total += math.sqrt(dx*dx + dy*dy + dz*dz)
-            except Exception:
-                return float('inf')
-        return total / len(a)
+    # ---------- Normalização sem numpy ----------
+    def normalize_keypoints(points):
+        """
+        points: lista de [x,y,z] ou lista de dicts {'x','y','z'}.
+        retorna lista normalizada (centralizada e com escala unificada).
+        """
+        if not points or not isinstance(points, list):
+            return []
 
-    avg_dist = avg_distance(saved_kps, incoming_kps)
-    THRESHOLD = 0.05
+        # Convert to list of triplets (x,y,z)
+        triplets = []
+        for p in points:
+            if isinstance(p, dict):
+                x = float(p.get('x', 0.0))
+                y = float(p.get('y', 0.0))
+                z = float(p.get('z', 0.0))
+            else:
+                # assume list/tuple
+                x = float(p[0]) if len(p) > 0 else 0.0
+                y = float(p[1]) if len(p) > 1 else 0.0
+                z = float(p[2]) if len(p) > 2 else 0.0
+            triplets.append((x, y, z))
+
+        n = len(triplets)
+        # centro (mean)
+        cx = sum(p[0] for p in triplets) / n
+        cy = sum(p[1] for p in triplets) / n
+        cz = sum(p[2] for p in triplets) / n
+
+        # centraliza
+        centered = [(p[0] - cx, p[1] - cy, p[2] - cz) for p in triplets]
+
+        # escala — usa norma combinada (raiz da soma dos quadrados de todas as distâncias)
+        # para evitar divisão por zero, usamos max(..., 1e-8)
+        total_norm = sum(math.sqrt(x*x + y*y + z*z) for x, y, z in centered)
+        scale = total_norm if total_norm > 1e-8 else 1.0
+
+        normalized = [(x/scale, y/scale, z/scale) for x, y, z in centered]
+        return normalized
+
+    try:
+        a = normalize_keypoints(saved_kps)
+        b = normalize_keypoints(incoming_kps)
+    except Exception:
+        return JsonResponse({'status': 'error', 'message': 'Erro ao processar keypoints'}, status=400)
+
+    # Verifica compatibilidade de tamanho (zip usa o menor)
+    if not a or not b or len(a) != len(b):
+        # se tamanhos diferentes, ancora pelo menor comprimento
+        min_len = min(len(a), len(b))
+        if min_len == 0:
+            return JsonResponse({'status': 'error', 'message': 'Keypoints inválidos'}, status=400)
+    else:
+        min_len = len(a)
+
+    # ---------- Calcula distância média ponto a ponto ----------
+    total = 0.0
+    count = 0
+    for i in range(min_len):
+        pa = a[i]
+        pb = b[i]
+        dx = pa[0] - pb[0]
+        dy = pa[1] - pb[1]
+        dz = pa[2] - pb[2]
+        total += math.sqrt(dx*dx + dy*dy + dz*dz)
+        count += 1
+
+    avg_dist = (total / count) if count else float('inf')
+
+    # threshold: ajustável — 0.12 a 0.18 é um bom ponto de partida
+    THRESHOLD = 0.15
 
     if avg_dist < THRESHOLD:
-        return JsonResponse({'status': 'ok', 'message': 'Login autorizado', 'distance': avg_dist})
+        # autentica o usuário no Django (cria sessão)
+        login(request, user)
+        return JsonResponse({
+            'status': 'ok',
+            'message': 'Login autorizado com gesto',
+            'distance': avg_dist
+        })
     else:
-        return JsonResponse({'status': 'fail', 'message': 'Gesto não corresponde', 'distance': avg_dist})
-
+        return JsonResponse({
+            'status': 'fail',
+            'message': 'Gesto não corresponde ao cadastrado',
+            'distance': avg_dist
+        })
 
 
 logger = logging.getLogger('core')
@@ -152,8 +217,13 @@ def terms_view(request):
 def about_view(request):
     return render(request, 'core/about.html')
 
+@login_required
 def home_view(request):
     return render(request, 'core/home.html')
+
+@login_required
+def msgCriptografia_view(request):
+    return render(request, 'core/msgCriptografia.html')
 
 
 def registrar_log(message, user=None, level='INFO'):
@@ -185,8 +255,6 @@ def signup_view(request):
             login(request, user)  
             messages.success(request, "Cadastro realizado com sucesso.")
             return redirect('index')
-        else:
-            messages.error(request, "Erro no cadastro. Verifique os campos.")
     else:
         form = SignUpForm()
     return render(request, 'core/signup.html', {'form': form})

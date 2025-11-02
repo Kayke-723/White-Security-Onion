@@ -2,8 +2,7 @@
 {% load static %}
 {% block content %}
 
-<!DOCTYPE html>
-<html lang="pt-br">
+
 
 <head>
     <meta charset="UTF-8" />
@@ -17,27 +16,82 @@
 
     <!-- Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
-<body class="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
+<!-- CABEÇALHO -->
+<header class="relative right-100 px-10 py-3">
+    <!-- TÍTULO -->
+    <a href="{% url 'home' %}"
+        class="no-underline decoration-transparent hover:opacity-80 transition duration-200 inline-block"
+        style="text-decoration: none !important;">
+        <h1
+            class="text-5xl font-bold text-white flex items-center justify-center gap-2 drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+            White Security
+            <span class="relative flex items-center">
+                <span class="opacity-0 select-none">O</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none"
+                    class="w-12 h-12 absolute left-0 top-1/2 -translate-y-1/2 animate-spin-slow">
+                    <defs>
+                        <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#ffffff" />
+                            <stop offset="50%" stop-color="#c084fc" />
+                            <stop offset="100%" stop-color="#ffffff" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="40" stroke="url(#ringGradient)" stroke-width="3" />
+                    <path d="M50 15 Q75 35 50 55 Q25 75 50 95" stroke="url(#ringGradient)" stroke-width="2"
+                        opacity="0.8" />
+                    <path d="M50 25 Q70 40 50 55 Q30 70 50 85" stroke="url(#ringGradient)" stroke-width="1.5"
+                        opacity="0.6" />
+                </svg>
+                <span class="ml-[0.5rem]">nion</span>
+            </span>
+        </h1>
+    </a>
+</header>
 
-    <h1 class="text-3xl mb-6 font-semibold">Login com Gesto ✋</h1>
+<body class="bg_Ceu flex flex-col items-center justify-center h-screen text-white">
 
-    <!-- Campo de usuário -->
-    <input type="text" id="username" placeholder="Digite seu nome de usuário"
-        class="px-4 py-2 rounded-lg text-gray-800 mb-4 w-64 text-center focus:outline-none">
 
-    <div class="relative">
-        <video id="video" width="640" height="480" autoplay class="rounded-2xl shadow-lg"></video>
-        <canvas id="output" width="640" height="480" class="absolute top-0 left-0"></canvas>
+    <div class="bg-black/50 h-180 relative border-4 border-blue-900 rounded-2xl">
+        <h1 class="text-3xl mb-6 font-semibold text-center pt-2 pb-4">Login com Gesto </h1>
+
+        <div class="flex justify-between">
+            <div class="flex justify-between " style="margin-bottom: 10px;">
+                <label class="font-semibold bottom-1 left-40" for="username"
+                    style="color: #ffffff; display: block; margin-bottom: 3px; font-size: 20px; ">
+                    Usuário:</label>
+                <input type="text" id="username" name="username" placeholder="Digite seu Usuário"
+                    value="{{ user.username }}"
+                    class="bg-black/50 bottom-2 left-42 border placeholder:text-gray-600 placeholder:text-center border-white rounded-2xl py-2 w-64 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+        </div>
+
+        <div class="relative ">
+            <video id="video" width="640" height="480" autoplay
+                class="rounded-full px-5  border-white shadow-lg"></video>
+            <canvas id="output" width="640" height="480" class="absolute top-0 left-0"></canvas>
+        </div>
+
+        <div class="flex justify-between">
+            <a href="{% url 'login'%}"
+                class=" text-center mt-6 bg-blue-600 hover:bg-blue-700  py-2 rounded-lg text-white font-semibold shadow-md"
+                style="width: 300px; margin-left: 15px;">Voltar</a>
+            <button id="autenticar"
+                class="mt-6 bg-blue-600 hover:bg-blue-700  py-2 rounded-lg text-white font-semibold shadow-md"
+                style="width: 300px; margin-right: 15px;">
+                Autenticar com gesto
+            </button>
+        </div>
+        <p id="status" class="text-center text-lg mt-4 text-white"></p>
+
+
+
+
     </div>
 
-    <button id="autenticar"
-        class="mt-6 bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg text-white font-semibold shadow-md">
-        Autenticar com gesto
-    </button>
 
-    <p id="status" class="mt-6 text-lg"></p>
 
     <!-- Script JS -->
     <script>
@@ -46,5 +100,4 @@
     <script src="{% static 'js/gesture.js' %}"></script>
 </body>
 
-</html>
 {% endblock %}

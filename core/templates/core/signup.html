@@ -10,7 +10,7 @@
 
 <body class="bg_Ceu overflow-hidden flex flex-col items-center relative">
     <!-- TÍTULO CENTRAL -->
-    <header class="w-full text-center py-16 relative z-30">
+    <header class="w-full text-center py-10 relative z-30">
         <a href="{% url 'index' %}"
             class="no-underline decoration-transparent hover:opacity-80 transition duration-200 inline-block"
             style="text-decoration: none !important;">
@@ -39,8 +39,9 @@
             </h1>
         </a>
     </header>
+
     <div class="items-center min-h-[80vh] mt-[-50px] py-10">
-        <div class="border-2 border-gray-200 bg_CeuMenu rounded-xl p-4 ">
+        <div class=" border-2 border-gray-200 bg_CeuMenu rounded-xl p-4 h-170">
             <div class=" text-center">
                 <h2 class="text-4xl font-semibold mb-8 text-white">Cadastro</h2>
             </div>
@@ -53,35 +54,61 @@
                     <label>{{ field.label }}</label>
                     {{ field }}
                     {% if field.errors %}
-                    <div class="text-danger">{{ field.errors }}</div>
+                    <div class="text-danger text-red-500">{{ field.errors }}</div>
                     {% endif %}
                 </div>
                 {% endfor %}
-                <div class="flex flex-col">
-                    <button
-                        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-2xl transition-colors"
-                        type="submit" style="margin-bottom: 2px;">
-                        Cadastrar
-                    </button>
-
-
-                    <h1 class="text-white text-sm font-semibold text-center py-1">Ou</h1>
-
-                    <a href="{% url 'cadastro_gesto' %}"
-                        class="text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-2xl transition-colors"
-                        style="margin-bottom: 2px;">Cadastrar com Gesto</a>
-
-                    <a href="{% url 'login' %}" class="text-center px-1 text-blue-600 hover:underline font-medium"
-                        style="text-decoration: none;">Já tem
-                        uma conta?</a>
+                <div class="flex items-center space-x-3 mt-4">
+                    <input type="checkbox" id="aceitoTermos"
+                        class="w-5 h-5 text-blue-500 rounded focus:ring-blue-400 border-gray-500">
+                    <label for="aceitoTermos" class="text-gray-300 text-sm whitespace-nowrap">
+                        Declaro que li e estou de acordo com os
+                        <a href="{% url 'termos' %}" target="_blank" class="text-blue-400 hover:underline">
+                            Termos e Condições
+                        </a>.
+                    </label>
                 </div>
 
+                <!-- Botão de cadastro -->
+                <button type="submit" id="btnCadastrar"
+                    class="w-full mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+                    Cadastrar
+                </button>
+
+                <script>
+                    // Impede o envio do formulário sem aceitar os termos
+                    const form = document.querySelector('form')
+                    const checkbox = document.getElementById('aceitoTermos')
+
+                    form.addEventListener('submit', function (e) {
+                        if (!checkbox.checked) {
+                            e.preventDefault()
+                            alert('⚠️ Você deve aceitar os Termos e Condições antes de continuar.')
+                        }
+                    });
+                </script>
+
+                <h1 class="text-white text-sm font-semibold text-center py-1 ">Ou</h1>
+
+                <a href="{% url 'cadastro_gesto'%}"
+                    class="left-24 top-3 w-100 mt-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-full shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+                    Cadastro com Gesto
+                </a>
+
+
+
+                <a href="{% url 'login' %}"
+                    class="right-21 text-center top-12 px-1 text-blue-600 hover:underline font-medium"
+                    style="text-decoration: none;">Já tem
+                    uma conta?</a>
         </div>
-        </form>
-        <div>
-        </div>
-        <!-- PLANETAS (fundo decorativo) -->
-        <div class="planet planet1 absolute z-10"></div>
-        <div class="planet planet2 absolute z-10"></div>
+
+    </div>
+    </form>
+    <div>
+    </div>
+    <!-- PLANETAS (fundo decorativo) -->
+    <div class="planet planet1 absolute z-10"></div>
+    <div class="planet planet2 absolute z-10"></div>
 </body>
 {% endblock %}

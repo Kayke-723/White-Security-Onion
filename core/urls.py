@@ -18,5 +18,8 @@ urlpatterns = [
     path('cadastro_gesto', views.cadastro_gesto, name='cadastro_gesto'),
     path('salvar_gesto/', views.salvar_gesto, name='salvar_gesto'),
     path('sucesso/', views.sucesso, name='sucesso'),
+    path('msgCriptografia/', views.msgCriptografia_view, name='msgCriptografia'),
+    path('termos/', views.termos_view, name='termos')
+
 
 ]
