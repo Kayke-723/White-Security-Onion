@@ -80,25 +80,27 @@
         <button id="capturar"
             class="bg-blue-600 hover:bg-green-400/20 rounded-lg py-3 px-4 text-gray-200 text-xl font-bold"
             style="left:160px; margin-right: 5px; width: 315px; margin-bottom: 8px;">Capturar Gesto</button>
+        <a href="{% url 'signup' %}"
+            class="text-center bg-blue-600 hover:bg-red-500/20 rounded-lg py-3 px-4 text-gray-200 text-xl font-bold"
+            style="left:160px; margin-right: 5px; width: 315px; margin-bottom: 8px;">Voltar</a>
+
+        <div>
+            <h1 class="text-white text-x1 left-45">Não sabe como funciona?
+                <a href="{% url 'help_gesto' %}" class="text-blue-700">Clique Aqui!</a>
+            </h1>
+        </div>
 
     </div>
 
-
-
-
-    <script>
-        const csrftoken = '{{ csrf_token }}';
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
 
     <script>
-        const video = document.getElementById('video')
-        const canvas = document.getElementById('canvas')
-        const ctx = canvas.getContext('2d')
+        const csrftoken = '{{ csrf_token }}'
 
+        const video = document.getElementById('video')
         const hands = new Hands({
             locateFile: file => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`
         })
@@ -113,17 +115,8 @@
         let gestureData = null
 
         hands.onResults(results => {
-            ctx.clearRect(0, 0, canvas.width, canvas.height)
-
             if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
-                const landmarks = results.multiHandLandmarks[0]
-
-                // Desenha conexões e landmarks da mão detectada
-                drawConnectors(ctx, landmarks, HAND_CONNECTIONS,
-                    { color: '#00FF00', lineWidth: 2 })
-                drawLandmarks(ctx, landmarks, { color: '#FF0000', lineWidth: 1 })
-
-                gestureData = landmarks.map(p => [p.x, p.y, p.z])
+                gestureData = results.multiHandLandmarks[0].map(p => [p.x, p.y, p.z])
             }
         })
 
@@ -136,8 +129,10 @@
 
         document.getElementById("capturar").addEventListener("click", async () => {
             if (!gestureData) return alert("Nenhum gesto detectado!")
+
             const username = document.getElementById("username").value.trim()
-            if (!username) return alert("Digite seu nome de usuário!")
+            const email = document.getElementById("email").value.trim()
+            if (!username || !email) return alert("Preencha todos os campos!")
 
             const response = await fetch("{% url 'salvar_gesto' %}", {
                 method: "POST",
@@ -145,12 +140,25 @@
                     "Content-Type": "application/json",
                     "X-CSRFToken": csrftoken
                 },
-                body: JSON.stringify({ username, keypoints: gestureData })
+                body: JSON.stringify({ username, email, keypoints: gestureData })
             })
+
             const data = await response.json()
-            alert(data.mensagem || data.erro)
-        });
+
+            if (data.mensagem) {
+                alert(data.mensagem)
+
+                // 🔹 Redireciona automaticamente para a tela de login após 1.5 segundos
+                setTimeout(() => {
+                    window.location.href = "{% url 'login_gesto' %}"
+                }, 1500)
+            } else {
+                alert(data.erro || "Erro ao salvar o gesto. Tente novamente.")
+            }
+        })
     </script>
+
+
 </body>
 
 {% endblock %}

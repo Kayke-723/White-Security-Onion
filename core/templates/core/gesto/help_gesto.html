@@ -1,0 +1,58 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body class="bg_Ceu">
+    <section
+        class="relative flex flex-col h-full bg-gray-900/90 top-20 text-gray-200 py-12 px-10 rounded-2xl shadow-2xl max-w-5xl mx-auto leading-relaxed border border-blue-800/40">
+
+        <!-- Título -->
+        <h1 class="text-4xl font-extrabold text-center mb-8 text-white drop-shadow-[0_0_10px_rgba(59,130,246,0.4)]">
+            Como utilizar o Login com Gesto?
+        </h1>
+
+        <!-- Passos explicativos -->
+        <div class="space-y-6 text-xl text-gray-300">
+            <p>
+                Para começar, crie um <strong>nome de usuário</strong> e um <strong>e-mail</strong> válidos.
+                Eles serão utilizados para associar seu gesto exclusivo à sua conta.
+            </p>
+
+            <p>
+                Em seguida, posicione sua mão <strong>no centro da tela</strong> e escolha um gesto de sua preferência —
+                pode ser um “joinha”, “paz e amor” ou qualquer outro sinal que queira usar como autenticação.
+            </p>
+
+            <p>
+                Quando estiver pronto, clique no botão
+                <strong class="text-blue-400">“Capturar Gesto”</strong>.
+                Se aparecer a mensagem <span class="text-green-400 font-semibold">“Gesto salvo com sucesso!”</span>,
+                significa que tudo deu certo!
+            </p>
+
+            <p>
+                A partir daí, basta acessar a página de login, digitar seu nome de usuário e refazer o gesto escolhido
+                para entrar.
+                Simples, prático e seguro!
+            </p>
+
+            <p class="italic text-gray-400">
+                Agora que você já sabe como funciona, não perca tempo e faça seu cadastro com gesto!
+            </p>
+        </div>
+
+        <!-- Botão -->
+        <div class="flex justify-center mt-10">
+            <a href="{% url 'cadastro_gesto' %}"
+                class="bg-blue-600 hover:bg-blue-700 transition duration-300 text-white font-semibold py-3 px-8 rounded-full shadow-md transform hover:-translate-y-1 hover:shadow-lg">
+                Voltar para Cadastro com Gesto
+            </a>
+        </div>
+    </section>
+</body>
+
+{% endblock %}

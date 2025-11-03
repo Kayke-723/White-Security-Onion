@@ -19,7 +19,9 @@ urlpatterns = [
     path('salvar_gesto/', views.salvar_gesto, name='salvar_gesto'),
     path('sucesso/', views.sucesso, name='sucesso'),
     path('msgCriptografia/', views.msgCriptografia_view, name='msgCriptografia'),
-    path('termos/', views.termos_view, name='termos')
+    path('termos/', views.termos_view, name='termos'),
+    path('help_gesto/', views.help_gesto_view, name='help_gesto')
+
 
 
 ]

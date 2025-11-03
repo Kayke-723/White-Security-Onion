@@ -13981,3 +13981,699 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'termos' not found. 'termos' 
 2025-11-02 18:07:00,396 [INFO] core: Logout: Kayke
 2025-11-02 18:07:00,414 [INFO] django.server: "GET /accounts/logout/ HTTP/1.1" 302 0
 2025-11-02 18:07:00,420 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-02 22:17:57,158 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 22:18:02,184 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-02 22:18:02,501 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-11-02 22:18:02,989 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-02 22:18:02,989 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 6662
+2025-11-02 22:18:04,768 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7090
+2025-11-02 22:18:06,621 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 6882
+2025-11-02 22:21:16,216 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7121
+2025-11-02 22:21:37,188 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7131
+2025-11-02 22:25:22,324 [ERROR] django.request: Internal Server Error: /cadastro_gesto
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 23, in cadastro_gesto
+    return render(request, 'core/gesto/cadastro_gesto.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'help_gesto' not found. 'help_gesto' is not a valid view function or pattern name.
+2025-11-02 22:25:22,332 [ERROR] django.server: "GET /cadastro_gesto HTTP/1.1" 500 168331
+2025-11-02 22:25:31,304 [ERROR] django.request: Internal Server Error: /cadastro_gesto
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 23, in cadastro_gesto
+    return render(request, 'core/gesto/cadastro_gesto.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+2025-11-02 22:25:31,307 [ERROR] django.server: "GET /cadastro_gesto HTTP/1.1" 500 168076
+2025-11-02 22:25:39,080 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7319
+2025-11-02 22:25:53,658 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7319
+2025-11-02 22:26:04,264 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7327
+2025-11-02 22:26:11,532 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7327
+2025-11-02 22:26:17,384 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7327
+2025-11-02 22:36:31,669 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-02 22:36:32,629 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 22:37:15,623 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-02 22:37:16,562 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 22:37:18,507 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7333
+2025-11-02 22:37:20,720 [ERROR] django.request: Internal Server Error: /help_gesto/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 19, in help_gesto_view
+    return render(request, 'core/help_gesto.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/help_gesto.html
+2025-11-02 22:37:20,723 [ERROR] django.server: "GET /help_gesto/ HTTP/1.1" 500 86834
+2025-11-02 22:37:46,061 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-02 22:37:46,995 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 22:37:47,274 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 5935
+2025-11-02 22:38:42,029 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1859
+2025-11-02 22:39:03,143 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1871
+2025-11-02 22:39:04,631 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1871
+2025-11-02 22:39:04,835 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-02 22:39:04,842 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-02 22:39:04,917 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-02 22:39:04,917 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 6925
+2025-11-02 22:39:14,652 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1880
+2025-11-02 22:39:15,420 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1880
+2025-11-02 22:39:43,388 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1900
+2025-11-02 22:39:55,631 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1894
+2025-11-02 22:40:15,868 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1912
+2025-11-02 22:40:35,244 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1845
+2025-11-02 22:40:36,549 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1845
+2025-11-02 22:40:36,577 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-02 22:40:36,577 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-02 22:40:36,804 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-02 22:40:36,804 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 6925
+2025-11-02 22:40:46,223 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1856
+2025-11-02 22:40:59,589 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1864
+2025-11-02 22:41:10,208 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1863
+2025-11-02 22:41:29,631 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1855
+2025-11-02 22:41:39,156 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1856
+2025-11-02 22:41:52,592 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1884
+2025-11-02 22:42:01,080 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1883
+2025-11-02 22:42:16,452 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1858
+2025-11-02 22:42:27,422 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1865
+2025-11-02 22:42:28,895 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1865
+2025-11-02 22:42:39,781 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1864
+2025-11-02 22:42:59,155 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1864
+2025-11-02 22:43:08,148 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1870
+2025-11-02 22:43:09,121 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1870
+2025-11-02 22:43:30,148 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1876
+2025-11-02 22:43:44,835 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1878
+2025-11-02 22:43:58,310 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1878
+2025-11-02 22:44:11,437 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1874
+2025-11-02 22:44:23,591 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1873
+2025-11-02 22:44:42,787 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1873
+2025-11-02 22:44:49,678 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1873
+2025-11-02 22:44:55,178 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1873
+2025-11-02 22:45:10,996 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1882
+2025-11-02 22:45:25,851 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1891
+2025-11-02 22:45:41,433 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1891
+2025-11-02 22:45:51,522 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1891
+2025-11-02 22:46:09,385 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1891
+2025-11-02 22:46:42,530 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1891
+2025-11-02 22:46:49,920 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7333
+2025-11-02 22:46:53,186 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 1891
+2025-11-02 22:48:41,736 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 2692
+2025-11-02 22:48:55,860 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 2692
+2025-11-02 22:48:57,788 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 2692
+2025-11-02 22:48:58,741 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 2692
+2025-11-02 22:49:03,365 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 2688
+2025-11-02 22:51:59,405 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\models.py changed, reloading.
+2025-11-02 22:52:00,391 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 22:52:07,268 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\models.py changed, reloading.
+2025-11-02 22:52:08,231 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 23:00:31,859 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 23:00:35,010 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-02 23:00:37,314 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5175
+2025-11-02 23:07:42,257 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7090
+2025-11-02 23:07:45,691 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7333
+2025-11-02 23:08:03,849 [WARNING] django.request: Bad Request: /salvar_gesto/
+2025-11-02 23:08:03,850 [WARNING] django.server: "POST /salvar_gesto/ HTTP/1.1" 400 70
+2025-11-02 23:08:13,870 [WARNING] django.request: Not Found: /salvar_gesto/
+2025-11-02 23:08:13,871 [WARNING] django.server: "POST /salvar_gesto/ HTTP/1.1" 404 44
+2025-11-02 23:08:21,112 [WARNING] django.request: Not Found: /salvar_gesto/
+2025-11-02 23:08:21,112 [WARNING] django.server: "POST /salvar_gesto/ HTTP/1.1" 404 44
+2025-11-02 23:10:53,145 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-02 23:10:54,145 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 23:10:56,653 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7333
+2025-11-02 23:11:09,008 [WARNING] django.request: Not Found: /salvar_gesto/
+2025-11-02 23:11:09,009 [WARNING] django.server: "POST /salvar_gesto/ HTTP/1.1" 404 44
+2025-11-02 23:11:16,893 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7333
+2025-11-02 23:11:17,111 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-02 23:11:17,111 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-02 23:11:17,301 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-02 23:11:17,302 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 6925
+2025-11-02 23:11:28,308 [WARNING] django.request: Not Found: /salvar_gesto/
+2025-11-02 23:11:28,309 [WARNING] django.server: "POST /salvar_gesto/ HTTP/1.1" 404 44
+2025-11-02 23:11:47,582 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-02 23:11:48,513 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 23:12:25,824 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-02 23:12:26,781 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 23:12:30,207 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7333
+2025-11-02 23:12:39,804 [WARNING] django.request: Bad Request: /salvar_gesto/
+2025-11-02 23:12:39,804 [WARNING] django.server: "POST /salvar_gesto/ HTTP/1.1" 400 45
+2025-11-02 23:12:50,094 [WARNING] django.request: Bad Request: /salvar_gesto/
+2025-11-02 23:12:50,095 [WARNING] django.server: "POST /salvar_gesto/ HTTP/1.1" 400 45
+2025-11-02 23:17:07,366 [ERROR] django.request: Internal Server Error: /cadastro_gesto
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 25, in cadastro_gesto
+    return render(request, 'core/gesto/cadastro_gesto.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'help_gest' not found. 'help_gest' is not a valid view function or pattern name.
+2025-11-02 23:17:07,373 [ERROR] django.server: "GET /cadastro_gesto HTTP/1.1" 500 169048
+2025-11-02 23:17:07,691 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-02 23:17:07,691 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 6925
+2025-11-02 23:17:30,356 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7188
+2025-11-02 23:17:39,820 [INFO] django.server: "POST /salvar_gesto/ HTTP/1.1" 200 61
+2025-11-02 23:17:42,826 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-02 23:17:44,006 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5175
+2025-11-02 23:17:45,562 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4699
+2025-11-02 23:17:45,588 [INFO] django.server: "GET /static/js/gesture.js HTTP/1.1" 304 0
+2025-11-02 23:17:52,323 [INFO] core: luana fez login com gesto
+2025-11-02 23:17:52,360 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:17:53,425 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:17:54,694 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-02 23:17:57,429 [INFO] core: luana fez login com gesto
+2025-11-02 23:17:57,465 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 90
+2025-11-02 23:17:58,503 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:18:00,537 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-02 23:18:03,379 [INFO] core: luana fez login com gesto
+2025-11-02 23:18:03,417 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:18:04,459 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:21:04,294 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-02 23:21:05,268 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 23:22:09,413 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:22:10,654 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-02 23:22:25,545 [INFO] core: valida_gesto: user=luana avg_dist=0.053426 n=21
+2025-11-02 23:22:25,580 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 80
+2025-11-02 23:22:26,617 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:22:27,665 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-02 23:22:32,381 [INFO] core: valida_gesto: user=luana avg_dist=0.546840 n=21
+2025-11-02 23:22:32,381 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:22:34,168 [INFO] core: valida_gesto: user=luana avg_dist=0.513373 n=21
+2025-11-02 23:22:34,168 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 90
+2025-11-02 23:22:35,785 [INFO] core: valida_gesto: user=luana avg_dist=0.441642 n=21
+2025-11-02 23:22:35,785 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:22:36,964 [INFO] core: valida_gesto: user=luana avg_dist=0.149795 n=21
+2025-11-02 23:22:36,964 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:22:39,272 [INFO] core: valida_gesto: user=luana avg_dist=0.086463 n=21
+2025-11-02 23:22:39,321 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 80
+2025-11-02 23:22:40,391 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:22:41,976 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-02 23:22:46,873 [INFO] core: valida_gesto: user=luana avg_dist=0.090792 n=21
+2025-11-02 23:22:46,908 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 80
+2025-11-02 23:22:47,944 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:22:49,244 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-02 23:22:51,327 [INFO] core: valida_gesto: user=luana avg_dist=0.088795 n=21
+2025-11-02 23:22:51,362 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 79
+2025-11-02 23:22:52,416 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:22:53,928 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-02 23:22:56,772 [INFO] core: valida_gesto: user=luana avg_dist=0.128136 n=21
+2025-11-02 23:22:56,773 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:22:58,404 [INFO] core: valida_gesto: user=luana avg_dist=0.175710 n=21
+2025-11-02 23:22:58,404 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:22:59,565 [INFO] core: valida_gesto: user=luana avg_dist=0.217595 n=21
+2025-11-02 23:22:59,566 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:23:00,829 [INFO] core: valida_gesto: user=luana avg_dist=0.236017 n=21
+2025-11-02 23:23:00,829 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:23:02,179 [INFO] core: valida_gesto: user=luana avg_dist=0.508363 n=21
+2025-11-02 23:23:02,181 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:23:03,542 [INFO] core: valida_gesto: user=luana avg_dist=0.252032 n=21
+2025-11-02 23:23:03,543 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:23:04,787 [INFO] core: valida_gesto: user=luana avg_dist=0.202779 n=21
+2025-11-02 23:23:04,788 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:23:06,196 [INFO] core: valida_gesto: user=luana avg_dist=0.386679 n=21
+2025-11-02 23:23:06,196 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:23:07,828 [INFO] core: valida_gesto: user=luana avg_dist=0.230863 n=21
+2025-11-02 23:23:07,829 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:23:08,769 [INFO] core: valida_gesto: user=luana avg_dist=0.197558 n=21
+2025-11-02 23:23:08,770 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:23:10,297 [INFO] core: valida_gesto: user=luana avg_dist=0.360721 n=21
+2025-11-02 23:23:10,297 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:23:25,047 [INFO] core: valida_gesto: user=luana avg_dist=0.370241 n=21
+2025-11-02 23:23:25,047 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:23:25,957 [INFO] core: valida_gesto: user=luana avg_dist=0.428921 n=21
+2025-11-02 23:23:25,958 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:23:26,949 [INFO] core: valida_gesto: user=luana avg_dist=0.324085 n=21
+2025-11-02 23:23:26,949 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:23:29,301 [INFO] core: valida_gesto: user=luana avg_dist=0.038474 n=21
+2025-11-02 23:23:29,335 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 79
+2025-11-02 23:23:30,370 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:24:03,234 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6671
+2025-11-02 23:24:11,020 [INFO] django.server: "GET /admin/ HTTP/1.1" 302 0
+2025-11-02 23:24:11,058 [INFO] django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3740
+2025-11-02 23:24:11,084 [INFO] django.server: "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2025-11-02 23:24:11,091 [INFO] django.server: "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2025-11-02 23:24:11,092 [INFO] django.server: "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2025-11-02 23:24:11,092 [INFO] django.server: "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2025-11-02 23:24:11,093 [INFO] django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2025-11-02 23:24:11,093 [INFO] django.server: "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2025-11-02 23:24:11,102 [INFO] django.server: "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2025-11-02 23:24:19,359 [INFO] django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-11-02 23:24:19,388 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 10312
+2025-11-02 23:24:19,415 [INFO] django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2025-11-02 23:24:19,418 [INFO] django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2025-11-02 23:24:19,418 [INFO] django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2025-11-02 23:24:19,418 [INFO] django.server: "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+2025-11-02 23:24:21,333 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 13777
+2025-11-02 23:24:21,362 [INFO] django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+2025-11-02 23:24:21,364 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2025-11-02 23:24:21,365 [INFO] django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2025-11-02 23:24:21,365 [INFO] django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2025-11-02 23:24:21,367 [INFO] django.server: "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2025-11-02 23:24:21,367 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2025-11-02 23:24:21,369 [INFO] django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2025-11-02 23:24:21,369 [INFO] django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2025-11-02 23:24:21,369 [INFO] django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2025-11-02 23:24:21,373 [INFO] django.server: "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+2025-11-02 23:24:21,378 [INFO] django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+2025-11-02 23:24:21,378 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:24:21,378 [INFO] django.server: "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+2025-11-02 23:24:21,383 [INFO] django.server: "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+2025-11-02 23:24:21,404 [INFO] django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+2025-11-02 23:24:21,405 [INFO] django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+2025-11-02 23:24:21,405 [INFO] django.server: "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+2025-11-02 23:24:27,112 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 80046
+2025-11-02 23:24:27,142 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:32,963 [INFO] django.server: "GET /admin/auth/group/ HTTP/1.1" 200 9152
+2025-11-02 23:25:32,999 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:33,901 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 13777
+2025-11-02 23:25:33,934 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:42,688 [INFO] django.server: "GET /admin/auth/user/?o= HTTP/1.1" 200 13729
+2025-11-02 23:25:42,719 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:43,748 [INFO] django.server: "GET /admin/auth/user/?o=1 HTTP/1.1" 200 13992
+2025-11-02 23:25:43,779 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:45,265 [INFO] django.server: "GET /admin/auth/user/?o=-1 HTTP/1.1" 200 14011
+2025-11-02 23:25:45,297 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:46,399 [INFO] django.server: "GET /admin/auth/user/?o=1 HTTP/1.1" 200 13992
+2025-11-02 23:25:46,431 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:47,466 [INFO] django.server: "GET /admin/auth/user/?o= HTTP/1.1" 200 13729
+2025-11-02 23:25:47,497 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:48,301 [INFO] django.server: "GET /admin/auth/user/?o=1 HTTP/1.1" 200 13992
+2025-11-02 23:25:48,333 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:48,910 [INFO] django.server: "GET /admin/auth/user/?o=-1 HTTP/1.1" 200 14011
+2025-11-02 23:25:48,937 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:25:54,125 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-02 23:25:56,064 [INFO] django.server: "GET /admin/auth/user/?o=-1 HTTP/1.1" 200 14011
+2025-11-02 23:25:59,656 [INFO] django.server: "GET /admin/core/process/ HTTP/1.1" 200 11135
+2025-11-02 23:25:59,686 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:26:00,877 [INFO] django.server: "GET /admin/core/process/2/change/ HTTP/1.1" 200 11153
+2025-11-02 23:26:00,901 [INFO] django.server: "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+2025-11-02 23:26:00,901 [INFO] django.server: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+2025-11-02 23:26:00,905 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:26:00,909 [INFO] django.server: "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+2025-11-02 23:26:00,909 [INFO] django.server: "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+2025-11-02 23:26:07,645 [INFO] django.server: "GET /admin/core/process/ HTTP/1.1" 200 11135
+2025-11-02 23:26:07,680 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:26:08,789 [INFO] django.server: "GET /admin/core/process/1/change/ HTTP/1.1" 200 11129
+2025-11-02 23:26:08,819 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:26:10,430 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 80046
+2025-11-02 23:26:10,460 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:26:34,205 [INFO] django.server: "GET /admin/core/process/1/change/ HTTP/1.1" 200 11129
+2025-11-02 23:26:39,442 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-02 23:26:41,277 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5183
+2025-11-02 23:26:46,843 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4720
+2025-11-02 23:26:50,584 [WARNING] django.request: Not Found: /api/valida_gesto/
+2025-11-02 23:26:50,585 [WARNING] django.server: "POST /api/valida_gesto/ HTTP/1.1" 404 78
+2025-11-02 23:26:52,066 [WARNING] django.request: Not Found: /api/valida_gesto/
+2025-11-02 23:26:52,066 [WARNING] django.server: "POST /api/valida_gesto/ HTTP/1.1" 404 78
+2025-11-02 23:26:53,819 [WARNING] django.request: Not Found: /api/valida_gesto/
+2025-11-02 23:26:53,819 [WARNING] django.server: "POST /api/valida_gesto/ HTTP/1.1" 404 78
+2025-11-02 23:27:02,536 [INFO] core: valida_gesto: user=Kayke avg_dist=0.509342 n=21
+2025-11-02 23:27:02,536 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:03,567 [INFO] core: valida_gesto: user=Kayke avg_dist=0.276743 n=21
+2025-11-02 23:27:03,569 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:04,410 [INFO] core: valida_gesto: user=Kayke avg_dist=0.260013 n=21
+2025-11-02 23:27:04,410 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:05,062 [INFO] core: valida_gesto: user=Kayke avg_dist=0.242563 n=21
+2025-11-02 23:27:05,063 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:05,674 [INFO] core: valida_gesto: user=Kayke avg_dist=0.232262 n=21
+2025-11-02 23:27:05,674 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:06,376 [INFO] core: valida_gesto: user=Kayke avg_dist=0.203112 n=21
+2025-11-02 23:27:06,377 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:07,662 [INFO] core: valida_gesto: user=Kayke avg_dist=0.234406 n=21
+2025-11-02 23:27:07,663 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:08,321 [INFO] core: valida_gesto: user=Kayke avg_dist=0.223151 n=21
+2025-11-02 23:27:08,321 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:12,057 [INFO] core: valida_gesto: user=Kayke avg_dist=0.417651 n=21
+2025-11-02 23:27:12,057 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:13,177 [INFO] core: valida_gesto: user=Kayke avg_dist=0.544106 n=21
+2025-11-02 23:27:13,178 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:14,115 [INFO] core: valida_gesto: user=Kayke avg_dist=0.527759 n=21
+2025-11-02 23:27:14,116 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:15,758 [INFO] core: valida_gesto: user=Kayke avg_dist=0.516650 n=21
+2025-11-02 23:27:15,759 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:17,349 [INFO] core: valida_gesto: user=Kayke avg_dist=0.484441 n=21
+2025-11-02 23:27:17,349 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:18,794 [INFO] core: valida_gesto: user=Kayke avg_dist=0.155863 n=21
+2025-11-02 23:27:18,794 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:19,624 [INFO] core: valida_gesto: user=Kayke avg_dist=0.153931 n=21
+2025-11-02 23:27:19,624 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:23,577 [INFO] core: valida_gesto: user=Kayke avg_dist=0.105331 n=21
+2025-11-02 23:27:23,624 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 80
+2025-11-02 23:27:24,654 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:27:26,716 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-02 23:27:29,550 [INFO] core: valida_gesto: user=Kayke avg_dist=0.184876 n=21
+2025-11-02 23:27:29,550 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:30,703 [INFO] core: valida_gesto: user=Kayke avg_dist=0.135085 n=21
+2025-11-02 23:27:30,705 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:31,484 [INFO] core: valida_gesto: user=Kayke avg_dist=0.146320 n=21
+2025-11-02 23:27:31,485 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:32,334 [INFO] core: valida_gesto: user=Kayke avg_dist=0.339416 n=21
+2025-11-02 23:27:32,335 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:33,134 [INFO] core: valida_gesto: user=Kayke avg_dist=0.196740 n=21
+2025-11-02 23:27:33,135 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:33,839 [INFO] core: valida_gesto: user=Kayke avg_dist=0.271042 n=21
+2025-11-02 23:27:33,840 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:34,584 [INFO] core: valida_gesto: user=Kayke avg_dist=0.207007 n=21
+2025-11-02 23:27:34,585 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:35,135 [INFO] core: valida_gesto: user=Kayke avg_dist=0.305814 n=21
+2025-11-02 23:27:35,135 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:35,751 [INFO] core: valida_gesto: user=Kayke avg_dist=0.514717 n=21
+2025-11-02 23:27:35,752 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:36,401 [INFO] core: valida_gesto: user=Kayke avg_dist=0.352577 n=21
+2025-11-02 23:27:36,402 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:39,389 [INFO] core: valida_gesto: user=Kayke avg_dist=0.746855 n=21
+2025-11-02 23:27:39,391 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:40,092 [INFO] core: valida_gesto: user=Kayke avg_dist=0.779280 n=21
+2025-11-02 23:27:40,093 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 90
+2025-11-02 23:27:40,664 [INFO] core: valida_gesto: user=Kayke avg_dist=0.796443 n=21
+2025-11-02 23:27:40,664 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:41,185 [INFO] core: valida_gesto: user=Kayke avg_dist=0.810248 n=21
+2025-11-02 23:27:41,186 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:43,777 [INFO] core: valida_gesto: user=Kayke avg_dist=0.194532 n=21
+2025-11-02 23:27:43,779 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:44,673 [INFO] core: valida_gesto: user=Kayke avg_dist=0.196592 n=21
+2025-11-02 23:27:44,673 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:45,532 [INFO] core: valida_gesto: user=Kayke avg_dist=0.515322 n=21
+2025-11-02 23:27:45,532 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:46,155 [INFO] core: valida_gesto: user=Kayke avg_dist=0.216136 n=21
+2025-11-02 23:27:46,156 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:46,385 [INFO] core: valida_gesto: user=Kayke avg_dist=0.164331 n=21
+2025-11-02 23:27:46,386 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:46,557 [INFO] core: valida_gesto: user=Kayke avg_dist=0.147184 n=21
+2025-11-02 23:27:46,558 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 90
+2025-11-02 23:27:47,049 [INFO] core: valida_gesto: user=Kayke avg_dist=0.205107 n=21
+2025-11-02 23:27:47,049 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:47,231 [INFO] core: valida_gesto: user=Kayke avg_dist=0.200086 n=21
+2025-11-02 23:27:47,232 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:47,413 [INFO] core: valida_gesto: user=Kayke avg_dist=0.218332 n=21
+2025-11-02 23:27:47,414 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:47,605 [INFO] core: valida_gesto: user=Kayke avg_dist=0.203067 n=21
+2025-11-02 23:27:47,605 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:47,927 [INFO] core: valida_gesto: user=Kayke avg_dist=0.277066 n=21
+2025-11-02 23:27:47,928 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:48,107 [INFO] core: valida_gesto: user=Kayke avg_dist=0.295515 n=21
+2025-11-02 23:27:48,107 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:48,322 [INFO] core: valida_gesto: user=Kayke avg_dist=0.231764 n=21
+2025-11-02 23:27:48,322 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:48,522 [INFO] core: valida_gesto: user=Kayke avg_dist=0.231665 n=21
+2025-11-02 23:27:48,524 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:48,726 [INFO] core: valida_gesto: user=Kayke avg_dist=0.199158 n=21
+2025-11-02 23:27:48,727 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:48,938 [INFO] core: valida_gesto: user=Kayke avg_dist=0.191700 n=21
+2025-11-02 23:27:48,938 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:49,658 [INFO] core: valida_gesto: user=Kayke avg_dist=0.188160 n=21
+2025-11-02 23:27:49,659 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:49,839 [INFO] core: valida_gesto: user=Kayke avg_dist=0.220244 n=21
+2025-11-02 23:27:49,840 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:50,024 [INFO] core: valida_gesto: user=Kayke avg_dist=0.235687 n=21
+2025-11-02 23:27:50,025 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:50,185 [INFO] core: valida_gesto: user=Kayke avg_dist=0.239294 n=21
+2025-11-02 23:27:50,186 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:51,073 [INFO] core: valida_gesto: user=Kayke avg_dist=0.263316 n=21
+2025-11-02 23:27:51,073 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 91
+2025-11-02 23:27:52,208 [INFO] core: valida_gesto: user=Kayke avg_dist=0.405783 n=21
+2025-11-02 23:27:52,209 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:52,391 [INFO] core: valida_gesto: user=Kayke avg_dist=0.410714 n=21
+2025-11-02 23:27:52,391 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:52,553 [INFO] core: valida_gesto: user=Kayke avg_dist=0.411447 n=21
+2025-11-02 23:27:52,553 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:53,175 [INFO] core: valida_gesto: user=Kayke avg_dist=0.381034 n=21
+2025-11-02 23:27:53,175 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 92
+2025-11-02 23:27:59,722 [INFO] core: valida_gesto: user=luana avg_dist=0.033047 n=21
+2025-11-02 23:27:59,772 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 80
+2025-11-02 23:28:00,802 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18085
+2025-11-02 23:30:03,160 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19658
+2025-11-02 23:31:03,234 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19838
+2025-11-02 23:31:56,024 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19786
+2025-11-02 23:32:15,697 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19781
+2025-11-02 23:32:32,884 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19738
+2025-11-02 23:33:19,440 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19719
+2025-11-02 23:33:41,565 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19682
+2025-11-02 23:34:40,740 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-02 23:35:10,061 [INFO] core: Logout: luana
+2025-11-02 23:35:10,080 [INFO] django.server: "GET /accounts/logout/ HTTP/1.1" 302 0
+2025-11-02 23:35:10,085 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-02 23:35:12,388 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5175
+2025-11-02 23:35:16,749 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7090
+2025-11-02 23:35:40,659 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7109
+2025-11-02 23:35:48,114 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7073
+2025-11-02 23:35:55,136 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7109
+2025-11-02 23:36:17,780 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7109
+2025-11-02 23:36:26,195 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7073
+2025-11-02 23:36:30,903 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5146
+2025-11-02 23:36:36,173 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4699
+2025-11-02 23:37:04,846 [INFO] django.server: "GET /home/ HTTP/1.1" 302 0
+2025-11-02 23:37:04,866 [INFO] django.server: "GET /accounts/login/?next=/home/ HTTP/1.1" 200 5146
+2025-11-02 23:39:12,829 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-02 23:39:13,935 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 23:41:49,609 [INFO] django.server: "GET /accounts/login/?next=/home/ HTTP/1.1" 200 5146
+2025-11-02 23:41:51,054 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7073
+2025-11-02 23:41:52,206 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7262
+2025-11-02 23:42:07,345 [INFO] django.server: "POST /salvar_gesto/ HTTP/1.1" 200 61
+2025-11-02 23:42:10,583 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4699
+2025-11-02 23:42:47,821 [INFO] core: valida_gesto: user=Vitoria avg_dist=0.088733 n=21
+2025-11-02 23:42:47,875 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 80
+2025-11-02 23:42:48,939 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-02 23:42:51,265 [INFO] core: Logout: Vitoria
+2025-11-02 23:42:51,285 [INFO] django.server: "GET /accounts/logout/ HTTP/1.1" 302 0
+2025-11-02 23:42:51,290 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-02 23:42:52,989 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7073
+2025-11-02 23:42:54,597 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5146
+2025-11-02 23:43:02,832 [WARNING] core: Tentativa de login falha: Vitoria
+2025-11-02 23:43:02,851 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 200 5248
+2025-11-02 23:43:18,047 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5146
+2025-11-02 23:43:18,946 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7073
+2025-11-02 23:43:41,036 [INFO] django.server: "POST /accounts/signup/ HTTP/1.1" 200 7350
+2025-11-02 23:44:06,093 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-02 23:44:07,453 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5146
+2025-11-02 23:44:09,781 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4699
+2025-11-02 23:44:18,421 [INFO] django.server: "GET /admin/ HTTP/1.1" 302 0
+2025-11-02 23:44:18,477 [INFO] django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4209
+2025-11-02 23:44:25,425 [INFO] django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2025-11-02 23:44:25,466 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 10312
+2025-11-02 23:44:31,673 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 14245
+2025-11-02 23:44:31,705 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:44:38,464 [INFO] django.server: "POST /admin/auth/user/ HTTP/1.1" 200 9356
+2025-11-02 23:44:38,493 [INFO] django.server: "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+2025-11-02 23:44:39,503 [INFO] django.server: "POST /admin/auth/user/ HTTP/1.1" 302 0
+2025-11-02 23:44:39,526 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 13007
+2025-11-02 23:44:39,558 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:44:42,582 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12868
+2025-11-02 23:44:42,615 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:44:55,051 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 79387
+2025-11-02 23:44:55,080 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:45:05,829 [INFO] django.server: "GET /admin/core/process/ HTTP/1.1" 200 11135
+2025-11-02 23:45:05,862 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:45:08,191 [INFO] django.server: "GET /admin/core/process/ HTTP/1.1" 200 11135
+2025-11-02 23:45:08,222 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:45:17,801 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12868
+2025-11-02 23:45:17,836 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:45:20,353 [INFO] django.server: "GET /admin/auth/group/ HTTP/1.1" 200 9152
+2025-11-02 23:45:20,383 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:45:25,361 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 12868
+2025-11-02 23:45:25,391 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-02 23:46:05,441 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\models.py changed, reloading.
+2025-11-02 23:46:06,413 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 23:52:00,174 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-02 23:52:04,707 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\models.py changed, reloading.
+2025-11-02 23:52:05,645 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

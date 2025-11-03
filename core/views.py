@@ -15,6 +15,8 @@ from django.views.decorators.csrf import csrf_exempt
 
 
 
+def help_gesto_view(request):
+    return render(request, 'core/gesto/help_gesto.html')
 
 def termos_view(request):
     return render(request, 'core/termos.html')
@@ -31,33 +33,62 @@ def login_gesto(request):
 
 @csrf_exempt
 def salvar_gesto(request):
-    if request.method == "POST":
+    """
+    Cadastra um novo usuário com gesto associado.
+    - Se o usuário não existir, ele é criado automaticamente.
+    - Se já existir e tiver gesto, o sistema bloqueia o novo cadastro.
+    """
+    if request.method != 'POST':
+        return JsonResponse({'erro': 'Método inválido'}, status=405)
+
+    # 🔹 Lê o corpo da requisição JSON
+    try:
         data = json.loads(request.body)
-        username = data.get("username")
-        keypoints = data.get("keypoints")
+    except Exception:
+        return JsonResponse({'erro': 'JSON inválido'}, status=400)
 
-        if not username or not keypoints:
-            return JsonResponse({"erro": "Dados inválidos"}, status=400)
+    username = data.get('username')
+    email = data.get('email')
+    keypoints = data.get('keypoints')
 
-        # Criar ou obter usuário (não altera senha aqui)
-        user, _ = User.objects.get_or_create(username=username)
-        gesto, criado = Gesto.objects.update_or_create(
-            user=user,
-            defaults={"keypoints": keypoints}
-        )
+    if not username or not email or not keypoints:
+        return JsonResponse({'erro': 'Campos obrigatórios ausentes'}, status=400)
 
-        return JsonResponse({"mensagem": "Gesto salvo com sucesso!", "created": criado})
+    # 🔹 Verifica se já existe o usuário
+    user, created = User.objects.get_or_create(
+        username=username,
+        defaults={'email': email}
+    )
 
-    return JsonResponse({"erro": "Método inválido"}, status=405)
+    # Se o usuário já existia, verifica se tem gesto
+    if not created:
+        if Gesto.objects.filter(user=user).exists():
+            return JsonResponse({
+                'erro': 'Este usuário já possui um gesto cadastrado.'
+            }, status=400)
+
+    # 🔹 Cria e associa o gesto
+    Gesto.objects.create(user=user, keypoints=keypoints)
+
+    # Retorno amigável
+    mensagem = (
+        'Usuário e gesto cadastrados com sucesso!'
+        if created else
+        'Gesto cadastrado com sucesso!'
+    )
+
+    return JsonResponse({'mensagem': mensagem})
 
 import math
 
 @csrf_exempt
 def valida_gesto(request):
     """
-    Verifica se o usuário existe e valida o gesto salvo no banco.
-    Comparação normalizada: independe da posição e escala da mão.
-    Retorna JSON e, em caso de sucesso, autentica o usuário na sessão.
+    Validação estrita de gesto:
+    - aceita apenas POST com 'username' e 'keypoints' (lista de [x,y,z])
+    - normaliza por wrist (landmark 0) e por escala (max dist -> 1)
+    - compara ponto-a-ponto e retorna ok somente se avg_dist < THRESHOLD
+    - autentica com login(request, user) em caso de sucesso
     """
     if request.method != 'POST':
         return JsonResponse({'status': 'error', 'message': 'Método inválido'}, status=405)
@@ -68,113 +99,104 @@ def valida_gesto(request):
         return JsonResponse({'status': 'error', 'message': 'JSON inválido'}, status=400)
 
     username = data.get('username')
-    incoming_kps = data.get('keypoints')
+    incoming = data.get('keypoints')
 
     if not username:
         return JsonResponse({'status': 'error', 'message': 'Nome de usuário não informado'}, status=400)
 
-    # Verifica se o usuário existe
+    # Requer keypoints (não aceitar fallback por texto)
+    if not incoming or not isinstance(incoming, list):
+        return JsonResponse({'status': 'error', 'message': 'Keypoints não fornecidos'}, status=400)
+
+    # Recupera usuário e gesto salvo
     try:
         user = User.objects.get(username=username)
     except User.DoesNotExist:
         return JsonResponse({'status': 'fail', 'message': 'Usuário não encontrado'}, status=404)
 
-    # Busca o gesto cadastrado
-    gesto = Gesto.objects.filter(user=user).first()
+    gesto = getattr(user, 'gesto', None)  # usa related_name se definido
+    if not gesto:
+        # tenta filtro fallback
+        gesto = Gesto.objects.filter(user=user).first()
     if not gesto:
         return JsonResponse({'status': 'fail', 'message': 'Usuário não possui gesto cadastrado'}, status=404)
 
-    if not incoming_kps:
-        return JsonResponse({'status': 'error', 'message': 'Nenhum gesto detectado'}, status=400)
+    saved = gesto.keypoints
 
-    saved_kps = gesto.keypoints
-
-    # ---------- Normalização sem numpy ----------
-    def normalize_keypoints(points):
-        """
-        points: lista de [x,y,z] ou lista de dicts {'x','y','z'}.
-        retorna lista normalizada (centralizada e com escala unificada).
-        """
-        if not points or not isinstance(points, list):
-            return []
-
-        # Convert to list of triplets (x,y,z)
-        triplets = []
+    # ---- Funções utilitárias ----
+    def to_triplets(points):
+        trip = []
         for p in points:
             if isinstance(p, dict):
                 x = float(p.get('x', 0.0))
                 y = float(p.get('y', 0.0))
                 z = float(p.get('z', 0.0))
             else:
-                # assume list/tuple
-                x = float(p[0]) if len(p) > 0 else 0.0
-                y = float(p[1]) if len(p) > 1 else 0.0
-                z = float(p[2]) if len(p) > 2 else 0.0
-            triplets.append((x, y, z))
+                # assume lista/tuple [x,y,z]
+                try:
+                    x = float(p[0])
+                    y = float(p[1])
+                    z = float(p[2]) if len(p) > 2 else 0.0
+                except Exception:
+                    return None
+            trip.append((x, y, z))
+        return trip
 
-        n = len(triplets)
-        # centro (mean)
-        cx = sum(p[0] for p in triplets) / n
-        cy = sum(p[1] for p in triplets) / n
-        cz = sum(p[2] for p in triplets) / n
+    a = to_triplets(saved)
+    b = to_triplets(incoming)
 
-        # centraliza
-        centered = [(p[0] - cx, p[1] - cy, p[2] - cz) for p in triplets]
+    if not a or not b:
+        return JsonResponse({'status': 'error', 'message': 'Formato de keypoints inválido'}, status=400)
 
-        # escala — usa norma combinada (raiz da soma dos quadrados de todas as distâncias)
-        # para evitar divisão por zero, usamos max(..., 1e-8)
-        total_norm = sum(math.sqrt(x*x + y*y + z*z) for x, y, z in centered)
-        scale = total_norm if total_norm > 1e-8 else 1.0
+    # requer número mínimo de pontos (ex: 21 para MediaPipe Hands)
+    MIN_POINTS = 10
+    if len(a) < MIN_POINTS or len(b) < MIN_POINTS:
+        return JsonResponse({'status': 'error', 'message': 'Keypoints insuficientes'}, status=400)
 
-        normalized = [(x/scale, y/scale, z/scale) for x, y, z in centered]
+    # Trunca ou expande para o menor comprimento — preferimos exigir igual comprimento idealmente
+    n = min(len(a), len(b))
+    a = a[:n]
+    b = b[:n]
+
+    # Normalizar com referência no wrist (landmark 0 se existir)
+    def normalize_by_origin_scale(points):
+        # escolhe origin como ponto 0 (se existir), senão centro médio
+        if len(points) > 0:
+            ox, oy, oz = points[0]
+        else:
+            ox = sum(p[0] for p in points) / len(points)
+            oy = sum(p[1] for p in points) / len(points)
+            oz = sum(p[2] for p in points) / len(points)
+        centered = [ (x-ox, y-oy, z-oz) for (x,y,z) in points ]
+        # escala por maior distância ao origin (evita divisão por zero)
+        maxd = max(math.sqrt(x*x + y*y + z*z) for x,y,z in centered)
+        scale = maxd if maxd > 1e-8 else 1.0
+        normalized = [ (x/scale, y/scale, z/scale) for x,y,z in centered ]
         return normalized
 
-    try:
-        a = normalize_keypoints(saved_kps)
-        b = normalize_keypoints(incoming_kps)
-    except Exception:
-        return JsonResponse({'status': 'error', 'message': 'Erro ao processar keypoints'}, status=400)
+    a_norm = normalize_by_origin_scale(a)
+    b_norm = normalize_by_origin_scale(b)
 
-    # Verifica compatibilidade de tamanho (zip usa o menor)
-    if not a or not b or len(a) != len(b):
-        # se tamanhos diferentes, ancora pelo menor comprimento
-        min_len = min(len(a), len(b))
-        if min_len == 0:
-            return JsonResponse({'status': 'error', 'message': 'Keypoints inválidos'}, status=400)
-    else:
-        min_len = len(a)
-
-    # ---------- Calcula distância média ponto a ponto ----------
+    # calcula distância média
     total = 0.0
-    count = 0
-    for i in range(min_len):
-        pa = a[i]
-        pb = b[i]
+    for pa, pb in zip(a_norm, b_norm):
         dx = pa[0] - pb[0]
         dy = pa[1] - pb[1]
         dz = pa[2] - pb[2]
         total += math.sqrt(dx*dx + dy*dy + dz*dz)
-        count += 1
+    avg_dist = total / n
 
-    avg_dist = (total / count) if count else float('inf')
+    # ajuste fino do threshold: valores razoáveis começam ~0.05-0.18 dependendo do pré-processamento
+    THRESHOLD = 0.12
 
-    # threshold: ajustável — 0.12 a 0.18 é um bom ponto de partida
-    THRESHOLD = 0.15
+    logger.info("valida_gesto: user=%s avg_dist=%.6f n=%d", username, avg_dist, n)
 
     if avg_dist < THRESHOLD:
-        # autentica o usuário no Django (cria sessão)
+        # autentica o usuário (cria sessão)
         login(request, user)
-        return JsonResponse({
-            'status': 'ok',
-            'message': 'Login autorizado com gesto',
-            'distance': avg_dist
-        })
+        return JsonResponse({'status': 'ok', 'message': 'Login autorizado', 'distance': avg_dist})
     else:
-        return JsonResponse({
-            'status': 'fail',
-            'message': 'Gesto não corresponde ao cadastrado',
-            'distance': avg_dist
-        })
+        return JsonResponse({'status': 'fail', 'message': 'Gesto não corresponde', 'distance': avg_dist})
 
 
 logger = logging.getLogger('core')
