@@ -229,7 +229,7 @@ def update_profile(request):
     else:
         form = UpdateProfileForm(instance=request.user)
 
-    return render(request, 'update_profile.html', {'form': form})
+    return render(request, 'core/profile.html', {'form': form})
 
 
 
