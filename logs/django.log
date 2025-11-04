@@ -15053,3 +15053,1634 @@ django.template.exceptions.TemplateDoesNotExist: core/update_profile
 2025-11-03 00:25:25,117 [ERROR] django.server: "POST /update_profile/ HTTP/1.1" 500 94253
 2025-11-03 00:25:39,114 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
 2025-11-03 00:25:40,078 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 00:25:41,664 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 200 6691
+2025-11-03 00:25:48,214 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 200 6691
+2025-11-03 00:25:52,242 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 200 6699
+2025-11-03 00:26:06,391 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-11-03 00:26:06,402 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6776
+2025-11-03 00:26:08,997 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-03 00:26:11,311 [INFO] core: Logout: Kayke
+2025-11-03 00:26:11,335 [INFO] django.server: "GET /accounts/logout/ HTTP/1.1" 302 0
+2025-11-03 00:26:11,341 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-03 00:26:21,321 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6629
+2025-11-03 00:26:21,502 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 304 0
+2025-11-03 00:26:21,505 [INFO] django.server: "GET /static/videos/funcoes.mp4 HTTP/1.1" 304 0
+2025-11-03 00:26:21,506 [INFO] django.server: "GET /static/videos/sobre.mp4 HTTP/1.1" 304 0
+2025-11-03 00:26:41,958 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-03 00:26:43,377 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6629
+2025-11-03 00:26:44,346 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7073
+2025-11-03 00:26:47,409 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5146
+2025-11-03 00:26:52,062 [INFO] django.server: "GET / HTTP/1.1" 200 4185
+2025-11-03 00:26:53,656 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7073
+2025-11-03 00:26:59,786 [INFO] django.server: "GET /termos/ HTTP/1.1" 200 5995
+2025-11-03 00:27:16,827 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5146
+2025-11-03 00:27:18,500 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4699
+2025-11-03 00:27:24,415 [INFO] core: valida_gesto: user=Kayke avg_dist=0.027012 n=21
+2025-11-03 00:27:27,336 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 81
+2025-11-03 00:27:27,411 [INFO] core: valida_gesto: user=Kayke avg_dist=0.028392 n=21
+2025-11-03 00:27:27,457 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 81
+2025-11-03 00:27:27,789 [INFO] core: valida_gesto: user=Kayke avg_dist=0.028587 n=21
+2025-11-03 00:27:27,821 [INFO] django.server: "POST /api/valida_gesto/ HTTP/1.1" 200 81
+2025-11-03 00:27:28,366 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-03 00:27:45,769 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 00:27:51,394 [INFO] core: Conversão efetuada por Kayke: 10 em dec -> {'decimal': '10', 'binary': '1010', 'hex': 'A', 'oct': '12'}
+2025-11-03 00:27:52,961 [INFO] django.server: "POST /conversao/ HTTP/1.1" 200 5162
+2025-11-03 00:28:01,538 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-03 00:28:26,431 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6671
+2025-11-03 00:28:44,254 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 200 6691
+2025-11-03 00:28:56,226 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-03 00:46:00,446 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 00:46:00,799 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-11-03 00:46:01,264 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 00:46:01,264 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 6925
+2025-11-03 00:46:02,955 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5154
+2025-11-03 00:46:03,827 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-03 00:46:08,282 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7081
+2025-11-03 00:46:09,991 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7270
+2025-11-03 00:46:14,291 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 2696
+2025-11-03 00:46:22,791 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 00:46:54,275 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5154
+2025-11-03 00:46:56,632 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 00:46:57,614 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7081
+2025-11-03 00:46:59,345 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 00:47:00,239 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6637
+2025-11-03 00:47:00,403 [INFO] django.server: "GET /static/videos/home.mp4 HTTP/1.1" 304 0
+2025-11-03 00:47:00,404 [INFO] django.server: "GET /static/videos/funcoes.mp4 HTTP/1.1" 304 0
+2025-11-03 00:47:00,412 [INFO] django.server: "GET /static/videos/sobre.mp4 HTTP/1.1" 304 0
+2025-11-03 00:47:23,511 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 00:47:26,618 [INFO] django.server: "GET /about/ HTTP/1.1" 200 6637
+2025-11-03 00:47:29,010 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7081
+2025-11-03 00:47:33,418 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5154
+2025-11-03 00:47:36,452 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7081
+2025-11-03 00:47:49,599 [INFO] django.server: "GET /termos/ HTTP/1.1" 200 6003
+2025-11-03 00:48:11,686 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7270
+2025-11-03 00:48:41,072 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5154
+2025-11-03 00:48:41,997 [INFO] django.server: "GET /login_gesto HTTP/1.1" 200 4712
+2025-11-03 00:49:03,691 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5154
+2025-11-03 00:49:04,935 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7081
+2025-11-03 00:49:07,002 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5154
+2025-11-03 00:49:08,108 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7081
+2025-11-03 00:49:08,810 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7270
+2025-11-03 00:49:23,785 [INFO] django.server: "GET /help_gesto/ HTTP/1.1" 200 2696
+2025-11-03 00:50:09,666 [INFO] django.server: "GET /cadastro_gesto HTTP/1.1" 200 7270
+2025-11-03 00:50:13,496 [INFO] django.server: "GET /accounts/signup/ HTTP/1.1" 200 7081
+2025-11-03 00:50:23,163 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 00:50:24,364 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5154
+2025-11-03 00:50:44,131 [INFO] core: Login realizado: Administrador
+2025-11-03 00:50:44,164 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-11-03 00:50:44,176 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-03 00:51:42,079 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 00:51:50,524 [INFO] core: Conversão efetuada por Administrador: 100 em dec -> {'decimal': '100', 'binary': '1100100', 'hex': '64', 'oct': '144'}
+2025-11-03 00:51:53,970 [INFO] django.server: "POST /conversao/ HTTP/1.1" 200 5168
+2025-11-03 00:52:10,517 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-03 00:53:42,880 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6703
+2025-11-03 00:54:07,142 [INFO] core: Admin alterou o nome de 'Administrador' para 'Admin'
+2025-11-03 00:54:07,156 [INFO] core: Admin alterou o e-mail de 'Administrador@email.com' para 'Admin@email.com'
+2025-11-03 00:54:07,172 [INFO] django.server: "POST /update_profile/ HTTP/1.1" 302 0
+2025-11-03 00:54:07,182 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6776
+2025-11-03 00:54:23,155 [WARNING] django.request: Not Found: /profile/admin
+2025-11-03 00:54:23,155 [WARNING] django.server: "GET /profile/admin HTTP/1.1" 404 6931
+2025-11-03 00:54:31,547 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 10910
+2025-11-03 00:54:34,090 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 77122
+2025-11-03 00:54:34,179 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 00:55:00,775 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 13298
+2025-11-03 00:55:00,809 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:37:29,314 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 17:37:43,583 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\simulador\settings.py changed, reloading.
+2025-11-03 17:37:44,600 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 17:37:49,872 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 268, in index
+    return render(request,"core/index.html", {"user": request.user if request.user.is_authenticated else redirect('login')})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/index.html
+2025-11-03 17:37:49,876 [ERROR] django.server: "GET / HTTP/1.1" 500 87020
+2025-11-03 17:37:50,610 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 17:37:50,611 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 6925
+2025-11-03 17:38:07,852 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\simulador\settings.py changed, reloading.
+2025-11-03 17:38:08,865 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 17:38:32,450 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 17:38:32,508 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 304 0
+2025-11-03 17:38:32,509 [INFO] django.server: "GET /static/js/script.js HTTP/1.1" 304 0
+2025-11-03 17:40:20,222 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\simulador\settings.py changed, reloading.
+2025-11-03 17:40:21,307 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 17:52:56,840 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 17:52:59,387 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 17:53:05,088 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 36290
+2025-11-03 17:53:05,529 [INFO] django.server: "GET /static/unfold/js/chart/chart.js HTTP/1.1" 200 200633
+2025-11-03 17:53:05,566 [INFO] django.server: "GET /static/unfold/js/app.js HTTP/1.1" 200 16352
+2025-11-03 17:53:05,567 [INFO] django.server: "GET /static/unfold/js/htmx/htmx.js HTTP/1.1" 200 50918
+2025-11-03 17:53:05,591 [INFO] django.server: "GET /static/unfold/css/simplebar/simplebar.css HTTP/1.1" 200 4647
+2025-11-03 17:53:05,612 [INFO] django.server: "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 200 164
+2025-11-03 17:53:05,624 [INFO] django.server: "GET /static/unfold/js/simplebar/simplebar.js HTTP/1.1" 200 27176
+2025-11-03 17:53:05,629 [INFO] django.server: "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 200 608
+2025-11-03 17:53:05,643 [INFO] django.server: "GET /static/unfold/css/styles.css HTTP/1.1" 200 200460
+2025-11-03 17:53:05,682 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.persist.js HTTP/1.1" 200 837
+2025-11-03 17:53:05,687 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.anchor.js HTTP/1.1" 200 15524
+2025-11-03 17:53:05,698 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.resize.js HTTP/1.1" 200 703
+2025-11-03 17:53:05,730 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.js HTTP/1.1" 200 44758
+2025-11-03 17:53:05,731 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.sort.js HTTP/1.1" 200 37891
+2025-11-03 17:53:05,830 [INFO] django.server: "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 200 291696
+2025-11-03 17:53:05,834 [INFO] django.server: "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 200 114812
+2025-11-03 17:53:05,836 [INFO] django.server: "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 200 111268
+2025-11-03 17:53:11,718 [INFO] django.server: "GET /admin/auth/group/ HTTP/1.1" 200 28862
+2025-11-03 17:53:11,752 [INFO] django.server: "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:11,753 [INFO] django.server: "GET /static/unfold/css/simplebar/simplebar.css HTTP/1.1" 304 0
+2025-11-03 17:53:11,753 [INFO] django.server: "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:11,755 [INFO] django.server: "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:11,758 [INFO] django.server: "GET /static/unfold/js/htmx/htmx.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,759 [INFO] django.server: "GET /static/unfold/js/chart/chart.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,761 [INFO] django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,762 [INFO] django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,762 [INFO] django.server: "GET /static/admin/js/core.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,765 [INFO] django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,766 [INFO] django.server: "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,766 [INFO] django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,767 [INFO] django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,767 [INFO] django.server: "GET /static/unfold/js/simplebar/simplebar.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,796 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 200 7977
+2025-11-03 17:53:11,800 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9222
+2025-11-03 17:53:11,804 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.anchor.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,807 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.persist.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,811 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.sort.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,815 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.resize.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,819 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.js HTTP/1.1" 304 0
+2025-11-03 17:53:11,831 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:11,912 [INFO] django.server: "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 200 114348
+2025-11-03 17:53:14,229 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 49354
+2025-11-03 17:53:14,277 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:19,625 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 392413
+2025-11-03 17:53:19,664 [INFO] django.server: "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:19,665 [INFO] django.server: "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:19,667 [INFO] django.server: "GET /static/unfold/css/simplebar/simplebar.css HTTP/1.1" 304 0
+2025-11-03 17:53:19,667 [INFO] django.server: "GET /static/unfold/js/htmx/htmx.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,668 [INFO] django.server: "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:19,668 [INFO] django.server: "GET /static/unfold/js/chart/chart.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,675 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,676 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,677 [INFO] django.server: "GET /static/unfold/js/simplebar/simplebar.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,677 [INFO] django.server: "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,679 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:19,681 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.anchor.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,683 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.persist.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,693 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.resize.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,693 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.sort.js HTTP/1.1" 304 0
+2025-11-03 17:53:19,694 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.js HTTP/1.1" 304 0
+2025-11-03 17:53:24,825 [INFO] django.server: "GET /admin/core/log/?level=WARNING HTTP/1.1" 200 164543
+2025-11-03 17:53:24,865 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:31,385 [INFO] django.server: "GET /admin/core/log/?level=INFO HTTP/1.1" 200 396435
+2025-11-03 17:53:31,430 [INFO] django.server: "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:31,430 [INFO] django.server: "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:31,430 [INFO] django.server: "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:31,435 [INFO] django.server: "GET /static/unfold/js/htmx/htmx.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,435 [INFO] django.server: "GET /static/unfold/js/chart/chart.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,435 [INFO] django.server: "GET /static/unfold/css/simplebar/simplebar.css HTTP/1.1" 304 0
+2025-11-03 17:53:31,438 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,439 [INFO] django.server: "GET /static/unfold/js/simplebar/simplebar.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,439 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,442 [INFO] django.server: "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,447 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:31,449 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.anchor.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,453 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.persist.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,464 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,465 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.sort.js HTTP/1.1" 304 0
+2025-11-03 17:53:31,465 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.resize.js HTTP/1.1" 304 0
+2025-11-03 17:53:33,967 [INFO] django.server: "GET /admin/core/log/? HTTP/1.1" 200 392413
+2025-11-03 17:53:34,009 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:35,311 [INFO] django.server: "GET /admin/core/process/ HTTP/1.1" 200 37656
+2025-11-03 17:53:35,352 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:37,926 [INFO] django.server: "GET /admin/core/process/ HTTP/1.1" 200 37656
+2025-11-03 17:53:37,960 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:41,037 [INFO] django.server: "GET /admin/auth/group/ HTTP/1.1" 200 28862
+2025-11-03 17:53:41,068 [INFO] django.server: "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:41,068 [INFO] django.server: "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:41,074 [INFO] django.server: "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+2025-11-03 17:53:41,077 [INFO] django.server: "GET /static/unfold/js/chart/chart.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,077 [INFO] django.server: "GET /static/unfold/js/htmx/htmx.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,078 [INFO] django.server: "GET /static/unfold/css/simplebar/simplebar.css HTTP/1.1" 304 0
+2025-11-03 17:53:41,082 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,083 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,084 [INFO] django.server: "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,085 [INFO] django.server: "GET /static/unfold/js/simplebar/simplebar.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,088 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:41,090 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.anchor.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,093 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.persist.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,107 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.resize.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,107 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.sort.js HTTP/1.1" 304 0
+2025-11-03 17:53:41,108 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.js HTTP/1.1" 304 0
+2025-11-03 17:53:45,381 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 392413
+2025-11-03 17:53:45,416 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:53:49,211 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 36290
+2025-11-03 17:53:50,777 [INFO] django.server: "GET /admin/auth/group/ HTTP/1.1" 200 28862
+2025-11-03 17:53:50,808 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 17:54:37,629 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 17:55:18,558 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5154
+2025-11-03 17:56:30,019 [WARNING] core: Tentativa de login falha: admin
+2025-11-03 17:56:30,044 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 200 5256
+2025-11-03 17:56:38,428 [INFO] core: Login realizado: Admin
+2025-11-03 17:56:38,463 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-11-03 17:56:38,477 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-03 17:56:38,507 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 304 0
+2025-11-03 17:57:00,890 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 17:58:18,671 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 17:58:19,777 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 17:58:47,569 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 17:58:48,678 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 17:59:56,731 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19690
+2025-11-03 17:59:59,073 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 18:00:22,003 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 18:00:26,163 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 18:00:27,560 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 18:00:27,809 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:00:27,812 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:00:27,919 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:00:27,920 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:00:44,853 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 18:00:44,897 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:00:44,898 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:00:45,152 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:00:45,153 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:00:46,492 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19696
+2025-11-03 18:00:48,913 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 566
+2025-11-03 18:01:58,346 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 732
+2025-11-03 18:02:27,215 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 739
+2025-11-03 18:02:45,005 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 758
+2025-11-03 18:02:58,456 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 741
+2025-11-03 18:03:04,966 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 741
+2025-11-03 18:03:45,582 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 1127
+2025-11-03 18:04:14,026 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 1238
+2025-11-03 18:05:03,917 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2816
+2025-11-03 18:05:49,305 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2816
+2025-11-03 18:06:04,536 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2821
+2025-11-03 18:07:01,296 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2825
+2025-11-03 18:07:48,243 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2872
+2025-11-03 18:07:52,155 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19696
+2025-11-03 18:07:56,432 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2872
+2025-11-03 18:09:00,119 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2901
+2025-11-03 18:09:02,024 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2901
+2025-11-03 18:09:02,101 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:09:02,101 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:09:02,306 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:09:02,307 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:09:17,763 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2900
+2025-11-03 18:09:19,045 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2900
+2025-11-03 18:09:19,078 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:09:19,079 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:09:20,563 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:09:20,563 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:09:38,591 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2901
+2025-11-03 18:10:08,163 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2921
+2025-11-03 18:10:13,210 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2921
+2025-11-03 18:10:13,245 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:10:13,246 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:10:13,499 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:10:13,499 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:10:52,568 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2910
+2025-11-03 18:11:02,771 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2919
+2025-11-03 18:11:04,160 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2919
+2025-11-03 18:11:04,185 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:11:04,185 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:11:04,392 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:11:04,392 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:11:12,284 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 2919
+2025-11-03 18:11:12,313 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:11:12,313 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:11:14,435 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:11:14,436 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:12:56,896 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 6531
+2025-11-03 18:13:26,187 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4066
+2025-11-03 18:13:44,887 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4066
+2025-11-03 18:13:52,409 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4066
+2025-11-03 18:13:59,859 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4066
+2025-11-03 18:14:18,180 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4066
+2025-11-03 18:14:45,002 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4078
+2025-11-03 18:14:49,761 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4078
+2025-11-03 18:14:49,797 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:14:49,797 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:14:50,035 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:14:50,036 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:15:08,407 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3661
+2025-11-03 18:15:31,766 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3667
+2025-11-03 18:15:41,498 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3668
+2025-11-03 18:15:51,155 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3668
+2025-11-03 18:16:02,427 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3666
+2025-11-03 18:17:06,855 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3671
+2025-11-03 18:17:19,360 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3665
+2025-11-03 18:17:34,273 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3671
+2025-11-03 18:17:44,159 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3671
+2025-11-03 18:17:53,315 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3665
+2025-11-03 18:18:08,335 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3653
+2025-11-03 18:18:46,752 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3653
+2025-11-03 18:21:15,726 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19696
+2025-11-03 18:21:23,215 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 3653
+2025-11-03 18:22:03,289 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4822
+2025-11-03 18:22:56,982 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4797
+2025-11-03 18:23:15,396 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4797
+2025-11-03 18:23:24,332 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4797
+2025-11-03 18:23:35,561 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4797
+2025-11-03 18:23:39,122 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4797
+2025-11-03 18:23:51,869 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4800
+2025-11-03 18:24:03,477 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4797
+2025-11-03 18:24:03,784 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4797
+2025-11-03 18:24:11,399 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4809
+2025-11-03 18:24:12,154 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4809
+2025-11-03 18:24:12,508 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4809
+2025-11-03 18:24:19,641 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4805
+2025-11-03 18:24:20,631 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4805
+2025-11-03 18:24:20,899 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4805
+2025-11-03 18:24:21,442 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4805
+2025-11-03 18:24:32,057 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4803
+2025-11-03 18:24:38,772 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4803
+2025-11-03 18:24:45,232 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4803
+2025-11-03 18:25:17,032 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4808
+2025-11-03 18:25:53,457 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4839
+2025-11-03 18:26:06,542 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4841
+2025-11-03 18:26:25,278 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4841
+2025-11-03 18:26:26,266 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4841
+2025-11-03 18:26:51,902 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4841
+2025-11-03 18:26:53,168 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4841
+2025-11-03 18:26:53,229 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:26:53,230 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:26:53,466 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:26:53,467 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:26:57,227 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4829
+2025-11-03 18:27:12,813 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4829
+2025-11-03 18:27:21,828 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4838
+2025-11-03 18:27:22,705 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4838
+2025-11-03 18:27:44,376 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4850
+2025-11-03 18:27:44,969 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4850
+2025-11-03 18:27:45,287 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4850
+2025-11-03 18:27:55,193 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4849
+2025-11-03 18:27:56,081 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4849
+2025-11-03 18:28:20,048 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4865
+2025-11-03 18:28:20,839 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 4865
+2025-11-03 18:28:54,840 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5387
+2025-11-03 18:29:06,657 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5387
+2025-11-03 18:29:07,748 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5387
+2025-11-03 18:29:20,489 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5389
+2025-11-03 18:29:27,824 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5392
+2025-11-03 18:30:09,623 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5893
+2025-11-03 18:30:42,539 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5882
+2025-11-03 18:30:52,507 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5870
+2025-11-03 18:30:53,450 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5870
+2025-11-03 18:31:35,493 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5849
+2025-11-03 18:31:36,264 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5849
+2025-11-03 18:31:36,721 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5849
+2025-11-03 18:32:05,506 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5838
+2025-11-03 18:32:20,021 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5837
+2025-11-03 18:32:35,951 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5846
+2025-11-03 18:32:36,861 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5846
+2025-11-03 18:32:53,779 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5838
+2025-11-03 18:32:54,597 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5838
+2025-11-03 18:33:12,026 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5838
+2025-11-03 18:34:45,873 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5837
+2025-11-03 18:35:13,332 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5859
+2025-11-03 18:35:29,196 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5859
+2025-11-03 18:35:42,778 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5862
+2025-11-03 18:35:44,443 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5862
+2025-11-03 18:35:44,491 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:35:44,492 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 18:35:44,812 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:35:44,812 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7198
+2025-11-03 18:35:56,284 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5862
+2025-11-03 18:36:50,260 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5924
+2025-11-03 18:37:12,261 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5916
+2025-11-03 18:37:13,009 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5916
+2025-11-03 18:37:20,891 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5925
+2025-11-03 18:37:22,148 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5925
+2025-11-03 18:37:49,958 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5923
+2025-11-03 18:37:50,644 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5923
+2025-11-03 18:37:56,639 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 18:40:48,603 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 18:40:49,908 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:41:17,702 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 18:41:18,902 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:41:54,465 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 18:41:55,601 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:42:10,316 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 18:42:11,440 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:42:14,841 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 18:42:18,420 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19696
+2025-11-03 18:42:20,994 [ERROR] django.request: Internal Server Error: /desenhoComGesto/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 20, in desenhoComGesto_view
+    return render(request, 'core/desenhoComGesto.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/desenhoComGesto.html
+2025-11-03 18:42:20,999 [ERROR] django.server: "GET /desenhoComGesto/ HTTP/1.1" 500 87748
+2025-11-03 18:42:42,427 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 18:42:43,613 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:42:49,646 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 18:42:50,726 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:42:51,100 [ERROR] django.request: Internal Server Error: /desenhoComGesto/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 20, in desenhoComGesto_view
+    return render(request, 'core/funcoes/Desenho/desenhoComGesto.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'desenhosSalvos' not found. 'desenhosSalvos' is not a valid view function or pattern name.
+2025-11-03 18:42:51,110 [ERROR] django.server: "GET /desenhoComGesto/ HTTP/1.1" 500 169228
+2025-11-03 18:44:12,324 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 18:44:13,558 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:44:39,118 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 18:44:40,360 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:44:44,230 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5929
+2025-11-03 18:44:45,897 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 20, in novoDesenho_view
+    return render(request, 'core/funcoes/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/funcoes/novoDesenho.html
+2025-11-03 18:44:45,900 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 87920
+2025-11-03 18:45:02,378 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 18:45:03,528 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:45:05,276 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 18:45:06,332 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:45:07,057 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 20, in novoDesenho_view
+    return render(request, 'core/funcoes/Desenhos/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/funcoes/Desenhos/novoDesenho.html
+2025-11-03 18:45:07,060 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 88256
+2025-11-03 18:45:20,133 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 18:45:21,249 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 18:45:22,087 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 0
+2025-11-03 18:45:31,552 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 0
+2025-11-03 18:52:13,412 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5929
+2025-11-03 18:52:14,500 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 6928
+2025-11-03 18:59:10,373 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7191
+2025-11-03 18:59:38,907 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7191
+2025-11-03 18:59:40,178 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7191
+2025-11-03 18:59:43,082 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7191
+2025-11-03 18:59:43,293 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:59:43,548 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:59:43,548 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 18:59:44,600 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7191
+2025-11-03 18:59:44,655 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 18:59:44,821 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7191
+2025-11-03 18:59:44,947 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 18:59:44,947 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:00:45,008 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 8095
+2025-11-03 19:00:53,228 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7851
+2025-11-03 19:06:08,675 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7851
+2025-11-03 19:08:59,636 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7793
+2025-11-03 19:10:02,900 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7191
+2025-11-03 19:10:02,949 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 19:10:03,344 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 19:10:03,345 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:10:13,117 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 6928
+2025-11-03 19:11:52,579 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7793
+2025-11-03 19:14:32,353 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7817
+2025-11-03 19:14:32,404 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 19:14:32,654 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 19:14:32,654 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:16:00,714 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 6928
+2025-11-03 19:16:00,779 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 19:16:01,135 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 19:16:01,135 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:19:03,992 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 4892
+2025-11-03 19:19:12,077 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 4892
+2025-11-03 19:19:12,976 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 4892
+2025-11-03 19:19:13,012 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 19:19:13,337 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 19:19:13,337 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:19:26,797 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 4892
+2025-11-03 19:19:26,835 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 19:19:27,118 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 19:19:27,118 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:21:49,796 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 2786
+2025-11-03 19:21:49,835 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 19:21:49,874 [INFO] django.server: "GET /static/js/novoDesenho.js HTTP/1.1" 200 5375
+2025-11-03 19:21:50,114 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 19:21:50,115 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:23:44,590 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 2794
+2025-11-03 19:23:44,645 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 19:23:44,677 [INFO] django.server: "GET /static/js/novoDesenho.js HTTP/1.1" 200 4945
+2025-11-03 19:23:45,055 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 19:23:45,055 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:24:34,413 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 2794
+2025-11-03 19:24:34,468 [INFO] django.server: "GET /static/js/novoDesenho.js HTTP/1.1" 304 0
+2025-11-03 19:46:28,883 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 19:46:30,069 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 19:47:05,450 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 19:47:06,582 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 19:47:10,431 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\models.py changed, reloading.
+2025-11-03 19:47:11,531 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 19:49:00,926 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 19:49:02,089 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 19:49:13,496 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 19:49:14,613 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 19:49:20,576 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 19:49:21,732 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 19:49:28,808 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 19:49:29,963 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 19:50:50,132 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 19:50:51,255 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 19:50:52,127 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 34, in novoDesenho_view
+    return render(request, 'core/funcoes/Desenho/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'salvar_desenho' not found. 'salvar_desenho' is not a valid view function or pattern name.
+2025-11-03 19:50:52,135 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 166740
+2025-11-03 19:51:10,442 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 19:51:11,579 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 19:51:12,290 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 22, in novoDesenho_view
+    return render(request, 'core/funcoes/Desenho/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'salvar_desenho' not found. 'salvar_desenho' is not a valid view function or pattern name.
+2025-11-03 19:51:12,297 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 166644
+2025-11-03 19:51:14,129 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 22, in novoDesenho_view
+    return render(request, 'core/funcoes/Desenho/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'salvar_desenho' not found. 'salvar_desenho' is not a valid view function or pattern name.
+2025-11-03 19:51:14,133 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 166772
+2025-11-03 19:51:14,318 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 19:51:14,318 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:51:55,505 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7262
+2025-11-03 19:52:05,509 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7262
+2025-11-03 19:54:12,894 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 22, in novoDesenho_view
+    return render(request, 'core/funcoes/Desenho/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'salvar_desenho' not found. 'salvar_desenho' is not a valid view function or pattern name.
+2025-11-03 19:54:12,898 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 166754
+2025-11-03 19:54:13,158 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 19:54:13,159 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 19:54:25,077 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7094
+2025-11-03 19:55:06,935 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7262
+2025-11-03 20:00:05,287 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 22, in novoDesenho_view
+    return render(request, 'core/funcoes/Desenho/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'salvar_desenho' not found. 'salvar_desenho' is not a valid view function or pattern name.
+2025-11-03 20:00:05,290 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 166838
+2025-11-03 20:00:05,578 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 20:00:05,578 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 20:00:40,588 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7515
+2025-11-03 20:02:49,950 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 22, in novoDesenho_view
+    return render(request, 'core/funcoes/Desenho/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'salvar_desenho' not found. 'salvar_desenho' is not a valid view function or pattern name.
+2025-11-03 20:02:49,954 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 166822
+2025-11-03 20:02:50,264 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 20:02:50,264 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 20:02:59,773 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 7620
+2025-11-03 20:06:28,679 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 22, in novoDesenho_view
+    return render(request, 'core/funcoes/Desenho/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'salvar_desenho' not found. 'salvar_desenho' is not a valid view function or pattern name.
+2025-11-03 20:06:28,682 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 166694
+2025-11-03 20:08:00,343 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 8211
+2025-11-03 20:10:36,251 [ERROR] django.request: Internal Server Error: /funcoes/novoDesenho/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 22, in novoDesenho_view
+    return render(request, 'core/funcoes/Desenho/novoDesenho.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'salvar_desenho' not found. 'salvar_desenho' is not a valid view function or pattern name.
+2025-11-03 20:10:36,254 [ERROR] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 500 166822
+2025-11-03 20:10:36,549 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 20:10:36,550 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7750
+2025-11-03 20:10:45,611 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 8205
+2025-11-03 20:17:01,786 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\models.py changed, reloading.
+2025-11-03 20:17:03,093 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:18:04,676 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 20:18:05,847 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:18:22,719 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 20:18:23,805 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:19:26,383 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 20:19:27,463 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:20:11,514 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 20:20:12,591 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:20:15,351 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 20:20:16,496 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:20:48,635 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 20:20:49,725 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:21:45,809 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:21:49,016 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 20:21:51,112 [INFO] django.server: "GET /accounts/login/ HTTP/1.1" 200 5154
+2025-11-03 20:22:01,867 [INFO] core: Login realizado: Admin
+2025-11-03 20:22:01,905 [INFO] django.server: "POST /accounts/login/ HTTP/1.1" 302 0
+2025-11-03 20:22:01,919 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19696
+2025-11-03 20:22:04,830 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5929
+2025-11-03 20:22:06,398 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 9024
+2025-11-03 20:22:52,993 [ERROR] django.request: Internal Server Error: /salvar_desenho/
+2025-11-03 20:22:52,994 [ERROR] django.server: "POST /salvar_desenho/ HTTP/1.1" 500 59
+2025-11-03 20:23:56,016 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 20:23:57,227 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:24:05,520 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 20:24:06,647 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:24:50,052 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 9024
+2025-11-03 20:24:56,665 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:24:59,711 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:25:01,556 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 9024
+2025-11-03 20:25:55,648 [ERROR] django.request: Internal Server Error: /salvar_desenho/
+2025-11-03 20:25:55,648 [ERROR] django.server: "POST /salvar_desenho/ HTTP/1.1" 500 59
+2025-11-03 20:25:59,908 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:26:01,330 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:27:50,625 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:27:53,372 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 20:27:57,846 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5929
+2025-11-03 20:27:59,378 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:01,647 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 9024
+2025-11-03 20:28:23,124 [INFO] django.server: "POST /salvar_desenho/ HTTP/1.1" 200 49
+2025-11-03 20:28:27,744 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:29,233 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:30,550 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:31,151 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:31,537 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:31,882 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:32,179 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:32,492 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:32,837 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:35,286 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19696
+2025-11-03 20:28:37,442 [INFO] django.server: "GET /profile/ HTTP/1.1" 200 6671
+2025-11-03 20:28:39,628 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19696
+2025-11-03 20:28:41,877 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5929
+2025-11-03 20:28:42,554 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:28:45,570 [INFO] django.server: "GET /home/ HTTP/1.1" 200 19696
+2025-11-03 20:28:48,780 [INFO] django.server: "GET /desenhoComGesto/ HTTP/1.1" 200 5929
+2025-11-03 20:28:49,974 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 779
+2025-11-03 20:29:00,354 [INFO] django.server: "GET /admin/ HTTP/1.1" 200 36290
+2025-11-03 20:29:00,395 [INFO] django.server: "GET /static/unfold/fonts/inter/styles.css HTTP/1.1" 304 0
+2025-11-03 20:29:00,405 [INFO] django.server: "GET /static/unfold/js/htmx/htmx.js HTTP/1.1" 304 0
+2025-11-03 20:29:00,407 [INFO] django.server: "GET /static/unfold/fonts/material-symbols/styles.css HTTP/1.1" 304 0
+2025-11-03 20:29:00,411 [INFO] django.server: "GET /static/unfold/css/simplebar/simplebar.css HTTP/1.1" 304 0
+2025-11-03 20:29:00,413 [INFO] django.server: "GET /static/unfold/js/simplebar/simplebar.js HTTP/1.1" 304 0
+2025-11-03 20:29:00,414 [INFO] django.server: "GET /static/unfold/css/styles.css HTTP/1.1" 304 0
+2025-11-03 20:29:00,414 [INFO] django.server: "GET /static/unfold/js/chart/chart.js HTTP/1.1" 304 0
+2025-11-03 20:29:00,415 [INFO] django.server: "GET /static/unfold/js/app.js HTTP/1.1" 304 0
+2025-11-03 20:29:00,423 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.anchor.js HTTP/1.1" 304 0
+2025-11-03 20:29:00,428 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.persist.js HTTP/1.1" 304 0
+2025-11-03 20:29:00,430 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.sort.js HTTP/1.1" 304 0
+2025-11-03 20:29:00,437 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.resize.js HTTP/1.1" 304 0
+2025-11-03 20:29:00,437 [INFO] django.server: "GET /static/unfold/js/alpine/alpine.js HTTP/1.1" 304 0
+2025-11-03 20:29:00,503 [INFO] django.server: "GET /static/unfold/fonts/inter/Inter-SemiBold.woff2 HTTP/1.1" 304 0
+2025-11-03 20:29:00,504 [INFO] django.server: "GET /static/unfold/fonts/inter/Inter-Regular.woff2 HTTP/1.1" 304 0
+2025-11-03 20:29:00,504 [INFO] django.server: "GET /static/unfold/fonts/material-symbols/Material-Symbols-Outlined.woff2 HTTP/1.1" 304 0
+2025-11-03 20:29:05,349 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 49354
+2025-11-03 20:29:05,385 [INFO] django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+2025-11-03 20:29:05,385 [INFO] django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+2025-11-03 20:29:05,410 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 20:29:05,479 [INFO] django.server: "GET /static/unfold/fonts/inter/Inter-Medium.woff2 HTTP/1.1" 304 0
+2025-11-03 20:29:08,520 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 391809
+2025-11-03 20:29:08,557 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 20:29:23,503 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 49354
+2025-11-03 20:29:23,540 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 20:29:27,478 [INFO] django.server: "GET /admin/core/process/ HTTP/1.1" 200 37656
+2025-11-03 20:29:27,518 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 20:30:52,611 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\simulador\settings.py changed, reloading.
+2025-11-03 20:30:53,761 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:31:40,142 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 20:31:41,328 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:31:56,165 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 20:31:57,357 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:32:49,424 [INFO] django.server: "GET /funcoes/novoDesenho/ HTTP/1.1" 200 9024
+2025-11-03 20:33:04,965 [INFO] django.server: "POST /salvar_desenho/ HTTP/1.1" 200 49
+2025-11-03 20:33:08,530 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:10,014 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:10,500 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:10,656 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:10,818 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:11,006 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:11,141 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:11,832 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:12,256 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:12,488 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:12,687 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:13,002 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:33:13,212 [INFO] django.server: "GET /funcoes/desenhosSalvos/ HTTP/1.1" 200 801
+2025-11-03 20:34:19,948 [INFO] django.server: "GET /admin/core/process/ HTTP/1.1" 200 37656
+2025-11-03 20:34:19,992 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 20:34:22,387 [INFO] django.server: "GET /admin/core/log/ HTTP/1.1" 200 391809
+2025-11-03 20:34:22,436 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 20:34:25,423 [INFO] django.server: "GET /admin/auth/user/ HTTP/1.1" 200 49354
+2025-11-03 20:34:25,460 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 20:34:26,923 [INFO] django.server: "GET /admin/auth/group/ HTTP/1.1" 200 28862
+2025-11-03 20:34:26,957 [INFO] django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 8514
+2025-11-03 20:35:52,932 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 20:35:54,129 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:36:02,427 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 20:36:03,587 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:36:05,343 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\urls.py changed, reloading.
+2025-11-03 20:36:06,469 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:36:31,058 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 20:36:32,174 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:36:38,743 [ERROR] django.request: Internal Server Error: /home/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 247, in home_view
+    return render(request, 'core/home.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 1016, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'desenhoComGesto' not found. 'desenhoComGesto' is not a valid view function or pattern name.
+2025-11-03 20:36:38,751 [ERROR] django.server: "GET /home/ HTTP/1.1" 500 201728
+2025-11-03 20:37:01,361 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18487
+2025-11-03 20:37:14,352 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18486
+2025-11-03 20:37:34,430 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18478
+2025-11-03 20:37:34,740 [INFO] django.server: "GET /static/imagens/perfil.jpg HTTP/1.1" 200 1472054
+2025-11-03 20:37:34,746 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 20:37:34,753 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 20:37:35,226 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 20:37:35,227 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 6925
+2025-11-03 20:37:55,534 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18483
+2025-11-03 20:38:02,857 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18483
+2025-11-03 20:38:09,929 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18483
+2025-11-03 20:38:16,721 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18484
+2025-11-03 20:38:24,994 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18484
+2025-11-03 20:38:36,939 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18491
+2025-11-03 20:38:53,138 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18497
+2025-11-03 20:39:04,504 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18482
+2025-11-03 20:39:16,225 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18490
+2025-11-03 20:39:25,263 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18491
+2025-11-03 20:39:39,899 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18498
+2025-11-03 20:39:46,695 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18498
+2025-11-03 20:39:56,850 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18498
+2025-11-03 20:40:28,880 [ERROR] django.request: Internal Server Error: /conversao/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 345, in conversao_view
+    return render(request, 'core/conversao.html', {'result': result})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/conversao.html
+2025-11-03 20:40:28,882 [ERROR] django.server: "GET /conversao/ HTTP/1.1" 500 92781
+2025-11-03 20:41:01,579 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 20:41:02,714 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:41:03,013 [ERROR] django.request: Internal Server Error: /conversao/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 345, in conversao_view
+    return render(request, 'core/funcoes/conversao.html', {'result': result})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/funcoes/conversao.html
+2025-11-03 20:41:03,019 [ERROR] django.server: "GET /conversao/ HTTP/1.1" 500 93094
+2025-11-03 20:41:29,693 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 20:41:30,803 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:41:31,504 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 20:41:35,010 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18498
+2025-11-03 20:41:38,262 [ERROR] django.request: Internal Server Error: /msgCriptografia/
+Traceback (most recent call last):
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py", line 251, in msgCriptografia_view
+    return render(request, 'core/msgCriptografia.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core/msgCriptografia.html
+2025-11-03 20:41:38,265 [ERROR] django.server: "GET /msgCriptografia/ HTTP/1.1" 500 92706
+2025-11-03 20:41:58,966 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 20:42:00,078 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:42:00,458 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 0
+2025-11-03 20:44:13,747 [INFO] django.utils.autoreload: C:\Users\Kayke Mendes\Documents\projetoa3\SimuladorDeSistema\core\views.py changed, reloading.
+2025-11-03 20:44:14,908 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:47:07,214 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2025-11-03 20:47:11,540 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 20:47:14,114 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 3726
+2025-11-03 20:47:42,327 [INFO] django.server: "POST /api/criptografar/ HTTP/1.1" 200 130
+2025-11-03 20:47:49,220 [ERROR] django.request: Internal Server Error: /api/descriptografar/
+2025-11-03 20:47:49,220 [ERROR] django.server: "POST /api/descriptografar/ HTTP/1.1" 500 37
+2025-11-03 20:47:55,236 [ERROR] django.request: Internal Server Error: /api/descriptografar/
+2025-11-03 20:47:55,237 [ERROR] django.server: "POST /api/descriptografar/ HTTP/1.1" 500 37
+2025-11-03 20:48:02,155 [ERROR] django.request: Internal Server Error: /api/descriptografar/
+2025-11-03 20:48:02,155 [ERROR] django.server: "POST /api/descriptografar/ HTTP/1.1" 500 37
+2025-11-03 20:48:11,101 [ERROR] django.request: Internal Server Error: /api/descriptografar/
+2025-11-03 20:48:11,102 [ERROR] django.server: "POST /api/descriptografar/ HTTP/1.1" 500 37
+2025-11-03 20:55:29,371 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6006
+2025-11-03 20:55:47,091 [INFO] django.server: "POST /api/criptografar/ HTTP/1.1" 200 130
+2025-11-03 20:55:48,168 [ERROR] django.request: Internal Server Error: /api/descriptografar/
+2025-11-03 20:55:48,168 [ERROR] django.server: "POST /api/descriptografar/ HTTP/1.1" 500 37
+2025-11-03 20:55:56,998 [INFO] django.server: "POST /api/descriptografar/ HTTP/1.1" 200 37
+2025-11-03 20:57:44,317 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6073
+2025-11-03 20:58:22,134 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6074
+2025-11-03 20:58:35,264 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6074
+2025-11-03 20:58:50,275 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6062
+2025-11-03 20:59:22,696 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6062
+2025-11-03 20:59:23,581 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6062
+2025-11-03 20:59:23,826 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 20:59:23,842 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 20:59:23,955 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 20:59:23,955 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7781
+2025-11-03 20:59:38,219 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6048
+2025-11-03 20:59:45,473 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6043
+2025-11-03 21:00:00,337 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6049
+2025-11-03 21:00:24,739 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6033
+2025-11-03 21:04:13,557 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6638
+2025-11-03 21:05:27,627 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6694
+2025-11-03 21:06:25,219 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6693
+2025-11-03 21:06:31,348 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6691
+2025-11-03 21:06:44,196 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6694
+2025-11-03 21:07:35,008 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6238
+2025-11-03 21:09:01,862 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 4854
+2025-11-03 21:09:09,083 [INFO] django.server: "POST /api/criptografar/ HTTP/1.1" 200 130
+2025-11-03 21:09:14,257 [INFO] django.server: "POST /api/descriptografar/ HTTP/1.1" 200 33
+2025-11-03 21:10:14,315 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 7240
+2025-11-03 21:10:23,715 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6629
+2025-11-03 21:11:03,346 [INFO] django.server: "POST /api/criptografar/ HTTP/1.1" 200 130
+2025-11-03 21:11:07,812 [INFO] django.server: "POST /api/descriptografar/ HTTP/1.1" 200 35
+2025-11-03 21:11:10,669 [INFO] django.server: "GET / HTTP/1.1" 200 4193
+2025-11-03 21:11:22,722 [INFO] django.server: "GET /msgCriptografia/ HTTP/1.1" 200 6634
+2025-11-03 21:11:22,759 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 21:11:22,761 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 21:11:22,963 [WARNING] django.request: Not Found: /favicon.ico
+2025-11-03 21:11:22,964 [WARNING] django.server: "GET /favicon.ico HTTP/1.1" 404 7781
+2025-11-03 21:11:24,366 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18515
+2025-11-03 22:19:44,882 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6634
+2025-11-03 22:19:44,947 [INFO] django.server: "GET /static/css/style.css HTTP/1.1" 200 11842
+2025-11-03 22:19:44,947 [INFO] django.server: "GET /static/css/output.css HTTP/1.1" 200 12880
+2025-11-03 22:20:07,225 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6630
+2025-11-03 22:20:16,392 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6633
+2025-11-03 22:20:31,201 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6655
+2025-11-03 22:20:50,270 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6655
+2025-11-03 22:21:03,159 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6655
+2025-11-03 22:21:15,824 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6658
+2025-11-03 22:21:25,203 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6661
+2025-11-03 22:21:43,643 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6660
+2025-11-03 22:22:10,157 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18515
+2025-11-03 22:22:37,393 [INFO] django.server: "GET /conversao/ HTTP/1.1" 200 5153
+2025-11-03 22:22:39,798 [INFO] django.server: "GET /home/ HTTP/1.1" 200 18515
+2025-11-03 22:22:44,020 [INFO] django.server: "GET /funcoes/Mensagem/msgCriptografia/ HTTP/1.1" 200 6660
+2025-11-03 22:22:59,849 [INFO] django.server: "POST /api/criptografar/ HTTP/1.1" 200 130
+2025-11-03 22:23:08,881 [INFO] django.server: "POST /api/descriptografar/ HTTP/1.1" 200 36
+2025-11-03 22:23:15,374 [INFO] django.server: "POST /api/criptografar/ HTTP/1.1" 200 130
+2025-11-03 22:23:21,208 [INFO] django.server: "POST /api/descriptografar/ HTTP/1.1" 200 28
+2025-11-03 22:23:28,263 [INFO] django.server: "POST /api/criptografar/ HTTP/1.1" 200 130
+2025-11-03 22:23:34,012 [INFO] django.server: "POST /api/descriptografar/ HTTP/1.1" 200 32
+2025-11-04 09:18:48,092 [INFO] django.utils.autoreload: Watching for file changes with StatReloader

@@ -1,4 +1,4 @@
-# simulador/settings.py
+# core_settings/settings.py
 from pathlib import Path
 import os
 
@@ -15,6 +15,7 @@ ALLOWED_HOSTS = []
 
 
 INSTALLED_APPS = [
+    'unfold',
     'django.contrib.admin',              
     'django.contrib.auth',              
     'django.contrib.contenttypes',
@@ -97,7 +98,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'core/static')]
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = BASE_DIR / 'media'
+
 
 
 LOGGING = {

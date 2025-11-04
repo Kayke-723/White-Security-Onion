@@ -1,5 +1,7 @@
 from django.urls import path
 from . import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 
 urlpatterns = [
@@ -20,8 +22,9 @@ urlpatterns = [
     path('sucesso/', views.sucesso, name='sucesso'),
     path('msgCriptografia/', views.msgCriptografia_view, name='msgCriptografia'),
     path('termos/', views.termos_view, name='termos'),
-    path('help_gesto/', views.help_gesto_view, name='help_gesto')
+    path('help_gesto/', views.help_gesto_view, name='help_gesto'),
+    path('funcoes/Mensagem/msgCriptografia/', views.msgCriptografia_view, name='msgCriptografia'),
+    path('api/criptografar/', views.criptografar_mensagem, name='criptografar_mensagem'),
+    path('api/descriptografar/', views.descriptografar_mensagem, name='descriptografar_mensagem'),
 
-
-
-]
+] 

@@ -2,6 +2,15 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.core.validators import MinLengthValidator
 
+
+class Desenho(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="desenhos")
+    imagem = models.ImageField(upload_to='desenhos/')
+    criado_em = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Desenho de {self.user.username} ({self.criado_em.strftime('%d/%m/%Y %H:%M')})"
+    
 class Gesto(models.Model):
     user = models.OneToOneField(
         User,

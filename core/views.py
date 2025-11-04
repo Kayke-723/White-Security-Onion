@@ -12,8 +12,62 @@ from django.http import JsonResponse
 import json
 from .models import Gesto
 from django.views.decorators.csrf import csrf_exempt
+import base64
+from cryptography.fernet import Fernet
 
 
+@csrf_exempt
+def criptografar_mensagem(request):
+    """
+    Recebe uma mensagem e uma chave secreta, e devolve a mensagem criptografada.
+    """
+    if request.method != 'POST':
+        return JsonResponse({'erro': 'Método inválido'}, status=405)
+
+    try:
+        data = json.loads(request.body)
+        mensagem = data.get('mensagem')
+        secret = data.get('secretKey')
+
+        if not mensagem or not secret:
+            return JsonResponse({'erro': 'Mensagem e chave são obrigatórias'}, status=400)
+
+        # 🔐 Gera chave baseada na secretKey
+        key = base64.urlsafe_b64encode(secret.ljust(32)[:32].encode())
+        f = Fernet(key)
+
+        encrypted = f.encrypt(mensagem.encode()).decode()
+        return JsonResponse({'mensagem_criptografada': encrypted})
+
+    except Exception as e:
+        return JsonResponse({'erro': f'Erro ao criptografar: {str(e)}'}, status=500)
+
+
+@csrf_exempt
+def descriptografar_mensagem(request):
+    """
+    Recebe a mensagem criptografada e a chave, devolve o texto original.
+    """
+    if request.method != 'POST':
+        return JsonResponse({'erro': 'Método inválido'}, status=405)
+
+    try:
+        data = json.loads(request.body)
+        criptografada = data.get('mensagem')
+        secret = data.get('secretKey')
+
+        if not criptografada or not secret:
+            return JsonResponse({'erro': 'Mensagem e chave são obrigatórias'}, status=400)
+
+        key = base64.urlsafe_b64encode(secret.ljust(32)[:32].encode())
+        f = Fernet(key)
+
+        decrypted = f.decrypt(criptografada.encode()).decode()
+        return JsonResponse({'mensagem_original': decrypted})
+
+    except Exception as e:
+        return JsonResponse({'erro': f'Erro ao descriptografar: {str(e)}'}, status=500)
+    
 
 def help_gesto_view(request):
     return render(request, 'core/gesto/help_gesto.html')
@@ -245,7 +299,7 @@ def home_view(request):
 
 @login_required
 def msgCriptografia_view(request):
-    return render(request, 'core/msgCriptografia.html')
+    return render(request, 'core/funcoes/Mensagem/msgCriptografia.html')
 
 
 def registrar_log(message, user=None, level='INFO'):
@@ -339,7 +393,7 @@ def conversao_view(request):
         except Exception as e:
             messages.error(request, f"Erro na conversão: {e}")
             registrar_log(f"Erro conversão: {value} base={base} - {e}", user=request.user, level='ERROR')
-    return render(request, 'core/conversao.html', {'result': result})
+    return render(request, 'core/funcoes/conversao/conversao.html', {'result': result})
 
 
 
