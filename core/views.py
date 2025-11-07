@@ -1,10 +1,9 @@
-from django.shortcuts import render
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .forms import SignUpForm, UpdateProfileForm
-from .models import Log, Process
+from .models import Log
 from django.contrib.auth.models import User
 from datetime import datetime
 import logging
@@ -14,6 +13,7 @@ from .models import Gesto
 from django.views.decorators.csrf import csrf_exempt
 import base64
 from cryptography.fernet import Fernet
+
 
 
 @csrf_exempt
@@ -73,7 +73,7 @@ def help_gesto_view(request):
     return render(request, 'core/gesto/help_gesto.html')
 
 def termos_view(request):
-    return render(request, 'core/termos.html')
+    return render(request, 'core/home/termos.html')
 
 def cadastro_gesto(request):
     return render(request, 'core/gesto/cadastro_gesto.html')
@@ -283,19 +283,19 @@ def update_profile(request):
     else:
         form = UpdateProfileForm(instance=request.user)
 
-    return render(request, 'core/profile.html', {'form': form})
+    return render(request, 'core/home/profile.html', {'form': form})
 
 
 
 def terms_view(request):
-    return render(request, 'core/terms_conditions.html')
+    return render(request, 'core/index/terms_conditions.html')
 
 def about_view(request):
-    return render(request, 'core/about.html')
+    return render(request, 'core/index/about.html')
 
 @login_required
 def home_view(request):
-    return render(request, 'core/home.html')
+    return render(request, 'core/home/home.html')
 
 @login_required
 def msgCriptografia_view(request):
@@ -319,7 +319,7 @@ def registrar_log(message, user=None, level='INFO'):
     log.save()
 
 def index(request):
-    return render(request,"core/index.html", {"user": request.user if request.user.is_authenticated else redirect('login')})
+    return render(request,"core/index/index.html", {"user": request.user if request.user.is_authenticated else redirect('login')})
 
 def signup_view(request):
     
@@ -330,10 +330,10 @@ def signup_view(request):
             registrar_log(f"Novo usuário cadastrado: {user.username}", user=user)
             login(request, user)  
             messages.success(request, "Cadastro realizado com sucesso.")
-            return redirect('index')
+            return redirect('home')
     else:
         form = SignUpForm()
-    return render(request, 'core/signup.html', {'form': form})
+    return render(request, 'core/registration/signup.html', {'form': form})
 
 
 # Login
@@ -349,9 +349,11 @@ def login_view(request):
             registrar_log(f"Login realizado: {user.username}", user=user)
             return redirect('home')
         else:
-            messages.error(request, "Usuário ou senha inválidos.")
+            messages.error(request, alert("Usuário ou Senha inválidos"))
             registrar_log(f"Tentativa de login falha: {username}", level='WARNING')
-    return render(request, 'core/login.html')
+    return render(request, 'core/registration/login.html')
+
+
 
 
 

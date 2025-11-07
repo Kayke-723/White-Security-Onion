@@ -39,10 +39,10 @@
 
 
     </header>
-    <div class="flex flex-col items-center justify-start w-full px-6 py-16">
+    <div class="flex flex-col items-center justify-start w-full px-6 py-6">
 
         <!-- TÍTULO -->
-        <h1 class="text-4xl font-bold mb-8 text-center">Criptografia de Mensagens</h1>
+        <h1 class="text-4xl font-bold mb-4 text-center">Criptografia de Mensagens</h1>
         <p class="text-gray-300 text-lg max-w-3xl text-center mb-10">
             Experimente como a criptografia transforma uma mensagem simples em um código secreto.
             Crie uma <span class="text-blue-400 font-semibold">chave secreta</span> e veja como apenas ela pode revelar
@@ -66,17 +66,22 @@
                     placeholder="Ex: minhaSenha123">
             </div>
 
-            <div class="flex justify-between mt-4">
+            <div class="flex justify-between mt-4 gap-x-2">
                 <button id="btnCriptografar"
-                    class="bg-blue-600 hover:bg-blue-700 px-5 py-3 rounded-lg font-semibold text-white transition">Criptografar
+                    class="bg-blue-600 hover:bg-blue-900 px-5 py-3 rounded-lg font-semibold text-white transition">Criptografar
                 </button>
                 <button id="btnDescriptografar"
-                    class="bg-blue-600 hover:bg-green-700 px-5 py-3 rounded-lg font-semibold text-white transition">Descriptografar
+                    class="bg-blue-600 hover:bg-blue-900 px-5 py-3 rounded-lg font-semibold text-white transition">Descriptografar
                 </button>
             </div>
 
             <div id="resultado"
                 class="mt-6 bg-black/40 p-4 rounded-lg text-gray-300 text-sm break-all border border-white/10"></div>
+        </div>
+
+        <div>
+            <a href="{% url 'home' %}"
+                class="bottom-14 px-50 bg-blue-600 hover:bg-red-500  py-3 rounded-lg font-semibold text-white transition">Voltar</a>
         </div>
 
 

@@ -54,5 +54,3 @@ class Process(models.Model):
         return f"{self.name} (burst={self.burst_time}, prio={self.priority})"
 
 
-
-
