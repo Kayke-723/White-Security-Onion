@@ -1,7 +1,7 @@
 # White Security — Projeto A3 (Simulador)
 
 **Resumo rápido**
-White Security é um protótipo web (Django) com interfaces experimentais de interação por gesto (MediaPipe), desenho via webcam e ferramenta didática de criptografia. O objetivo é demonstrar técnicas interativas de reconhecimento de mãos e aplicações simples de segurança (criptografia simétrica) com uma interface moderna.
+White Security é um protótipo web (Django) com interfaces experimentais de interação por gesto (MediaPipe) e ferramenta didática de criptografia. O objetivo é demonstrar técnicas interativas de reconhecimento de mãos e aplicações simples de segurança (criptografia simétrica) com uma interface moderna.
 
 ## Funcionalidades principais
 1. **Login por gesto** — usuário cadastra um gesto (keypoints da mão) e pode autenticar usando a webcam.
@@ -30,4 +30,4 @@ Abra `http://127.0.0.1:8000/`.
 
 ## Notes
 - Configure MEDIA_ROOT/MEDIA_URL em settings.py (já presente).
-- Não comite `SECRET_KEY` em repositórios públicos.
+- Não comite `SECRET_KEY` em repositórios públicos. Aprendi da pior forma.
