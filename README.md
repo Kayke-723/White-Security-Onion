@@ -30,4 +30,4 @@ Abra `http://127.0.0.1:8000/`.
 
 ## Notes
 - Configure MEDIA_ROOT/MEDIA_URL em settings.py (já presente).
-- Não comite `SECRET_KEY` em repositórios públicos. Aprendi da pior forma.
+- Não comite `SECRET_KEY` em repositórios públicos. 
