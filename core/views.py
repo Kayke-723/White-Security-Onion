@@ -73,7 +73,7 @@ def help_gesto_view(request):
     return render(request, 'core/gesto/help_gesto.html')
 
 def termos_view(request):
-    return render(request, 'core/home/termos.html')
+    return render(request, 'core/index/terms_conditions.html')
 
 def cadastro_gesto(request):
     return render(request, 'core/gesto/cadastro_gesto.html')
@@ -257,7 +257,7 @@ logger = logging.getLogger('core')
 
 @login_required
 def profile_view(request):
-    return render(request, 'core/profile.html')
+    return render(request, 'core/home/profile.html')
 
 @login_required
 def update_profile(request):
@@ -319,7 +319,7 @@ def registrar_log(message, user=None, level='INFO'):
     log.save()
 
 def index(request):
-    return render(request,"core/index/index.html", {"user": request.user if request.user.is_authenticated else redirect('login')})
+    return render(request, "core/index/index.html", {"user": request.user})
 
 def signup_view(request):
     
@@ -349,7 +349,7 @@ def login_view(request):
             registrar_log(f"Login realizado: {user.username}", user=user)
             return redirect('home')
         else:
-            messages.error(request, alert("Usuário ou Senha inválidos"))
+            messages.error(request, "Usuário ou Senha inválidos")
             registrar_log(f"Tentativa de login falha: {username}", level='WARNING')
     return render(request, 'core/registration/login.html')
 
