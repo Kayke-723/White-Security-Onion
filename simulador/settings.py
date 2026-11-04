@@ -6,12 +6,12 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-SECRET_KEY = "DJK"
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "django-insecure-dev-only-change-this-key")
 
 
-DEBUG = True
+DEBUG = os.environ.get('DJANGO_DEBUG', 'True').lower() in ('1', 'true', 'yes')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [host.strip() for host in os.environ.get('DJANGO_ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',') if host.strip()]
 
 
 INSTALLED_APPS = [
@@ -109,16 +109,15 @@ LOGGING = {
         'simple': {'format': '%(asctime)s [%(levelname)s] %(name)s: %(message)s'}
     },
     'handlers': {
-        'file': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': os.path.join(BASE_DIR, 'logs', 'django.log'),
+        # Console evita falha na inicialização quando a pasta "logs" não existe.
+        'console': {
+            'class': 'logging.StreamHandler',
             'formatter': 'simple',
         },
     },
     'loggers': {
-        'django': {'handlers': ['file'], 'level': 'INFO', 'propagate': True},
-        'core': {'handlers': ['file'], 'level': 'INFO', 'propagate': False},
+        'django': {'handlers': ['console'], 'level': 'INFO', 'propagate': True},
+        'core': {'handlers': ['console'], 'level': 'INFO', 'propagate': False},
     },
 }
 
