@@ -1,0 +1,12 @@
+{% extends "core/base.html" %}
+{% block content %}
+<section class="min-h-screen flex items-center justify-center text-white">
+    <div class="max-w-3xl rounded-2xl border border-purple-400/40 bg-slate-900/70 p-8">
+        <h1 class="mb-6 text-3xl font-bold">Termos e condições</h1>
+        <p class="mb-4">Este projeto é um simulador acadêmico desenvolvido para demonstrar conceitos de segurança computacional.</p>
+        <p class="mb-4">Não utilize dados pessoais, senhas reais ou informações confidenciais durante os testes.</p>
+        <p>Os recursos de autenticação por gestos e criptografia são demonstrativos e não devem ser considerados mecanismos de segurança para uso em produção.</p>
+        <a class="mt-6 inline-block rounded-xl bg-purple-700 px-5 py-3 text-white hover:bg-purple-600" href="{% url 'index' %}">Voltar ao início</a>
+    </div>
+</section>
+{% endblock content %}
