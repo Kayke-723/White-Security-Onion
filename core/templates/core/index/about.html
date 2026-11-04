@@ -1,23 +1,9 @@
-{% extends "core/index.html" %}
+{% extends "core/base.html" %}
 {% load static %}
 {% block content %}
 
 
-<!DOCTYPE html>
-<html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-
-
-</head>
-
-
-<body class="bg_Ceu">
     <!-- TÍTULO CENTRAL -->
     <header class="left-7 flex justify-items-center relative gap-x-10">
         <a href="{% url 'index' %}"
@@ -65,7 +51,7 @@
     <p class="text-white text-4xl py-20 text-center font-semibold">O que você encontrará em nosso Site </p>
 
 
-    <body" class="flex justify-items-center gap-40 ">
+    <section class="flex justify-items-center gap-40">
         <div class=" group h-96 w-96 [perspective:1000px]">
             <div
                 class="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
@@ -138,7 +124,7 @@
 
 
 
-</body>
+</section>
 
 
 
@@ -147,5 +133,4 @@
 
 
 
-</html>
 {% endblock content %}
