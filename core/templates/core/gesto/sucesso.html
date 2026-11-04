@@ -1,0 +1,10 @@
+{% extends "core/base.html" %}
+{% block content %}
+<section class="min-h-[70vh] flex items-center justify-center text-center text-white">
+    <div class="max-w-xl rounded-2xl border border-purple-400/40 bg-slate-900/70 p-8">
+        <h1 class="mb-4 text-3xl font-bold">Cadastro concluído</h1>
+        <p class="mb-6">O gesto foi registrado. Você já pode retornar à página de acesso.</p>
+        <a class="rounded-xl bg-purple-700 px-5 py-3 text-white hover:bg-purple-600" href="{% url 'login_gesto' %}">Ir para login por gesto</a>
+    </div>
+</section>
+{% endblock content %}
